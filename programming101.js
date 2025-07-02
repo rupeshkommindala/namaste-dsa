@@ -33,3 +33,11 @@ let obj={
     lastName:"Kommindala"
 }
 console.log(obj.firstName+" "+obj.lastName);
+
+let obj2={
+    name:"Rupesh",
+    arr:[2,3,4,5],
+    bool:true,
+    firstName:"Rupesh",
+    lastName:"Kommindala"
+}
