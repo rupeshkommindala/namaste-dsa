@@ -25,11 +25,28 @@ for (let i = 5; i > 0; i--) {
 function greet() {
   console.log("Namaste");
 }
+
+// Calling Greet function inside for Loop
 for (let i = 0; i < 5; i++) {
   greet();
 }
 
+let array = [10, 6, 2, 0, 8, 3, 80];
+for (let i = 0; i < array.length; i++) {
+  console.log(array[i]);
+}
+
+// Print all the Even numbers in the Array
 let arr = [10, 6, 2, 0, 8, 3, 80];
 for (let i = 0; i < arr.length; i++) {
-  console.log(arr[i]);
+  if (arr[i] % 2 === 0) {
+    console.log(arr[i]);
+  }
+}
+
+// While Loop
+let i = 0;
+while (i < 5) {
+  console.log(i);
+  i++;
 }
