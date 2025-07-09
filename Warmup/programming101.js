@@ -16,6 +16,7 @@ console.log(fullName);
 
 // Arrays
 let arr = [1, 2, 4, 6, 8, 9, 10];
+console.log(arr);
 let sum2 = arr[0] + arr[3];
 console.log(sum2);
 
@@ -27,7 +28,7 @@ console.log(names[1]);
 let obj = {
   name: "Rupesh",
   age: 27,
-  city: "Hyderabad",
+  city: "Bengaluru",
   arr: [1, 2, 3, 4],
   bool: true,
 };
