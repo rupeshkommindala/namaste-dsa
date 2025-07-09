@@ -1,3 +1,9 @@
+// Printing Hello World
+function printHelloWorld() {
+  console.log("Hello World!!");
+}
+printHelloWorld();
+
 // Greet
 function greet(name) {
   console.log("Namaste, " + name);
@@ -11,6 +17,9 @@ function sum(a, b) {
   let add = a + b;
   console.log(add);
 }
+let y = 100;
+let z = 200;
+sum(y, z);
 sum(10, 20);
 
 // Multiplication of Two Numbers
