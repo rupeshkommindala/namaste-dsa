@@ -9,5 +9,5 @@ function LinearSearch(arr, target) {
 }
 
 let arr = [1, 3, 6, 9, 11, 19];
-let result = LinearSearch(arr, 91);
+let result = LinearSearch(arr, 10);
 console.log(result);
