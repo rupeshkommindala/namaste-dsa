@@ -1,27 +1,34 @@
+// Printing Hello World ! 5 times
 for (let i = 0; i < 5; i++) {
   console.log("Hello World !");
 }
 
+// Printing Hello World ! 5 times
 for (let i = 0; i <= 4; i++) {
   console.log("Hello World " + i);
 }
 
+// Printing Hello World ! 2 times
 for (let i = 3; i < 5; i++) {
   console.log("Hello World! " + i);
 }
 
+// Printing Hello World
 for (let i = 2; i < 9; i = i + 2) {
   console.log("Hello World! " + i);
 }
 
+// Printing Hello World
 for (let i = 2; i < 9; i = i + 3) {
   console.log("Hello World !" + i);
 }
 
+// Printing Namaste according to the Loop
 for (let i = 5; i > 0; i--) {
   console.log("Namaste " + i);
 }
 
+// Greet function
 function greet() {
   console.log("Namaste");
 }
@@ -31,6 +38,7 @@ for (let i = 0; i < 5; i++) {
   greet();
 }
 
+// Accessing all the elements using Loops
 let array = [10, 6, 2, 0, 8, 3, 80];
 for (let i = 0; i < array.length; i++) {
   console.log(array[i]);
