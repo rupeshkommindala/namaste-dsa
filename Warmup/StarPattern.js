@@ -112,14 +112,61 @@ for (let i = 0; i < s; i++) {
 //   * * * *
 // * * * * *
 
-let n = 5;
-for (let i = 0; i < n; i++) {
+let d = 5;
+for (let i = 0; i < d; i++) {
   let row = "";
-  for (let j = 0; j < n - i - 1; j++) {
+  for (let j = 0; j < d - i - 1; j++) {
     row = row + "-";
   }
   for (let k = 0; k < i + 1; k++) {
     row = row + "*";
   }
   //console.log(row);
+}
+
+// Pattern 8
+// 1
+// 1 0
+// 1 0 1
+// 1 0 1 0
+// 1 0 1 0 1
+// 1 0 1 0 1 0
+
+let t = 5;
+for (let i = 0; i < t; i++) {
+  let row = "";
+  let toggle = 1;
+  for (let j = 0; j < i + 1; j++) {
+    row = row + toggle;
+    // Switch the Toggle
+    if (toggle == 1) {
+      toggle = 0;
+    } else {
+      toggle = 1;
+    }
+  }
+  //console.log(row);
+}
+
+// Pattern 9
+// 1
+// 0 1
+// 0 1 0
+// 1 0 1 0
+// 1 0 1 0 1
+
+let n = 5;
+let toggle = 1;
+for (let i = 0; i < n; i++) {
+  let row = "";
+  for (let j = 0; j < i + 1; j++) {
+    row = row + toggle;
+    // Switch the Toggle
+    if (toggle == 1) {
+      toggle = 0;
+    } else {
+      toggle = 1;
+    }
+  }
+  console.log(row);
 }
