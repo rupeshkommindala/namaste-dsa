@@ -8,5 +8,6 @@ function isPowerOfTwo(n) {
   return isPowerOfTwo(n / 2);
 }
 
-let number = isPowerOfTwo(4);
-console.log(number);
+let number = 16;
+let result = isPowerOfTwo(number);
+console.log(result);
