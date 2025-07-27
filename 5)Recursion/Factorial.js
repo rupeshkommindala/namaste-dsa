@@ -1,4 +1,5 @@
 // Factorial of a given Number
+
 function fact(n) {
   if (n == 1) {
     return 1;

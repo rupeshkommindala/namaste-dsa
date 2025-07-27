@@ -1,10 +1,11 @@
+// Print From N to 1
+
 function PrintFromNto1(n) {
-  if (n === 1) {
-    console.log(n);
+  if (n === 0) {
     return;
   }
   console.log(n);
-  return PrintFromNto1(n - 1);
+  PrintFromNto1(n - 1);
 }
 let number = 10;
 PrintFromNto1(number);
