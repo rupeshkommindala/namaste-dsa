@@ -1,4 +1,4 @@
-// Sum of All Elements in an Array
+// Sum of All Elements in an Array using Recursion
 
 function sum(n) {
   if (n === 0) {

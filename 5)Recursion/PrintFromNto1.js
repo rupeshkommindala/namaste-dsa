@@ -1,4 +1,4 @@
-// Print From N to 1
+// Print From N to 1 using Recursion
 
 function PrintFromNto1(n) {
   if (n === 0) {

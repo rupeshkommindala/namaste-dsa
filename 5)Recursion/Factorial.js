@@ -1,4 +1,4 @@
-// Factorial of a given Number
+// Factorial of a given Number using Recursion
 
 function fact(n) {
   if (n == 1) {

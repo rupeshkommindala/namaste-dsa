@@ -1,4 +1,4 @@
-// Power of Two (LC:231)
+// Power of Two using Recursion(LC:231)
 
 function isPowerOfTwo(n) {
   if (n === 1) {

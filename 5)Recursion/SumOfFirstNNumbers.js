@@ -1,4 +1,4 @@
-// Sum of First N Numbers
+// Sum of First N Numbers using Recursion
 
 function sum(n) {
   if (n === 1) {
