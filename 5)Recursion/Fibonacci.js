@@ -1,4 +1,4 @@
-// Fibonacci Number (LC:509)
+// Fibonacci Number using Recursion (LC:509)
 
 function fib(n) {
   if (n === 0) {
