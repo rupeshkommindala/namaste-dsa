@@ -22,6 +22,13 @@ let z = 200;
 sum(y, z);
 sum(10, 20);
 
+// Subtraction of Two Numbers
+function subtract(a, b) {
+  let diff = a - b;
+  console.log(diff);
+}
+subtract(10, 20);
+
 // Multiplication of Two Numbers
 function multiply(a, b) {
   let multiplication = a * b;
