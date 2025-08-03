@@ -1,3 +1,9 @@
+// SayHello
+function SayHello() {
+  console.log("Hello World!!");
+}
+SayHello();
+
 // Printing Hello World
 function printHelloWorld() {
   console.log("Hello World!!");
