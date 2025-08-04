@@ -13,6 +13,8 @@ let firstName = "Rupesh";
 let lastName = "Kommindala";
 let fullName = firstName + " " + lastName;
 console.log(fullName);
+console.log(firstName);
+console.log(lastName);
 
 // Arrays
 let arr = [1, 2, 4, 6, 8, 9, 10];
@@ -23,6 +25,7 @@ console.log(sum2);
 // Arrays
 let names = ["Rupesh", "Deepika", "Virat Kohli", "Anushka"];
 console.log(names[1]);
+console.log(names);
 
 // Objects
 let obj = {
