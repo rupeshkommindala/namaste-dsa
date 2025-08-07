@@ -62,3 +62,23 @@ function largestNumber(nums2) {
 let nums2 = [1, 4, 7, 9, 13, -200, 18, 23, 49, 54, -100];
 let res2 = largestNumber(nums2);
 console.log(res2);
+
+function secondLargestNumber(arr) {
+  let firstLargest = -Infinity;
+  let secondLargest = -Infinity;
+  if (arr.length < 2) {
+    return "Array should have atleast 2 elements";
+  }
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > firstLargest) {
+      secondLargest = firstLargest;
+      firstLargest = arr[i];
+    } else if (arr[i] > secondLargest && arr[i] != firstLargest) {
+      secondLargest = arr[i];
+    }
+  }
+  return secondLargest;
+}
+let list = [10,20,20];
+let value = secondLargestNumber(list);
+console.log(value);
