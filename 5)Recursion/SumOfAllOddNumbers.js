@@ -16,22 +16,19 @@ function sumOfOdd(n) {
   }
 }
 
-
-/*let arr = [5, 0, 3, 4, 2, 6, 1];
+let arr = [5, 0, 3, 4, 2, 6, 1];
 let result = sumOfOdd(arr.length - 1);
 console.log(result);
 
+/*function sumOfOdd(n) {
+  let isOdd = arr[n] % 2 === 1;
+  if (n === 0) {
+    return isOdd ? arr[n] : 0;
+  }
 
-function sumOfOdd(n) {
-    let isOdd = arr[n] % 2 !== 0;
-    if (n === 0) {
-        return isOdd ? arr[n] : 0;
-    }
-
-    return isOdd ? arr[n] + sumOfOdd(n - 1) : 0 + sumOfOdd(n - 1);
-
+  return (isOdd ? arr[n] : 0) + sumOfOdd(n - 1);
 }
 
 let arr = [5, 0, 3, 4, 2, 6, 1];
 let result = sumOfOdd(arr.length - 1);
-console.log(result); */
+console.log(result);*/
