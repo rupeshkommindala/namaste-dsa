@@ -7,6 +7,4 @@ function sum(n) {
   return n + sum(n - 1);
 }
 
-let number = 5;
-let result = sum(number);
-console.log(result);
+console.log(sum(5));
