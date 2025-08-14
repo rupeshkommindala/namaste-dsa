@@ -7,5 +7,5 @@ function PrintFromNto1(n) {
   console.log(n);
   PrintFromNto1(n - 1);
 }
-let number = 10;
-PrintFromNto1(number);
+
+PrintFromNto1(10);
