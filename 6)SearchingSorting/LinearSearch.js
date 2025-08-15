@@ -1,4 +1,5 @@
 // Find the index of a given number if not then return -1 using Linear Search
+
 function LinearSearch(arr, target) {
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] === target) {
