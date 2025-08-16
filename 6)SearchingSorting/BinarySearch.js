@@ -1,4 +1,4 @@
-// // Find the index of a given number if not then return -1 using Binary Search
+// Find the index of a given number if not then return -1 using Binary Search (LC:704)
 function BinarySearch(arr, target) {
   let low = 0;
   let high = arr.length - 1;
