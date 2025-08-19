@@ -41,3 +41,24 @@ while (n >= 0) {
   }
 }
 console.log(count);
+
+/*let s = "   fly me   to   the moon  ";
+let n = s.length - 1;
+while (n >= 0) {
+  if (s[n] !== " ") {
+    break;
+  } else {
+    count++;
+    n--;
+  }
+}
+let count = 0;
+while (n >= 0) {
+  if (s[n] === " ") {
+    break;
+  } else {
+    n--;
+    count++;
+  }
+}
+console.log(count);*/
