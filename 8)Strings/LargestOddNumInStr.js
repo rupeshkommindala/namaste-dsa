@@ -1,6 +1,6 @@
 // Largest Odd Number in String (LC:1903)
 
-let s = "3542";
+let s = "520146";
 let n=s.length-1;
 while(n>=0){
     if(Number(s[n])%2===1){
