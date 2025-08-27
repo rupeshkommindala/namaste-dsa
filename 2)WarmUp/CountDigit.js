@@ -14,6 +14,6 @@ function countDigit(n) {
   return count;
 }
 
-let number = -120;
+let number = -150;
 let res = countDigit(number);
 console.log(res);
