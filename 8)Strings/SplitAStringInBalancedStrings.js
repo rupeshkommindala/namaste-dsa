@@ -6,7 +6,7 @@ let count = 0;
 for (let i = 0; i < s.length; i++) {
   if (s[i] === "R") {
     temp++;
-  } else {
+  } else if (s[i] === "L") {
     temp--;
   }
   if (temp === 0) {
@@ -23,7 +23,7 @@ let L = 0;
 for (let i = 0; i < s.length; i++) {
   if (s[i] === "R") {
     R++;
-  } else {
+  } else if(s[i]==="L") {
     L++;
   }
   if (R === L) {
