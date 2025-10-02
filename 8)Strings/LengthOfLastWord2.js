@@ -1,6 +1,6 @@
 // Length of Last Word (LC:58)
 
-let s = "   fly me   to   the moon  ";
+let s = "   fly me   to   the moon";
 let n = s.length - 1;
 let count = 0;
 while (n >= 0) {
