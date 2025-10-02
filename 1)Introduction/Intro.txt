@@ -1,2 +1,3 @@
 # Namaste DSA from Zero to Hero
 # Basics to Advanced
+# DSA will be a piece of cake if you follow this series
