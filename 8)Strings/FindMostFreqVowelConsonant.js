@@ -1,31 +1,23 @@
 // Find Most Frequent Vowel and Consonant (LC:3541)
 
 let s = "successes";
-let hash = {};
+let map = {};
 for (let i = 0; i < s.length; i++) {
-  if (!hash[s[i]]) {
-    hash[s[i]] = 1;
+  if (!map[s[i]]) {
+    map[s[i]] = 1;
   } else {
-    hash[s[i]]++;
+    map[s[i]]++;
   }
 }
-
-let vowel = 0;
-let consonant = 0;
-
-let mapKeys = Object.keys(hash);
-
+let vowels = ["a", "e", "i", "o", "u"];
+let maxVowel = 0;
+let maxConsonant = 0;
+let mapKeys = Object.keys(map);
 for (let i = 0; i < mapKeys.length; i++) {
-  if (
-    mapKeys[i] === "a" ||
-    mapKeys[i] === "e" ||
-    mapKeys[i] === "i" ||
-    mapKeys[i] === "o" ||
-    mapKeys[i] === "u"
-  ) {
-    vowel = Math.max(vowel, hash[mapKeys[i]]);
+  if (vowels.includes(mapKeys[i])) {
+    maxVowel = Math.max(maxVowel, map[mapKeys[i]]);
   } else {
-    consonant = Math.max(consonant, hash[mapKeys[i]]);
+    maxConsonant = Math.max(maxConsonant, map[mapKeys[i]]);
   }
 }
-console.log(vowel + consonant);
+console.log(maxVowel + maxConsonant);
