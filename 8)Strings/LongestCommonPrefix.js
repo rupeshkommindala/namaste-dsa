@@ -1,3 +1,5 @@
+// Longest Common Prefix (LC:14)
+
 function LongestCommonPrefix(strs) {
   let x = 0;
   while (x < strs[0].length) {
