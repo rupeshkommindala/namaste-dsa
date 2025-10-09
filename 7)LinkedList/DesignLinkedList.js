@@ -16,36 +16,41 @@ function addAtHead(val) {
 }
 
 function addAtTail(val) {
-  let curr = this.head;
-  while (curr.next !== null) {
-    curr = curr.next;
-  }
   let newNode = new Node(val);
-  curr.next = newNode;
+  if (this.head === null) {
+    this.head = newNode;
+  } else {
+    let curr = this.head;
+    while (curr.next !== null) {
+      curr = curr.next;
+    }
+    curr.next = newNode;
+  }
   this.size++;
 }
 
 function addAtIndex(index, val) {
+  let newNode = new Node(val);
+  if (index < 0 || index > this.size) return;
   if (index === 0) {
-    addAtHead(val);
+    this.addAtHead(val);
     return;
   } else if (index === this.size) {
-    addAtTail(val);
+    this.addAtTail(val);
     return;
   } else {
-    let newNode = new Node(val);
     let curr = this.head;
     for (let i = 0; i < index - 1; i++) {
       curr = curr.next;
     }
     newNode.next = curr.next;
     curr.next = newNode;
+    this.size++;
   }
-  this.size++;
 }
 
 function get(index) {
-  if (index < 0 || index >= size) {
+  if (index < 0 || index >= this.size) {
     return -1;
   }
   let curr = this.head;
@@ -53,4 +58,18 @@ function get(index) {
     curr = curr.next;
   }
   return curr.val;
+}
+
+function deleteAtIndex(index) {
+  if (index < 0 || index >= this.size) return;
+  if (index === 0) {
+    this.head = this.head.next;
+  } else {
+    let curr = this.head;
+    for (let i = 0; i < index - 1; i++) {
+      curr = curr.next;
+    }
+    curr.next = curr.next.next;
+  }
+  this.size--;
 }
