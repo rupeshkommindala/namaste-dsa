@@ -8,3 +8,9 @@ var MyLinkedList = function () {
   this.size = 0;
 };
 
+function addAtHead(val) {
+  let newNode = new Node(val);
+  newNode.next = this.head;
+  this.head = newNode;
+  this.size++;
+}
