@@ -1,6 +1,6 @@
 // Palindrome Linked List (LC:234)
 
-function isPalindrome() {
+function isPalindrome(head) {
   // Find the middle element of the Linked List
   let slow = (fast = head);
   while (fast && fast.next) {
