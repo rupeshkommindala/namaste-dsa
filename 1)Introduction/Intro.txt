@@ -1,3 +1,6 @@
 # Namaste DSA from Zero to Hero
 # Basics to Advanced
 # DSA will be a piece of cake if you follow this series
+# Make your own notes
+# Write your own code
+ 
