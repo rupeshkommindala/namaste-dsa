@@ -2,6 +2,7 @@
 
 function oddEvenList(head) {
   if (!head || !head.next) {
+    // if (head===null || head.next===null)
     return head;
   }
   let odd = head;
