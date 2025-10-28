@@ -6,7 +6,7 @@ function oddEvenList(head) {
   }
   let odd = head;
   let even = head.next;
-  let evenStart = even;
+  let evenStart = even; // even or head.next;
   while (odd.next && even.next) {
     odd.next = odd.next.next;
     even.next = even.next.next;
