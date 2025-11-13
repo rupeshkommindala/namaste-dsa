@@ -1,5 +1,6 @@
 // Intersection of Two Linked Lists (LC:160)
 
+// 1st Way of Writing Code
 var getIntersectionNode = function (headA, headB) {
   let n = 0;
   let pA = headA;
