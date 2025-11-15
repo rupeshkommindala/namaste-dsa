@@ -47,3 +47,13 @@ var singleNonDuplicate = function (arr) {
     }
   }
 };
+
+// Brute Force Approach (TC:O(n) SC:O(1))
+
+var singleNonDuplicate = function (arr) {
+  let ans = 0;
+  for (let i = 0; i < arr.length; i++) {
+    ans = ans ^ arr[i];
+  }
+  return ans;
+};
