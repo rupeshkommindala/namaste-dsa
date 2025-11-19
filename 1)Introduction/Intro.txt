@@ -1,8 +1,19 @@
 # Namaste DSA 
 # Zero to Hero
 # Basics to Advanced
-# DSA will be a piece of cake if you follow this series
+# DSA will be a piece of cake for you if you follow this series
 # Make your own notes
 # Write your own code
 # Spaced Repetition
 # Solve Random Questions
+# DSA is all about Approach, Solution, TC & SC 
+# DSA is language Agnostic
+# We can do DSA in any language
+# DSA does not care in which language you solve the problem
+# Interviewers don't care in which language you solve the problem
+# Interviewers care about
+#   => How you are approaching the problem 
+#   => Can you develop the solution
+#   => Can you optimise the solution
+#   => Can you tell the Time and Space Complexity
+#   => And then write the pseudocode  
