@@ -13,7 +13,7 @@ function searchElement(arr, target) {
 
 let arr = [1, 4, 7, 10, 15, 19, 23];
 let result = searchElement(arr, 100);
-console.log(result); // -1
+console.log(result);
 
 // Write a function that returns negative numbers in an Array
 
@@ -29,7 +29,7 @@ function countNegative(array) {
 
 let array = [1, 2, -5, -4, 3, 20, 21, -59];
 let countResult = countNegative(array);
-console.log(countResult); // 3
+console.log(countResult);
 
 // Write a function that returns the largest number in an array
 
@@ -45,7 +45,7 @@ function largestNumber(nums) {
 
 let nums = [1, 4, 7, 9, 13, 18, 23, 49, 54];
 let res = largestNumber(nums);
-console.log(res); // 54
+console.log(res);
 
 // Write a function that returns the smallest number in an array
 
@@ -61,4 +61,4 @@ function smallestNumber(nums2) {
 
 let nums2 = [1, 4, 7, 9, 13, -200, 18, 23, 49, 54, -100];
 let res2 = smallestNumber(nums2);
-console.log(res2); // -200
+console.log(res2); 
