@@ -4,9 +4,11 @@ const b = 20;
 const sum = a + b;
 const multiply = a * b;
 const diff = a - b;
+const divide = a / b;
 console.log(sum);
 console.log(multiply);
 console.log(diff);
+console.log(divide);
 
 // Strings
 let firstName = "Rupesh";
