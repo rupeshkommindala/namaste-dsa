@@ -8,3 +8,5 @@ for (let i = 0; i < n; i++) {
   calculatedSum = calculatedSum + nums[i];
 }
 console.log(totalSum - calculatedSum);
+
+// Try Brute Force Approach (HomeWork)
