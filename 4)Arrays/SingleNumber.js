@@ -1,4 +1,4 @@
-// Given an array of integers every element appears twice except one find that one(LC:136)
+// Single Number (LC:136)
 
 // Optimized Approach (TC:O(n) SC:O(1))
 let arr = [1, 2, 2, 3, 1];

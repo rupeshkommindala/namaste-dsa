@@ -1,4 +1,4 @@
-// Find the Missing Number (LC:268)
+// Missing Number (LC:268)
 
 // Optimal Approach (TC:O(n) SC:O(1))
 let nums = [3, 0, 1, 2, 5];
