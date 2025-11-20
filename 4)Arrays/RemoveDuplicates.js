@@ -1,4 +1,5 @@
-// Remove Duplicates from sorted Array (LC:26)
+// Remove Duplicates from Sorted Array (LC:26)
+
 let nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
 let x = 0;
 for (let i = 0; i < nums.length; i++) {
