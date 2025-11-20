@@ -1,10 +1,11 @@
 // Best Time to Buy and Sell Stock (LC:121)
+
 // Brute Force Approach
 let nums = [7, 1, 5, 3, 6, 4];
 let maxProfit = 0;
 for (let i = 0; i < nums.length - 1; i++) {
   for (let j = i + 1; j < nums.length; j++) {
-    if (nums[j] - nums[i] > maxProfit && nums[j] - nums[i] > 0) {
+    if (nums[j] - nums[i] > maxProfit) {
       maxProfit = nums[j] - nums[i];
     }
   }
