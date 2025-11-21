@@ -1,4 +1,4 @@
-// Sum of All Odd Numbers in an Array using Recursion
+// Sum of all Odd numbers in an array using Recursion
 
 function sumOfOdd(n) {
   let isOdd = arr[n] % 2 === 1;
