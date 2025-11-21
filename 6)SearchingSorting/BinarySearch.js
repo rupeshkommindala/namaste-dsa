@@ -1,7 +1,5 @@
-/*
-  Find the index of a given number and return the index,
-  if the element is not present then just return -1 using Binary Search.
-*/
+// Binary Search (LC:704)
+
 function binarySearch(arr, target) {
   let left = 0;
   let right = arr.length - 1;
