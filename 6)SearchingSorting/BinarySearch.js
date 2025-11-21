@@ -1,21 +1,23 @@
-// Find the index of a given number if not then return -1 using Binary Search (LC:704)
-
-function BinarySearch(arr, target) {
-  let low = 0;
-  let high = arr.length - 1;
-  while (low <= high) {
-    let mid = Math.floor((low + high) / 2);
+/*
+  Find the index of a given number and return the index,
+  if the element is not present then just return -1 using Binary Search.
+*/
+function binarySearch(arr, target) {
+  let left = 0;
+  let right = arr.length - 1;
+  while (left <= right) {
+    let mid = Math.floor((left + right) / 2);
     if (arr[mid] === target) {
       return mid;
     } else if (arr[mid] < target) {
-      low = mid + 1;
+      left = mid + 1;
     } else {
-      high = mid - 1;
+      right = mid - 1;
     }
   }
   return -1;
 }
 
 let arr = [-1, 9, 11, 16, 19, 23, 56, 89, 90];
-let result = BinarySearch(arr, 23);
+let result = binarySearch(arr, 9);
 console.log(result);
