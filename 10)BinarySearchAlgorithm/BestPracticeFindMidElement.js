@@ -1,9 +1,9 @@
 // It can lead to Overflow;
-let left = 2;
-let right = 6;
-let mid = Math.floor((left + right) / 2);
-console.log(mid);
+let l = 2;
+let r = 6;
+let m = Math.floor((l + r) / 2);
+console.log(m);
 
 // Never Overflow;
-let middle = left + Math.floor((right - left) / 2);
-console.log(middle);
+let mid = l + Math.floor((r - l) / 2);
+console.log(mid);
