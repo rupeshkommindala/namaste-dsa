@@ -1,4 +1,4 @@
-// Guess Number Higher Or Lower (LC:374)
+// Guess Number Higher or Lower (LC:374)
 
 var guessNumber = function (n) {
     let l=1;
