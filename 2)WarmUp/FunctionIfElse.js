@@ -51,7 +51,7 @@ isEligibleToVote(-10);
 isEligibleToVote(14);
 isEligibleToVote(20);
 
-//Create a function whether a number is Even or Odd
+//Create a function whether a given number is Even or Odd
 function isEvenOrOdd(num) {
   if (num % 2 === 0) {
     console.log("Even Number");
