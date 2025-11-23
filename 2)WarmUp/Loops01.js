@@ -1,14 +1,14 @@
-// Printing Hello World ! 5 times
+// Printing Hello World
 for (let i = 0; i < 5; i++) {
   console.log("Hello World !");
 }
 
-// Printing Hello World ! 5 times
+// Printing Hello World
 for (let i = 0; i <= 4; i++) {
   console.log("Hello World " + i);
 }
 
-// Printing Hello World ! 2 times
+// Printing Hello World
 for (let i = 3; i < 5; i++) {
   console.log("Hello World! " + i);
 }
