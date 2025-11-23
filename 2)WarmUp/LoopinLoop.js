@@ -1,4 +1,4 @@
-// Running Loop 5 times
+// Loop
 for (let i = 0; i < 5; i++) {
   console.log("Hello World !");
 }
@@ -10,7 +10,7 @@ for (let i = 0; i < 5; i++) {
   }
 }
 
-// Printing Loop for 9 times
+// Printing Loop
 for (let i = 0; i < 3; i++) {
   for (let j = 0; j < 3; j++) {
     console.log("i =", i, "j =", j);
