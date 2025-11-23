@@ -11,12 +11,15 @@ function palindrome(n) {
     rev = 10 * rev + rem;
     n = Math.floor(n / 10);
   }
+  /*
   if (nCopy === rev) {
     return true;
   } else {
     return false;
   }
+  */
+  return nCopy === rev;
 }
-let num = 121;
+let num = 1221;
 let res = palindrome(num);
 console.log(res);
