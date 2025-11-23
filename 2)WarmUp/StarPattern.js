@@ -11,7 +11,7 @@ for (let i = 0; i < m; i++) {
   for (let j = 0; j < m; j++) {
     row = row + "* ";
   }
-  //console.log(row);
+  console.log(row);
 }
 
 /*
@@ -27,7 +27,7 @@ for (let i = 0; i < f; i++) {
   for (let j = 0; j < i + 1; j++) {
     row = row + "* ";
   }
-  //console.log(row);
+  console.log(row);
 }
 
 /*
@@ -43,7 +43,7 @@ for (let i = 0; i < k; i++) {
   for (let j = 0; j < i + 1; j++) {
     row = row + (j + 1) + " ";
   }
-  //console.log(row);
+  console.log(row);
 }
 
 /*
@@ -59,7 +59,7 @@ for (let i = 0; i < a; i++) {
   for (let j = 0; j < i + 1; j++) {
     row = row + (i + 1) + " ";
   }
-  //console.log(row);
+  console.log(row);
 }
 
 /*
@@ -75,7 +75,7 @@ for (let i = 1; i <= b; i++) {
   for (let j = 1; j <= i; j++) {
     row = row + i + " ";
   }
-  //console.log(row);
+  console.log(row);
 }
 
 /*
@@ -92,7 +92,7 @@ for (let i = 0; i < z; i++) {
   for (let j = 0; j < z - i; j++) {
     row = row + (j + 1) + " ";
   }
-  //console.log(row);
+  console.log(row);
 }
 
 /*
@@ -109,7 +109,7 @@ for (let i = 0; i < s; i++) {
   for (let j = 0; j < s - i; j++) {
     row = row + "*" + " ";
   }
-  //console.log(row);
+  console.log(row);
 }
 
 /*
@@ -129,7 +129,7 @@ for (let i = 0; i < d; i++) {
   for (let k = 0; k < i + 1; k++) {
     row = row + "*";
   }
-  //console.log(row);
+  console.log(row);
 }
 
 /*
@@ -154,7 +154,7 @@ for (let i = 0; i < t; i++) {
       toggle = 1;
     }
   }
-  //console.log(row);
+  console.log(row);
 }
 
 /*
