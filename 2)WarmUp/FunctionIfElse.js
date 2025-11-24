@@ -24,8 +24,8 @@ sum(10, 20);
 
 // Multiplication of Two Numbers
 function multiply(a, b) {
-  let multiplication = a * b;
-  console.log(multiplication);
+  let result = a * b;
+  console.log(result);
 }
 multiply(10, 8);
 
