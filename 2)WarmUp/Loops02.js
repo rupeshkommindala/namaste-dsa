@@ -33,7 +33,7 @@ console.log(countResult);
 
 // Write a function that returns the largest number in an array
 
-function largestNumber(nums) {
+function findLargest(nums) {
   let largest = -Infinity;
   for (let i = 0; i < nums.length; i++) {
     if (nums[i] > largest) {
@@ -44,12 +44,12 @@ function largestNumber(nums) {
 }
 
 let nums = [1, 4, 7, 9, 13, 18, 23, 49, 54];
-let res = largestNumber(nums);
+let res = findLargest(nums);
 console.log(res);
 
 // Write a function that returns the smallest number in an array
 
-function smallestNumber(nums2) {
+function findSmallest(nums2) {
   let smallest = Infinity;
   for (let i = 0; i < nums2.length; i++) {
     if (nums2[i] < smallest) {
@@ -60,5 +60,5 @@ function smallestNumber(nums2) {
 }
 
 let nums2 = [1, 4, 7, 9, 13, -200, 18, 23, 49, 54, -100];
-let res2 = smallestNumber(nums2);
+let res2 = findSmallest(nums2);
 console.log(res2); 
