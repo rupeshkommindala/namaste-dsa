@@ -1,17 +1,15 @@
 // Palindrome Number (LC:9)
 
-function palindrome(n) {
-  if (n < 0) {
-    return false;
-  }
-  let nCopy = n;
+function palindrome(x) {
+  if (x < 0) return false;
+  let xCopy = x;
   let rev = 0;
-  while (n > 0) {
-    let rem = n % 10;
+  while (x > 0) {
+    let rem = x % 10;
     rev = 10 * rev + rem;
-    n = Math.floor(n / 10);
+    x = Math.floor(x / 10);
   }
-  return nCopy === rev;
+  return xCopy === rev;
 }
 let num = 1221;
 let res = palindrome(num);
