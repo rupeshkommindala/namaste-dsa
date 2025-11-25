@@ -10,16 +10,16 @@ console.log(ans);
 
 // Brute Force Approach (TC:O(n) SC:O(n))
 let nums = [4, 1, 2, 1, 2];
-let hash = {};
+let map = {};
 for (let i = 0; i < nums.length; i++) {
-  if (!hash[nums[i]]) {
-    hash[nums[i]] = 1;
+  if (!map[nums[i]]) {
+    map[nums[i]] = 1;
   } else {
-    hash[nums[i]]++;
+    map[nums[i]]++;
   }
 }
 for (let i = 0; i < nums.length; i++) {
-  if (hash[nums[i]] === 1) {
+  if (map[nums[i]] === 1) {
     //console.log(nums[i]);
   }
 }
