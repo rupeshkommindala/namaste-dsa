@@ -4,6 +4,7 @@
 # DSA will be a piece of cake for you if you follow this series
 # Make your own notes
 # Write your own code
+# Always the primary source should be your own notes and your own code
 # Spaced Repetition
 # Solve Random Questions
 # DSA is all about Approach, Solution, TC & SC 
