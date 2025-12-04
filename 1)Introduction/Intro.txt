@@ -7,7 +7,7 @@
 # Always the primary source should be your own notes and your own code
 # Spaced Repetition
 # Solve Random Questions
-# DSA is all about Approach, Solution, TC & SC 
+# DSA is all about Approach, Solution, Time Complexity & Space Complexity 
 # DSA is language Agnostic
 # We can do DSA in any language
 # DSA does not care in which language you solve the problem
