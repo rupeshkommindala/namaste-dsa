@@ -1,19 +1,19 @@
 // Reverse Integer (LC:7)
 
-function ReverseInteger(n) {
-  let ncopy = n;
-  n = Math.abs(n);
+function ReverseInteger(x) {
+  let xCopy = x;
+  x = Math.abs(x);
   let rev = 0;
-  while (n > 0) {
-    let rem = n % 10;
+  while (x > 0) {
+    let rem = x % 10;
     rev = 10 * rev + rem;
-    n = Math.floor(n / 10);
+    x = Math.floor(x / 10);
   }
   let limit = Math.pow(2, 31);
   if (rev < -limit || rev > limit - 1) {
     return 0;
   }
-  return ncopy < 0 ? -rev : rev;
+  return xCopy < 0 ? -rev : rev;
 }
 
 let number = 12345;
