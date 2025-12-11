@@ -11,7 +11,7 @@ function findPeakElement(arr) {
       r = m;
     }
   }
-  return l; // return l or r;
+  return l;
 }
 
 let arr = [1, 2, 1, 3, 5, 6, 4];
