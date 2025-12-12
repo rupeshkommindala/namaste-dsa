@@ -2,8 +2,8 @@
 
 function ReverseInteger(x) {
   let xCopy = x;
-  x = Math.abs(x);
   let rev = 0;
+  x = Math.abs(x);
   while (x > 0) {
     let rem = x % 10;
     rev = 10 * rev + rem;
