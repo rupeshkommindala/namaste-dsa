@@ -30,6 +30,6 @@ var solution = function (isBadVersion) {
         r = m;
       }
     }
-    return r;
+    return r; // return l or r;
   };
 };
