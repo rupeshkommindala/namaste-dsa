@@ -8,7 +8,7 @@ function search(arr, target) {
     if (arr[m] === target) {
       return m;
     }
-    // Left part is Sorted
+    // Left part is sorted
     if (arr[l] <= arr[m]) {
       if (target >= arr[l] && target < arr[m]) {
         r = m - 1;
