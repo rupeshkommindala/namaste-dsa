@@ -28,8 +28,8 @@ function sqrt(x) {
   return r;
 }
 
-let num = 100;
-let res = sqrt(num);
+let n = 100;
+let res = sqrt(n);
 console.log(res);
 
 // Way-04 (Using Linear Search TC:O(n) HW)
