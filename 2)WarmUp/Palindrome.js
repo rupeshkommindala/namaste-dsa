@@ -9,8 +9,13 @@ function palindrome(x) {
     rev = 10 * rev + last;
     x = Math.floor(x / 10);
   }
-  return xCopy === rev;
+  if (xCopy === rev) {
+    return true;
+  } else {
+    return false;
+  }
+  //return xCopy === rev;
 }
-let num = 1221;
+let num = 12215;
 let res = palindrome(num);
 console.log(res);
