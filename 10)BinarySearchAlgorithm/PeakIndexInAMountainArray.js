@@ -19,3 +19,15 @@ let res = peakIndexInMountainArray(arr);
 console.log(res);
 
 // Brute Force Approach (HW)
+
+var peakIndexInMountainArray = function (arr) {
+  for (let i = 0; i < arr.length - 1; i++) {
+    if (arr[i + 1] < arr[i]) {
+      return i;
+    }
+  }
+};
+
+let nums = [0, 10, 5, 2];
+let result = peakIndexInMountainArray(nums);
+console.log(result);
