@@ -1,8 +1,8 @@
 // Sum of First N Numbers using Recursion
 
 function sum(n) {
-  if (n === 1) {
-    return 1;
+  if (n === 0) {
+    return 0;
   }
   return n + sum(n - 1);
 }
