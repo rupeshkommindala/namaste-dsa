@@ -1,16 +1,17 @@
 // Binary Search (LC:704)
 
 function binarySearch(arr, target) {
-  let left = 0;
-  let right = arr.length - 1;
-  while (left <= right) {
-    let mid = Math.floor((left + right) / 2);
-    if (arr[mid] === target) {
-      return mid;
-    } else if (arr[mid] < target) {
-      left = mid + 1;
+  let l = 0;
+  let r = arr.length - 1;
+  // r >= l also works
+  while (l <= r) {
+    let m = Math.floor((l + r) / 2); // let m = l + Math.floor((r-l)/2);
+    if (arr[m] === target) {
+      return m;
+    } else if (arr[m] < target) {
+      l = m + 1;
     } else {
-      right = mid - 1;
+      r = m - 1;
     }
   }
   return -1;
