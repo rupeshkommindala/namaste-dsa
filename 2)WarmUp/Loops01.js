@@ -1,6 +1,6 @@
 // Printing Hello World
 for (let i = 0; i < 5; i++) {
-  console.log("Hello World !");
+  console.log("Hello World");
 }
 
 // Printing Hello World
@@ -10,17 +10,17 @@ for (let i = 0; i <= 4; i++) {
 
 // Printing Hello World
 for (let i = 3; i < 5; i++) {
-  console.log("Hello World! " + i);
+  console.log("Hello World " + i);
 }
 
 // Printing Hello World
 for (let i = 2; i < 9; i = i + 2) {
-  console.log("Hello World! " + i);
+  console.log("Hello World " + i);
 }
 
 // Printing Hello World
 for (let i = 2; i < 9; i = i + 3) {
-  console.log("Hello World !" + i);
+  console.log("Hello World " + i);
 }
 
 // Printing Namaste according to the Loop
