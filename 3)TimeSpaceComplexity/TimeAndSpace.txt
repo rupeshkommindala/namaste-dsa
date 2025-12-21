@@ -3,6 +3,8 @@
 # Low Time Complexity => Better Speed 
 # Binary Search >>>> Linear Search
 # Big O is just a way to represent the Time Complexity of an Algorithm
+# Notation is nothing but symbol
+# Big O Notation is used to measure the worst case Time Complexity of an Algorithm
 # TC: It is used to measure the efficiency of an algorithm in terms of speed as the input size grows
 # SC: How much extra space your algorithm is using
 # How to calculate Big O 
