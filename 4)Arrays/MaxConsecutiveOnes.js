@@ -1,19 +1,24 @@
 // Max Consecutive Ones (LC:485)
 
-let nums = [1, 1, 0, 1, 1, 1];
-let currentCount = 0;
-let maximumCount = 0;
-for (let i = 0; i < nums.length; i++) {
-  if (nums[i] === 1) {
-    currentCount++;
-  } else {
-    if (currentCount > maximumCount) {
-      maximumCount = currentCount;
+var findMaxConsecutiveOnes = function (nums) {
+  let currCount = 0;
+  let maxCount = 0;
+  for (let i = 0; i < nums.length; i++) {
+    if (nums[i] === 1) {
+      currCount++;
+    } else {
+      if (currCount > maxCount) {
+        maxCount = currCount;
+      }
+      currCount = 0;
     }
-    currentCount = 0;
   }
-}
-if (currentCount > maximumCount) {
-  maximumCount = currentCount;
-}
-console.log(maximumCount);
+  if (currCount > maxCount) {
+    return currCount;
+  }
+  return maxCount;
+};
+
+let nums = [1, 1, 0, 1, 1, 1];
+let res = findMaxConsecutiveOnes(nums);
+console.log(res);
