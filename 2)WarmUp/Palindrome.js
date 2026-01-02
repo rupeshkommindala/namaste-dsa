@@ -17,6 +17,7 @@ var isPalindrome = function (x) {
     return false;
   }
 };
+
 let num = 1221;
 let res = isPalindrome(num);
 console.log(res);
