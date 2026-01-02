@@ -1,9 +1,9 @@
 // Reverse Integer (LC:7)
 
-function ReverseInteger(x) {
+var reverse = function (x) {
   let xCopy = x;
-  let rev = 0;
   x = Math.abs(x);
+  let rev = 0;
   while (x > 0) {
     let rem = x % 10;
     rev = 10 * rev + rem;
@@ -14,8 +14,8 @@ function ReverseInteger(x) {
     return 0;
   }
   return xCopy < 0 ? -rev : rev;
-}
+};
 
 let number = 12345;
-let res = ReverseInteger(number);
+let res = reverse(number);
 console.log(res);
