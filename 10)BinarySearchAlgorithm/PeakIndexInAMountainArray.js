@@ -1,6 +1,6 @@
 // Peak Index in a Mountain Array (LC:852)
 
-function peakIndexInMountainArray(arr) {
+var peakIndexInMountainArray = function (arr) {
   let l = 0;
   let r = arr.length - 1;
   while (l < r) {
@@ -12,13 +12,13 @@ function peakIndexInMountainArray(arr) {
     }
   }
   return l; // return l or r
-}
+};
 
 let arr = [0, 1, 0];
 let res = peakIndexInMountainArray(arr);
 console.log(res);
 
-// Brute Force Approach (HW)
+// Brute Force Approach
 
 var peakIndexInMountainArray = function (arr) {
   for (let i = 0; i < arr.length - 1; i++) {
