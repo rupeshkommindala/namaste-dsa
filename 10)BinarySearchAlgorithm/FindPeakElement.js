@@ -1,6 +1,6 @@
 // Find Peak Element (LC:162)
 
-function findPeakElement(arr) {
+var findPeakElement = function (arr) {
   let l = 0;
   let r = arr.length - 1;
   while (l < r) {
@@ -11,8 +11,8 @@ function findPeakElement(arr) {
       r = m;
     }
   }
-  return l; // return l or r;
-}
+  return r; // return l or r
+};
 
 let arr = [1, 2, 1, 3, 5, 6, 4];
 let res = findPeakElement(arr);
