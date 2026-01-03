@@ -1,7 +1,7 @@
 /**
  * This works perfectly fine in JavaScript, but in other
  * languages it will create a lot of issues.
- * It can lead to overflow in other languages not JavaScript
+ * It can lead to overflow in other languages not in JavaScript
  */
 
 let l = 2;
