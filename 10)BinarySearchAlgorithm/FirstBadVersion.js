@@ -1,5 +1,3 @@
-// First Bad Version (LC:278)
-
 /**
  * Definition for isBadVersion()
  *
