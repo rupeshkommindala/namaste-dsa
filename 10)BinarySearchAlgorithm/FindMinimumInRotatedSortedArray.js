@@ -1,6 +1,6 @@
 // Find Minimum in Rotated Sorted Array (LC:153)
 
-function findMin(arr) {
+var findMin = function (arr) {
   let l = 0;
   let r = arr.length - 1;
   while (l <= r) {
@@ -17,7 +17,7 @@ function findMin(arr) {
       r = m - 1;
     }
   }
-}
+};
 
 let arr = [3, 4, 5, 1, 2];
 let res = findMin(arr);
