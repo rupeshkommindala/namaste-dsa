@@ -1,6 +1,6 @@
 // Search in Rotated Sorted Array (LC:33)
 
-function search(arr, target) {
+var search = function (arr, target) {
   let l = 0;
   let r = arr.length - 1;
   while (l <= r) {
@@ -24,7 +24,7 @@ function search(arr, target) {
     }
   }
   return -1;
-}
+};
 
 let arr = [4, 5, 6, 7, 0, 1, 2];
 let res = search(arr, 0);
