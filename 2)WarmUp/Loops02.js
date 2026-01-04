@@ -12,7 +12,7 @@ function searchElement(arr, target) {
 }
 
 let arr = [1, 4, 7, 10, 15, 19, 23];
-let result = searchElement(arr, 100);
+let result = searchElement(arr, 10);
 console.log(result);
 
 // Write a function that returns the count of negative numbers in an Array
