@@ -1,6 +1,6 @@
 // Write a function that returns the count of digits in a number
 
-function countDigit(n) {
+var countDigit = function (n) {
   if (n === 0) {
     return 1;
   }
@@ -12,7 +12,7 @@ function countDigit(n) {
     count++;
   }
   return count;
-}
+};
 
 let number = -150;
 let res = countDigit(number);
