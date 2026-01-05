@@ -15,7 +15,7 @@
 # Interviewers don't care in which language you solve the problem
 # Interviewers care about
 #   => How you are approaching the problem 
-#   => Can you develop the solution
-#   => Can you optimise the solution
-#   => Can you tell the Time and Space Complexity of it
+#   => Can you develop the solution?
+#   => Can you optimise the solution?
+#   => Can you tell the Time and Space Complexity of it?
 #   => And then write the pseudocode  
