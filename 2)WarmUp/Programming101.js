@@ -25,7 +25,7 @@ let sum2 = arr[0] + arr[3];
 console.log(sum2);
 
 // Arrays
-let names = ["Rupesh", "Deepika", "Virat Kohli", "Anushka"];
+let names = ["Rupesh", "Priyanka", "Virat Kohli", "Anushka"];
 console.log(names[1]);
 console.log(names);
 
