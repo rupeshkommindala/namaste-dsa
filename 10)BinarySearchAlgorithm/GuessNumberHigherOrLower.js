@@ -6,12 +6,8 @@ var guessNumber = function (n) {
   while (l <= r) {
     let m = l + Math.floor((r - l) / 2);
     let res = guess(m);
-    if (res === 0) {
-      return m;
-    } else if (res < 0) {
-      r = m - 1;
-    } else {
-      l = m + 1;
-    }
+    if (res === 0) return m;
+    else if (res < 0) r = m - 1;
+    else l = m + 1;
   }
 };
