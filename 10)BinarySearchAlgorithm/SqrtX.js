@@ -10,20 +10,14 @@ console.log(Math.trunc(x ** 0.5));
 
 // Way-03 (TC:O(logn) Recommended)
 var mySqrt = function (x) {
-  if (x < 2) {
-    return x;
-  }
+  if (x < 2) return x;
   let l = 2;
   let r = Math.floor(x / 2);
   while (l <= r) {
     let m = l + Math.floor((r - l) / 2);
-    if (m * m === x) {
-      return m;
-    } else if (m * m < x) {
-      l = m + 1;
-    } else {
-      r = m - 1;
-    }
+    if (m * m === x) return m;
+    else if (m * m < x) l = m + 1;
+    else r = m - 1;
   }
   return r;
 };
