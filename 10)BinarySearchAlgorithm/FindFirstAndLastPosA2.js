@@ -9,11 +9,8 @@ var searchRange = function (arr, target) {
     if (arr[m] === target) {
       ans[0] = m;
       r = m - 1;
-    } else if (arr[m] < target) {
-      l = m + 1;
-    } else if (arr[m] > target) {
-      r = m - 1;
-    }
+    } else if (arr[m] < target) l = m + 1;
+    else if (arr[m] > target) r = m - 1;
   }
   l = 0;
   r = arr.length - 1;
@@ -22,11 +19,8 @@ var searchRange = function (arr, target) {
     if (arr[m] === target) {
       ans[1] = m;
       l = m + 1;
-    } else if (arr[m] < target) {
-      l = m + 1;
-    } else if (arr[m] > target) {
-      r = m - 1;
-    }
+    } else if (arr[m] < target) l = m + 1;
+    else if (arr[m] > target) r = m - 1;
   }
   return ans;
 };
