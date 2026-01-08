@@ -27,7 +27,7 @@ function countNegative(array) {
   return count;
 }
 
-let array = [1, 2, -5, -4, 3, 20, 21, -59];
+let array = [1, 2, -5, -4, 3, 20, -21, -59];
 let countResult = countNegative(array);
 console.log(countResult);
 
