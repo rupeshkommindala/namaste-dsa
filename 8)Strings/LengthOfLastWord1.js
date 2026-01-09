@@ -1,3 +1,5 @@
+// Length of Last Word (LC:58)
+
 // Brute Force Solution (TC: O(n), SC:O(n))
 var lengthOfLastWord1 = function (s) {
   s = s.trim();
