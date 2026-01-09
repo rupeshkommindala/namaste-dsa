@@ -29,7 +29,7 @@ var lengthOfLastWord2 = function (s) {
   return count;
 };
 
-// Optimized Solution (Way-01) (TC: O(n), SC:O(1))
+// Optimized Solution (Way-02) (TC: O(n), SC:O(1))
 var lengthOfLastWord3 = function (s) {
   let n = s.length - 1;
   let count = 0;
