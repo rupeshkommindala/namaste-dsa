@@ -1,14 +1,19 @@
 // Length of Last Word (LC:58)
 
-let s = "   fly me   to   the moon";
-let n = s.length - 1;
-let count = 0;
-while (n >= 0) {
-  if (s[n] !== " ") {
-    count++;
-  } else if (s[n] === " " && count > 0) {
-    break;
+var lengthOfLastWord = function (s) {
+  let count = 0;
+  let n = s.length - 1;
+  while (n >= 0) {
+    if (s[n] !== " ") {
+      count++;
+    } else if (count > 0 && s[n] === " ") {
+      break;
+    }
+    n--;
   }
-  n--;
-}
-console.log(count);
+  return count;
+};
+
+let s = "   fly me   to   the moon";
+let result = lengthOfLastWord(s);
+console.log(result);
