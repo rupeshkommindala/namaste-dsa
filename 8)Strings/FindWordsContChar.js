@@ -14,8 +14,8 @@ var findWordsContaining = function (words, x) {
   return ans;
 };
 
-let result = findWordsContaining(["abc", "bcd", "aaaa", "cbc"], "a");
-console.log(result);
+let res1 = findWordsContaining(["abc", "bcd", "aaaa", "cbc"], "a");
+console.log(res1);
 
 // Not Recommended (Don't use built in method(includes))
 var findWordsContainingChar = function (words, x) {
@@ -29,5 +29,5 @@ var findWordsContainingChar = function (words, x) {
   return ans;
 };
 
-let res = findWordsContainingChar(["leet", "code"], "e");
-console.log(res);
+let res2 = findWordsContainingChar(["leet", "code"], "e");
+console.log(res2);
