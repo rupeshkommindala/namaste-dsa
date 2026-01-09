@@ -1,5 +1,6 @@
 // Length of Last Word (LC:58)
 
+// Optimized Solution (TC: O(n), SC:O(1))
 var lengthOfLastWord = function (s) {
   let count = 0;
   let n = s.length - 1;
