@@ -12,6 +12,7 @@
 # DSA is language Agnostic
 # We can do DSA in any language
 # DSA does not care in which language you solve the problem
+# DSA is tricky, DSA is tough a little, DSA is very very long journey
 # Interviewers don't care in which language you solve the problem
 # Interviewers care about
 #   => How you are approaching the problem 
