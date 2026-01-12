@@ -11,7 +11,11 @@ var isPalindrome = function (x) {
     rev = 10 * rev + rem;
     x = Math.floor(x / 10);
   }
-  return rev === xCopy;
+  if (rev === xCopy) {
+    return true;
+  } else {
+    return false;
+  }
 };
 
 let num = 1221;

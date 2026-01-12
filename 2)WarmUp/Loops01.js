@@ -23,9 +23,9 @@ for (let i = 2; i < 9; i = i + 3) {
   console.log("Hello World " + i);
 }
 
-// Printing Namaste according to the Loop
+// Printing Hello according to the Loop
 for (let i = 5; i > 0; i--) {
-  console.log("Namaste " + i);
+  console.log("Hello " + i);
 }
 
 // Greet function

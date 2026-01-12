@@ -2,6 +2,7 @@
 in an array and returns the index, if the 
 element is not present then just return -1 */
 
+// (TC:O(n), SC:O(1))
 function searchElement(arr, target) {
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] === target) {
@@ -17,7 +18,8 @@ console.log(result);
 
 // Write a function that returns the count of negative numbers in an Array
 
-function countNegative(array) {
+// (TC:O(n), SC:O(1))
+function countNegatives(array) {
   let count = 0;
   for (let i = 0; i < array.length; i++) {
     if (array[i] < 0) {
@@ -28,11 +30,12 @@ function countNegative(array) {
 }
 
 let array = [1, 2, -5, -4, 3, 20, -21, -59];
-let countResult = countNegative(array);
+let countResult = countNegatives(array);
 console.log(countResult);
 
 // Write a function that returns the largest number in an array
 
+// (TC:O(n), SC:O(1))
 function findLargest(nums) {
   let largest = -Infinity;
   for (let i = 0; i < nums.length; i++) {
@@ -49,6 +52,7 @@ console.log(res);
 
 // Write a function that returns the smallest number in an array
 
+// (TC:O(n), SC:O(1))
 function findSmallest(nums2) {
   let smallest = Infinity;
   for (let i = 0; i < nums2.length; i++) {
@@ -61,4 +65,4 @@ function findSmallest(nums2) {
 
 let nums2 = [1, 4, 7, 9, 13, -200, 18, 23, 49, 54, -100];
 let res2 = findSmallest(nums2);
-console.log(res2); 
+console.log(res2);

@@ -13,7 +13,11 @@ var reverse = function (x) {
   if (rev < -limit || rev > limit - 1) {
     return 0;
   }
-  return xCopy < 0 ? -rev : rev;
+  if (xCopy < 0) {
+    return -rev;
+  } else {
+    return rev;
+  }
 };
 
 let number = 12345;

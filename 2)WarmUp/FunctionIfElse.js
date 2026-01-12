@@ -2,12 +2,14 @@
 function printHelloWorld() {
   console.log("Hello World!!");
 }
+
 printHelloWorld();
 
 // Greet
 function greet(name) {
   console.log("Namaste, " + name);
 }
+
 let x = "Virat Kohli";
 greet(x);
 greet("Anushka");
@@ -17,6 +19,7 @@ function sum(a, b) {
   let add = a + b;
   console.log(add);
 }
+
 let y = 100;
 let z = 200;
 sum(y, z);
@@ -27,6 +30,7 @@ function multiply(a, b) {
   let result = a * b;
   console.log(result);
 }
+
 multiply(10, 8);
 
 // Square of a given Number
@@ -34,6 +38,7 @@ function square(x) {
   let result = x * x;
   return result;
 }
+
 let value = square(10);
 console.log(value);
 
@@ -47,6 +52,7 @@ function isEligibleToVote(age) {
     console.log("Eligible");
   }
 }
+
 isEligibleToVote(-10);
 isEligibleToVote(14);
 isEligibleToVote(20);
@@ -60,5 +66,6 @@ function isEvenOrOdd(num) {
     console.log("Odd Number");
   }
 }
+
 isEvenOrOdd(10);
 isEvenOrOdd(11);

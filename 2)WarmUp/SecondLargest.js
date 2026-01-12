@@ -1,5 +1,6 @@
 // Find the second largest number in an Array
 
+// (TC:O(n), SC:O(1))
 function secondLargestNumber(arr) {
   if (arr.length < 2) {
     return "Array should have atleast 2 elements";
@@ -19,6 +20,6 @@ function secondLargestNumber(arr) {
   return secondLargest;
 }
 
-let arr = [10, 20, 20];
+let arr = [10, 20, 20, 40];
 let res = secondLargestNumber(arr);
 console.log(res);
