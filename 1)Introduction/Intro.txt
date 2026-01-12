@@ -8,6 +8,7 @@
 # Spaced Repetition
 # Solve Random Questions
 # Habit, Cult, Lifestyle
+# We will use JavaScript in this course
 # DSA is all about Approach, Solution, Time Complexity & Space Complexity 
 # DSA is language Agnostic
 # We can do DSA in any language
