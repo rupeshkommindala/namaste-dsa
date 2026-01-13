@@ -14,5 +14,5 @@ console.log(m);
  * Never overflow
  */
 
-let mid = l + Math.floor((r - l) / 2); // Big Integer - Big Integer never overflow
-console.log(mid);
+let middle = l + Math.floor((r - l) / 2); // Big Integer - Big Integer never overflow
+console.log(middle);

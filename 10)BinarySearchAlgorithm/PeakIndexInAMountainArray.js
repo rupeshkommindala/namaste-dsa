@@ -1,22 +1,25 @@
 // Peak Index in a Mountain Array (LC:852)
 
+// Optimized Solution (TC:O(logn), SC:O(1))
 var peakIndexInMountainArray = function (arr) {
   let l = 0;
   let r = arr.length - 1;
   while (l < r) {
     let m = l + Math.floor((r - l) / 2);
-    if (arr[m + 1] > arr[m]) l = m + 1;
-    else r = m;
+    if (arr[m + 1] > arr[m]) {
+      l = m + 1;
+    } else {
+      r = m;
+    }
   }
-  return l; // return l or r
+  return r; // return l also works
 };
 
-let arr = [0, 1, 0];
+let arr = [0, 2, 1, 0];
 let res = peakIndexInMountainArray(arr);
 console.log(res);
 
-// Brute Force Approach
-
+// Brute Force Approach (TC:O(n), SC:O(1))
 var peakIndexInMountainArray = function (arr) {
   for (let i = 0; i < arr.length - 1; i++) {
     if (arr[i + 1] < arr[i]) {
