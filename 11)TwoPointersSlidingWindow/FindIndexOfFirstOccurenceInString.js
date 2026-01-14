@@ -1,15 +1,13 @@
 // Find the Index of the First Occurence in a String (LC:28)
 
-let haystack = "saturdaysad";
-let needle = "sad";
-
+// Brute Force Solution (TC:O(m*n), SC:O(1)
 var strStr = function (haystack, needle) {
   let n = haystack.length;
   let m = needle.length;
-  for (let i = 0; i <= n - m; i++) {
+  for (let i = 0; i < n - m + 1; i++) {
     let j = 0;
     for (j = 0; j < m; j++) {
-      if (haystack[i + j] != needle[j]) {
+      if (haystack[j + i] !== needle[j]) {
         break;
       }
     }
@@ -20,4 +18,7 @@ var strStr = function (haystack, needle) {
   return -1;
 };
 
-console.log(strStr(haystack, needle));
+let haystack = "sadbutsad";
+let needle = "sad";
+let res = strStr(haystack, needle);
+console.log(res);
