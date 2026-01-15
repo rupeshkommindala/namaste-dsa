@@ -19,7 +19,7 @@ let arr = [0, 2, 1, 0];
 let res = peakIndexInMountainArray(arr);
 console.log(res);
 
-// Brute Force Approach (TC:O(n), SC:O(1))
+// Better Approach (TC:O(n), SC:O(1))
 var peakIndexInMountainArray = function (arr) {
   for (let i = 0; i < arr.length - 1; i++) {
     if (arr[i + 1] < arr[i]) {
@@ -31,3 +31,17 @@ var peakIndexInMountainArray = function (arr) {
 let nums = [0, 10, 5, 2];
 let result = peakIndexInMountainArray(nums);
 console.log(result);
+
+// Brute Force Solution (TC:O(n), SC:O(1))
+
+var peakIndexInMountainArray = function (arr) {
+  let maximum = -Infinity;
+  let index = -Infinity;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > maximum) {
+      maximum = arr[i];
+      index = i;
+    }
+  }
+  return index;
+};
