@@ -1,5 +1,6 @@
 // Remove Duplicates from Sorted Array (LC:26)
 
+// (TC:O(n), SC:O(1))
 var removeDuplicates = function (nums) {
   let x = 0;
   for (let i = 0; i < nums.length; i++) {
@@ -11,6 +12,6 @@ var removeDuplicates = function (nums) {
   return x + 1;
 };
 
-let nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
+let nums = [0, 0, 1, 1, 2, 2, 3, 3, 4];
 let res = removeDuplicates(nums);
 console.log(res);
