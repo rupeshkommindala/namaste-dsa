@@ -10,7 +10,9 @@ var twoSum = function (nums, target) {
       j--;
     } else if (sum < target) {
       i++;
-    } else if (sum === target) {
+    }
+    // When sum===target
+    else {
       return [i + 1, j + 1];
     }
   }
