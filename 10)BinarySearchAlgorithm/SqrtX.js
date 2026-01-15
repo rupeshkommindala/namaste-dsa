@@ -8,7 +8,7 @@ console.log(Math.floor(Math.pow(x, 0.5)));
 // Way-02 (Not Recommended)
 console.log(Math.trunc(x ** 0.5));
 
-// Way-03 (TC:O(logn), SC:O(1) Recommended)
+// Way-03 (TC:O(logn), SC:O(1)) (Recommended)
 var mySqrt = function (x) {
   if (x < 2) {
     return x;
