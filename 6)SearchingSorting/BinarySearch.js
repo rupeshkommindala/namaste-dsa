@@ -1,11 +1,12 @@
 // Binary Search (LC:704)
 
-function binarySearch(arr, target) {
+// Optimized Solution (TC:O(logn), SC:O(1))
+var search = function (arr, target) {
   let l = 0;
   let r = arr.length - 1;
   // r >= l also works
   while (l <= r) {
-    let m = Math.floor((l + r) / 2); // let m = l + Math.floor((r-l)/2);
+    let m = Math.floor((l + r) / 2); // let m = l + (Math.floor((r-l)/2))
     if (arr[m] === target) {
       return m;
     } else if (arr[m] < target) {
@@ -15,8 +16,8 @@ function binarySearch(arr, target) {
     }
   }
   return -1;
-}
+};
 
-let arr = [-1, 9, 11, 16, 19, 23, 56, 89, 90];
-let result = binarySearch(arr, 9);
-console.log(result);
+let arr = [-1, 0, 3, 5, 9, 12];
+let res = search(arr, 9);
+console.log(res);
