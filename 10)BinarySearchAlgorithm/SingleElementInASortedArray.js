@@ -1,6 +1,6 @@
 // Single Element in a Sorted Array (LC:540)
 
-// Brute Force Approach (TC:O(n) SC:O(n))
+// Brute Force Approach (TC:O(n), SC:O(n))
 var singleNonDuplicate1 = function (nums) {
   let map = {};
   for (let i = 0; i < nums.length; i++) {
@@ -21,7 +21,7 @@ let nums1 = [1, 1, 2, 3, 3, 4, 4, 8, 8];
 let res1 = singleNonDuplicate1(nums1);
 console.log(res1);
 
-// Better Approach (TC:O(n) SC:O(1))
+// Better Approach (TC:O(n), SC:O(1))
 var singleNonDuplicate2 = function (nums) {
   let ans = 0;
   for (let i = 0; i < nums.length; i++) {
