@@ -53,7 +53,7 @@ var lengthOfLastWord3 = function (s) {
 
 let res1 = lengthOfLastWord1("Hello World");
 console.log(res1);
-let res2 = lengthOfLastWord2("   fly me   to   the moon  ");
+let res2 = lengthOfLastWord2("  fly me   to   the moon  ");
 console.log(res2);
 let res3 = lengthOfLastWord3("luffy is still joyboy");
 console.log(res3);

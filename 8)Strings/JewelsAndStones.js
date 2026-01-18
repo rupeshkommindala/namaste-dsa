@@ -1,6 +1,6 @@
 // Jewels and Stones (LC:771)
 
-// Optimized Solution (TC: O(m+n), SC:O(1)) m->length of jewels n->length of stones
+// Optimized Solution (TC: O(m+n), SC:O(1)) m->Length of jewels, n->Length of stones
 var numJewelsInStones1 = function (jewels, stones) {
   let jSet = new Set();
   for (let i = 0; i < jewels.length; i++) {
@@ -18,7 +18,7 @@ var numJewelsInStones1 = function (jewels, stones) {
 let res1 = numJewelsInStones1("aA", "aAAbbbb");
 console.log(res1);
 
-// Brute Force Solution (TC: O(m*n), SC:O(1)) m-> Length of jewels, n-> Length of stones
+// Brute Force Solution (TC: O(m*n), SC:O(1)) m->Length of jewels, n->Length of stones
 var numJewelsInStones2 = function (jewels, stones) {
   let count = 0;
   for (let i = 0; i < stones.length; i++) {
