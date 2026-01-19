@@ -3,9 +3,9 @@ in an array and returns the index, if the
 element is not present then just return -1 */
 
 // (TC:O(n), SC:O(1))
-function searchElement(arr, target) {
+function searchElement(arr, x) {
   for (let i = 0; i < arr.length; i++) {
-    if (arr[i] === target) {
+    if (arr[i] === x) {
       return i;
     }
   }
