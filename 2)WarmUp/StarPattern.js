@@ -147,7 +147,6 @@ for (let i = 0; i < t; i++) {
   let toggle = 1;
   for (let j = 0; j < i + 1; j++) {
     row = row + toggle;
-    // switch the toggle
     if (toggle === 1) {
       toggle = 0;
     } else {
@@ -171,7 +170,6 @@ for (let i = 0; i < n; i++) {
   let row = "";
   for (let j = 0; j < i + 1; j++) {
     row = row + toggle;
-    // switch the toggle
     if (toggle === 1) {
       toggle = 0;
     } else {
