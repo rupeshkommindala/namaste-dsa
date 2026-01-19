@@ -36,7 +36,7 @@ let obj = {
   name: "Rupesh",
   age: 27,
   city: "Bengaluru",
-  arr: [1, 2, 3, 4],
+  arr: [1, 2, 3, 4, 5],
   bool: true,
 };
 
