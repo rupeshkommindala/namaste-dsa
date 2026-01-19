@@ -18,6 +18,6 @@ var isPalindrome = function (x) {
   }
 };
 
-let num = 1221;
+let num = 121;
 let res = isPalindrome(num);
 console.log(res);
