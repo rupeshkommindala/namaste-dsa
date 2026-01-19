@@ -1,25 +1,35 @@
 // Single Number (LC:136)
 
-// Optimized Approach (TC:O(n) SC:O(1))
-let arr = [1, 2, 2, 3, 1];
-let ans = 0;
-for (let i = 0; i < arr.length; i++) {
-  ans = ans ^ arr[i];
-}
-console.log(ans);
+// Optimized Solution (TC:O(n), SC:O(1))
+var singleNumber1 = function (nums) {
+  let ans = 0;
+  for (let i = 0; i < nums.length; i++) {
+    ans = ans ^ nums[i];
+  }
+  return ans;
+};
 
-// Brute Force Approach (TC:O(n) SC:O(n))
-let nums = [4, 1, 2, 1, 2];
-let map = {};
-for (let i = 0; i < nums.length; i++) {
-  if (!map[nums[i]]) {
-    map[nums[i]] = 1;
-  } else {
-    map[nums[i]]++;
+let nums1 = [2, 2, 1];
+let res1 = singleNumber1(nums1);
+console.log(res1);
+
+// Brute Force Solution (TC:O(n), SC:O(n))
+var singleNumber2 = function (nums) {
+  let map = {};
+  for (let i = 0; i < nums.length; i++) {
+    if (!map[nums[i]]) {
+      map[nums[i]] = 1;
+    } else {
+      map[nums[i]]++;
+    }
   }
-}
-for (let i = 0; i < nums.length; i++) {
-  if (map[nums[i]] === 1) {
-    //console.log(nums[i]);
+  for (let i = 0; i < nums.length; i++) {
+    if (map[nums[i]] === 1) {
+      return nums[i];
+    }
   }
-}
+};
+
+let nums2 = [2, 2, 1, 1, 3, 4, 4, 3, 5];
+let res2 = singleNumber2(nums2);
+console.log(res2);
