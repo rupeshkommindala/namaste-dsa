@@ -4,9 +4,8 @@
 var search = function (arr, target) {
   let l = 0;
   let r = arr.length - 1;
-  // r >= l also works
   while (l <= r) {
-    let m = Math.floor((l + r) / 2); // let m = l + (Math.floor((r-l)/2))
+    let m = Math.floor((l + r) / 2);
     if (arr[m] === target) {
       return m;
     } else if (arr[m] < target) {
