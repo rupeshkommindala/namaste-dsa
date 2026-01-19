@@ -1,11 +1,11 @@
-// Factorial of a given Number using Recursion
+// Factorial of a given number using Recursion
 
-function fact(n) {
+var fact = function (n) {
   if (n === 1) {
     return 1;
   }
   return n * fact(n - 1);
-}
+};
 
 let res = fact(5);
 console.log(res);
