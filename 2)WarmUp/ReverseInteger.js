@@ -20,6 +20,6 @@ var reverse = function (x) {
   }
 };
 
-let number = 12345;
-let res = reverse(number);
+let num = -123;
+let res = reverse(num);
 console.log(res);
