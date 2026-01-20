@@ -1,6 +1,6 @@
 // Largest Odd Number in String (LC:1903)
 
-// Optimized Solution (TC: O(n), SC:O(1))
+// Optimized Solution (TC:O(n), SC:O(1))
 var largestOddNumber = function (s) {
   let n = s.length - 1;
   while (n >= 0) {
