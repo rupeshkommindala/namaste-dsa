@@ -1,13 +1,19 @@
-let strs = ["eat", "tea", "tan", "ate", "nat", "bat"];
-let map = {};
-for (let i = 0; i < strs.length; i++) {
-  let sortedVal = strs[i].split("").sort().join("");
-  if (!map[sortedVal]) {
-    map[sortedVal] = [strs[i]];
-  } else {
-    map[sortedVal].push(strs[i]);
-  }
-}
+// Group Anagrams (LC:49)
 
-console.log(Object.values(map));
-//console.log([...Object.values(map)]);
+// Brute Force Solution (TC:O(n*mlogm), SC:O(n*m))
+var groupAnagrams = function (strs) {
+  let map = {};
+  for (let i = 0; i < strs.length; i++) {
+    let sortedString = strs[i].split("").sort().join("");
+    if (!map[sortedString]) {
+      map[sortedString] = [strs[i]];
+    } else {
+      map[sortedString].push(strs[i]);
+    }
+  }
+  return [...Object.values(map)];
+};
+
+let strs = ["eat", "tea", "tan", "ate", "nat", "bat"];
+let res = groupAnagrams(strs);
+console.log(res);
