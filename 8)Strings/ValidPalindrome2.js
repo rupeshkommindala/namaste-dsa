@@ -1,6 +1,6 @@
 // Valid Palindrome (LC:125)
 
-// Optimized Solution (TC: O(n), SC:O(1))
+// Optimized Solution (TC:O(n), SC:O(1))
 var isPalindrome = function (s) {
   s = s.toLowerCase();
   let i = 0;
