@@ -1,6 +1,6 @@
 // Reverse String II (LC:541)
 
-// Optimized Solution (TC: O(n), SC:O(n))
+// Optimized Solution (TC:O(n), SC:O(n))
 var reverseStr = function (s, k) {
   s = s.split("");
   for (let x = 0; x < s.length; x = x + 2 * k) {
