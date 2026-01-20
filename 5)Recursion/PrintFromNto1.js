@@ -1,12 +1,12 @@
-// Print From N to 1 using Recursion
+// Print from N to 1 using Recursion
 
-function printFromNto1(n) {
-  if (n === 0) {
+function printFromNto1(num) {
+  if (num === 0) {
     return;
   }
-  console.log(n);
-  n = n - 1;
-  printFromNto1(n);
+  console.log(num);
+  num = num - 1;
+  printFromNto1(num);
 }
 
-printFromNto1(5);
+printFromNto1(10);
