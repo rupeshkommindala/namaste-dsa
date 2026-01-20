@@ -1,10 +1,11 @@
 // Fibonacci Number (LC:509)
 
-function fib(n) {
+var fib = function (n) {
   if (n <= 1) {
     return n;
   }
   return fib(n - 1) + fib(n - 2);
-}
+};
 
-console.log(fib(7));
+let res = fib(6);
+console.log(res);
