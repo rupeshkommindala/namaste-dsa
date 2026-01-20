@@ -1,4 +1,4 @@
-// Print From 1 to N using Recursion
+// Print from 1 to N using Recursion
 
 let n = 10;
 function printFrom1toN(x) {
