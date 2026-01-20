@@ -1,6 +1,6 @@
 // Print From 1 to N using Recursion
 
-let n = 5;
+let n = 10;
 function printFrom1toN(x) {
   if (x > n) {
     return;
