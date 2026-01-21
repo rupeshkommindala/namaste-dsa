@@ -32,4 +32,13 @@ let n = 30;
 let res = mySqrt(n);
 console.log(res);
 
-// Way-04 (Using Linear Search TC:O(n) HW)
+// Way-04 (TC:O(sqrt(x)), SC:O(1))
+var mySqrt2 = function (x) {
+  let ans = 0;
+  for (let i = 0; i * i <= x; i++) {
+    ans = i;
+  }
+  return ans;
+};
+
+console.log(mySqrt2(40));
