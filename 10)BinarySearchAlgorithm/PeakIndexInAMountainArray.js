@@ -22,8 +22,8 @@ console.log(res);
 // Better Approach (TC:O(n), SC:O(1))
 var peakIndexInMountainArray = function (arr) {
   for (let i = 0; i < arr.length - 1; i++) {
-    if (arr[i + 1] < arr[i]) {
-      return i;
+    if (arr[i] < arr[i-1]) {
+      return i-1;
     }
   }
 };
@@ -33,7 +33,6 @@ let result = peakIndexInMountainArray(nums);
 console.log(result);
 
 // Brute Force Solution (TC:O(n), SC:O(1))
-
 var peakIndexInMountainArray = function (arr) {
   let maximum = -Infinity;
   let index = -Infinity;
