@@ -15,7 +15,7 @@ var solution = function (isBadVersion) {
   };
 };
 
-// Optimized Solution (TC:O(logn), SC:O(1))
+// Way-01 Optimized Solution (TC:O(logn), SC:O(1))
 var solution = function (isBadVersion) {
   /**
    * @param {integer} n Total versions
@@ -30,6 +30,27 @@ var solution = function (isBadVersion) {
         l = m + 1;
       } else {
         r = m;
+      }
+    }
+    return r; // return l also works
+  };
+};
+
+// Way-02 Optimized Solution (TC:O(logn), SC:O(1))
+var solution = function (isBadVersion) {
+  /**
+   * @param {integer} n Total versions
+   * @return {integer} The first bad version
+   */
+  return function (n) {
+    let l = 1;
+    let r = n;
+    while (l < r) {
+      let m = l + Math.floor((r - l) / 2);
+      if (isBadVersion(m)) {
+        r = m;
+      } else {
+        l = m + 1;
       }
     }
     return r; // return l also works
