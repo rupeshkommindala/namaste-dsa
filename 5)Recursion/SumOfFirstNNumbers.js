@@ -7,5 +7,6 @@ var sum = function (n) {
   return n + sum(n - 1);
 };
 
-let res = sum(5);
+let num = 5;
+let res = sum(num);
 console.log(res);
