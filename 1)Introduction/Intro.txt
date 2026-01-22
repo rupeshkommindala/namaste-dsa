@@ -9,7 +9,8 @@
 # Solve Random Questions
 # Habit, Cult, Lifestyle
 # We will use JavaScript in this course
-# But Why JavaScript=> JS is very very easy language and it is the popular language in the World.
+# But Why JavaScript=> JS is very very easy language 
+# JavaScript is the most popular language in the world and it is widely used
 # DSA is all about Approach, Solution, Time Complexity & Space Complexity 
 # DSA is Language Agnostic
 # We can do DSA in any language
