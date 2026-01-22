@@ -1,12 +1,12 @@
 # Time and Space Complexity
-# The algorithm which has low TC means that it has better Speed.
+# The algorithm which has low Time Complexity, means that it has better Speed
 # Low Time Complexity => Better Speed 
 # Binary Search >>>> Linear Search
 # Big O is just a way to represent the Time Complexity of an Algorithm
-# Notation is nothing but symbol
+# Notation is nothing but a symbol
 # Big O Notation is used to measure the worst case Time Complexity of an Algorithm
-# TC: It is used to measure the efficiency of an algorithm in terms of speed as the input size grows
-# SC: How much extra space your algorithm is using
+# Time Complexity: It is used to measure the efficiency of an algorithm in terms of speed as the input size grows
+# Space Complexity: How much extra space your algorithm is using
 # How to calculate Big O 
 #   => Calculate total number of iterations
 #   => Neglect lower order terms 
