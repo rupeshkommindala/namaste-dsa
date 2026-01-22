@@ -63,6 +63,6 @@ function findSmallest(nums2) {
   return smallest;
 }
 
-let nums2 = [1, 4, 7, 9, 13, -200, 18, 23, 49, 54, -100];
+let nums2 = [1, 4, 7, 9, 13, -150, 18, 23, 49, 54, -100];
 let res2 = findSmallest(nums2);
 console.log(res2);

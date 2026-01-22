@@ -21,7 +21,7 @@ console.log(firstName);
 console.log(lastName);
 
 // Arrays
-let arr = [1, 2, 4, 6, 8, 9, 10];
+let arr = [5, 6, 2, 0, 1];
 console.log(arr);
 let sum2 = arr[0] + arr[3];
 console.log(sum2);

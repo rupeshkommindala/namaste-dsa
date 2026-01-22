@@ -30,7 +30,7 @@ for (let i = 5; i > 0; i--) {
 
 // Greet function
 function greet() {
-  console.log("Namaste");
+  console.log("Hello");
 }
 
 // Calling Greet function inside for Loop
@@ -39,13 +39,13 @@ for (let i = 0; i < 5; i++) {
 }
 
 // Accessing all the elements using Loops
-let array = [10, 6, 2, 0, 8, 3, 80];
+let array = [5, 6, 2, 0, 1];
 for (let i = 0; i < array.length; i++) {
   console.log(array[i]);
 }
 
 // Print all the Even numbers in the Array
-let arr = [10, 6, 2, 0, 8, 3, 80];
+let arr = [5, 6, 2, 0, 1];
 for (let i = 0; i < arr.length; i++) {
   if (arr[i] % 2 === 0) {
     console.log(arr[i]);
@@ -53,7 +53,7 @@ for (let i = 0; i < arr.length; i++) {
 }
 
 // Print all the Odd numbers in an Array
-let nums = [10, 5, 7, 9, 23, 27];
+let nums = [5,6,2,0,1];
 for (let i = 0; i < nums.length; i++) {
   if (nums[i] % 2 === 1) {
     console.log(nums[i]);

@@ -1,11 +1,12 @@
 /* 
  Pattern 1
- * * * *
- * * * *
- * * * *
- * * * *
+ * * * * *
+ * * * * *
+ * * * * *
+ * * * * *
+ * * * * *
 */
-let m = 4;
+let m = 5;
 for (let i = 0; i < m; i++) {
   let row = "";
   for (let j = 0; j < m; j++) {
@@ -20,8 +21,9 @@ for (let i = 0; i < m; i++) {
  * *
  * * *
  * * * *
+ * * * * *
 */
-let f = 4;
+let f = 5;
 for (let i = 0; i < f; i++) {
   let row = "";
   for (let j = 0; j < i + 1; j++) {
@@ -36,6 +38,7 @@ for (let i = 0; i < f; i++) {
  1 2
  1 2 3
  1 2 3 4
+ 1 2 3 4 5
 */
 let k = 5;
 for (let i = 0; i < k; i++) {
@@ -52,6 +55,7 @@ for (let i = 0; i < k; i++) {
  2 2
  3 3 3
  4 4 4 4
+ 5 5 5 5 5
 */
 let a = 5;
 for (let i = 0; i < a; i++) {
@@ -68,6 +72,7 @@ for (let i = 0; i < a; i++) {
  2 2
  3 3 3
  4 4 4 4
+ 5 5 5 5 5
 */
 let b = 5;
 for (let i = 1; i <= b; i++) {
@@ -139,7 +144,6 @@ for (let i = 0; i < d; i++) {
  1 0 1
  1 0 1 0
  1 0 1 0 1
- 1 0 1 0 1 0
 */
 let t = 5;
 for (let i = 0; i < t; i++) {

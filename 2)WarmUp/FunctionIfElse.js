@@ -14,6 +14,7 @@ let x = "Virat Kohli";
 greet(x);
 greet("Anushka");
 greet("Rupesh");
+greet("Priyanka Chopra");
 
 // Sum of Two Numbers
 function sum(a, b) {
