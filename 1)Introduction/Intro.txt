@@ -9,7 +9,7 @@
 # Solve Random Questions
 # Habit, Cult, Lifestyle
 # We will use JavaScript in this course
-# But Why JavaScript=> JS is very very easy language 
+# But why JavaScript=> JS is very very easy language 
 # JavaScript is the most popular language in the world and it is widely used
 # DSA is all about Approach, Solution, Time Complexity & Space Complexity 
 # DSA is Language Agnostic
@@ -17,10 +17,11 @@
 # DSA does not care in which language you solve the problem
 # DSA is tricky, DSA is tough a little, DSA is very very long journey
 # Once you know DSA you will have Immense Confidence
+# When you solve DSA problems it will give you lot of happiness
 # Interviewers don't care in which language you solve the problem
 # Interviewers care about
 #   => How you are approaching the problem 
 #   => Can you develop the solution?
 #   => Can you optimise the solution?
 #   => Can you tell the Time and Space Complexity of it?
-#   => And then write the pseudocode  
+#   => And then write the pseudocode
