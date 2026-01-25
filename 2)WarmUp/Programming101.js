@@ -27,7 +27,7 @@ let sum2 = arr[0] + arr[3];
 console.log(sum2);
 
 // Arrays
-let names = ["Rupesh", "Priyanka Chopra", "Virat Kohli", "Anushka"];
+let names = ["Virat Kohli", "Rupesh", "Priyanka Chopra", "Anushka Sharma"];
 console.log(names[1]);
 console.log(names);
 
@@ -40,6 +40,7 @@ let obj = {
   bool: true,
 };
 
+console.log(obj);
 console.log(obj.name);
 console.log(obj.age);
 console.log(obj.city);

@@ -1,6 +1,6 @@
 // Print Hello World
 function printHelloWorld() {
-  console.log("Hello World!!");
+  console.log("Hello World!");
 }
 
 printHelloWorld();
@@ -12,7 +12,7 @@ function greet(name) {
 
 let x = "Virat Kohli";
 greet(x);
-greet("Anushka");
+greet("Anushka Sharma");
 greet("Rupesh");
 greet("Priyanka Chopra");
 

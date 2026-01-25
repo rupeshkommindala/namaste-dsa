@@ -1,6 +1,6 @@
 // Printing Hello World
 for (let i = 0; i < 5; i++) {
-  console.log("Hello World");
+  console.log("Hello World !");
 }
 
 // Printing Hello World
@@ -53,7 +53,7 @@ for (let i = 0; i < arr.length; i++) {
 }
 
 // Print all the Odd numbers in an Array
-let nums = [5,6,2,0,1];
+let nums = [5, 6, 2, 0, 1];
 for (let i = 0; i < nums.length; i++) {
   if (nums[i] % 2 === 1) {
     console.log(nums[i]);

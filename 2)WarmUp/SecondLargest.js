@@ -20,6 +20,6 @@ function secondLargestNumber(arr) {
   return secondLargest;
 }
 
-let arr = [5, 6, 2, 0, 1];
+let arr = [5, 6, 2, 0, 1, 3];
 let res = secondLargestNumber(arr);
 console.log(res);

@@ -14,6 +14,6 @@ var countDigit = function (n) {
   return count;
 };
 
-let num = 321;
+let num = 425;
 let res = countDigit(num);
 console.log(res);
