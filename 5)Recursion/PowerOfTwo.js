@@ -9,6 +9,6 @@ var isPowerOfTwo = function (n) {
   return isPowerOfTwo(n / 2);
 };
 
-let num = 16;
+let num = 32;
 let res = isPowerOfTwo(num);
 console.log(res);

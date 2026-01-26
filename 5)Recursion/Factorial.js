@@ -7,5 +7,5 @@ var fact = function (n) {
   return n * fact(n - 1);
 };
 
-let res = fact(6);
+let res = fact(5);
 console.log(res);
