@@ -15,30 +15,30 @@ var moveZeroes1 = function (nums) {
   return nums;
 };
 
-let nums1 = [0, 1, 0, 3, 12];
+let nums1 = [0, 1, 0, 3, 12, 14];
 let res1 = moveZeroes1(nums1);
 console.log(res1);
 
 // Brute Force Solution (TC:O(n), SC:O(n))
 var moveZeroes2 = function (nums) {
-  let res = [];
+  let arr = [];
   let n = nums.length;
   let count = 0;
   for (let i = 0; i < n; i++) {
     if (nums[i] !== 0) {
-      res.push(nums[i]);
+      arr.push(nums[i]);
       count++;
     }
   }
   for (let i = 0; i < n - count; i++) {
-    res.push(0);
+    arr.push(0);
   }
-  for (let i = 0; i < n; i++) {
-    nums[i] = res[i];
+  for (let i = 0; i < arr.length; i++) {
+    nums[i] = arr[i];
   }
   return nums;
 };
 
-let nums2 = [0, 1, 0, 3, 12];
+let nums2 = [0, 1, 0, 3, 12, 14];
 let res2 = moveZeroes2(nums2);
 console.log(res2);

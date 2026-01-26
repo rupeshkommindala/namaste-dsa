@@ -1,18 +1,18 @@
 // Remove Duplicates from Sorted Array (LC:26)
 
 // (TC:O(n), SC:O(1))
-var removeDuplicates = function (arr) {
+var removeDuplicates = function (nums) {
   let x = 0;
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] > arr[x]) {
+  for (let i = 1; i < nums.length; i++) {
+    if (nums[i] > nums[x]) {
       x = x + 1;
-      arr[x] = arr[i];
+      nums[x] = nums[i];
     }
   }
   return x + 1;
 };
 
-let arr = [1, 1, 2];
+let arr = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
 let res = removeDuplicates(arr);
 console.log(res);
 console.log(arr);

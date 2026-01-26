@@ -9,7 +9,7 @@ var singleNumber1 = function (nums) {
   return ans;
 };
 
-let nums1 = [2, 2, 1, 3, 3];
+let nums1 = [2, 2, 1, 3, 3, 4, 4];
 let res1 = singleNumber1(nums1);
 console.log(res1);
 

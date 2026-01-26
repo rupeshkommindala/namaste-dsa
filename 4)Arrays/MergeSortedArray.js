@@ -43,9 +43,9 @@ var merge2 = function (nums1, m, nums2, n) {
   return nums1;
 };
 
-let arr1 = [1];
-let a = 1;
-let arr2 = [];
-let b = 0;
+let arr1 = [1, 2, 3, 0, 0, 0];
+let a = 3;
+let arr2 = [2, 5, 6];
+let b = 3;
 let res2 = merge2(arr1, a, arr2, b);
 console.log(res2);

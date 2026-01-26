@@ -3,7 +3,7 @@
 // Optimized Solution (TC:O(n), SC:O(1))
 var missingNumber = function (nums) {
   let n = nums.length;
-  let totalSum = Math.floor((n * (n + 1)) / 2);
+  let totalSum = Math.floor(n * (n + 1) / 2);
   let partialSum = 0;
   for (let i = 0; i < n; i++) {
     partialSum += nums[i];
@@ -11,6 +11,6 @@ var missingNumber = function (nums) {
   return totalSum - partialSum;
 };
 
-let nums = [9, 6, 4, 2, 3, 5, 7, 0, 1];
+let nums = [3, 0, 1];
 let res = missingNumber(nums);
 console.log(res);
