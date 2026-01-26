@@ -1,6 +1,6 @@
 // First Bad Version (LC:278)
 
-// Brute Force Solution (TC:O(n), SC:O(1)) Time Limit Exceeded
+// Brute Force Solution (TC:O(n), SC:O(1)) (Time Limit Exceeded)
 var solution = function (isBadVersion) {
   /**
    * @param {integer} n Total versions
@@ -15,7 +15,7 @@ var solution = function (isBadVersion) {
   };
 };
 
-// Way-01 Optimized Solution (TC:O(logn), SC:O(1))
+// (Way-01) Optimized Solution (TC:O(logn), SC:O(1))
 var solution = function (isBadVersion) {
   /**
    * @param {integer} n Total versions
@@ -36,7 +36,7 @@ var solution = function (isBadVersion) {
   };
 };
 
-// Way-02 Optimized Solution (TC:O(logn), SC:O(1))
+// (Way-02) Optimized Solution (TC:O(logn), SC:O(1))
 var solution = function (isBadVersion) {
   /**
    * @param {integer} n Total versions

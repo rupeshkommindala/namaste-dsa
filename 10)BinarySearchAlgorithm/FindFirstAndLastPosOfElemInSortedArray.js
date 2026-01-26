@@ -19,7 +19,7 @@ var searchRange1 = function (arr, target) {
 };
 
 let arr1 = [1, 2, 3, 3, 3, 3, 4, 4, 5];
-let res1 = searchRange1(arr1, 3);
+let res1 = searchRange1(arr1, 4);
 console.log(res1);
 
 // Optimized Solution (TC:O(logn), SC:O(1))

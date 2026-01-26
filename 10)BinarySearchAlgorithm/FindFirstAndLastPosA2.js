@@ -33,5 +33,5 @@ var searchRange = function (arr, target) {
 };
 
 let arr = [1, 2, 3, 3, 3, 3, 4, 4, 5];
-let res = searchRange(arr, 3);
+let res = searchRange(arr, 4);
 console.log(res);

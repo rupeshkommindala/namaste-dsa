@@ -6,7 +6,7 @@ var peakIndexInMountainArray = function (arr) {
   let r = arr.length - 1;
   while (l < r) {
     let m = l + Math.floor((r - l) / 2);
-    if (arr[m + 1] > arr[m]) {
+    if (arr[m] < arr[m + 1]) {
       l = m + 1;
     } else {
       r = m;
@@ -22,8 +22,8 @@ console.log(res);
 // Better Approach (TC:O(n), SC:O(1))
 var peakIndexInMountainArray = function (arr) {
   for (let i = 0; i < arr.length - 1; i++) {
-    if (arr[i] < arr[i-1]) {
-      return i-1;
+    if (arr[i + 1] < arr[i]) {
+      return i;
     }
   }
 };

@@ -40,9 +40,6 @@ var singleNonDuplicate3 = function (arr) {
   let r = arr.length - 1;
   while (l <= r) {
     let m = l + Math.floor((r - l) / 2);
-    if (arr[m] != arr[m - 1] && arr[m] != arr[m + 1]) {
-      return arr[m];
-    }
     if (arr[m] === arr[m - 1]) {
       let leftCount = m - 1 - l;
       if (leftCount % 2 === 1) {
@@ -50,17 +47,19 @@ var singleNonDuplicate3 = function (arr) {
       } else {
         l = m + 1;
       }
-    } else {
+    } else if (arr[m] === arr[m + 1]) {
       let leftCount = m - l;
       if (leftCount % 2 === 1) {
         r = m - 1;
       } else {
         l = m + 2;
       }
+    } else {
+      return arr[m];
     }
   }
 };
 
-let nums3 = [1, 1, 3, 3, 6, 6, 7, 7, 8, 11, 11];
+let nums3 = [1, 1, 3, 3, 6, 6, 7, 7, 8, 8, 9, 11, 11];
 let res3 = singleNonDuplicate3(nums3);
 console.log(res3);

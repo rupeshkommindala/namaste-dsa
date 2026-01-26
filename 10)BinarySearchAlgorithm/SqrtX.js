@@ -28,7 +28,7 @@ var mySqrt = function (x) {
   return r;
 };
 
-let n = 30;
+let n = 40;
 let res = mySqrt(n);
 console.log(res);
 
