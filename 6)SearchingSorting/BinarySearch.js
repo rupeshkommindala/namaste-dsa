@@ -17,6 +17,6 @@ var search = function (arr, target) {
   return -1;
 };
 
-let arr = [-1, 0, 3, 5, 9, 12];
+let arr = [-5, -1, 0, 3, 9];
 let res = search(arr, 9);
 console.log(res);

@@ -1,6 +1,7 @@
 // Bubble Sort
 
-function BubbleSort(arr) {
+// (TC:O(n^2), SC:O(1))
+function bubbleSort(arr) {
   let n = arr.length;
   for (let i = 0; i < n - 1; i++) {
     let isSwapped = false;
@@ -18,6 +19,7 @@ function BubbleSort(arr) {
   }
   return arr;
 }
-let arr = [3, 2, 4, 0, 1];
-let res = BubbleSort(arr);
+
+let arr = [4, 3, 2, 1];
+let res = bubbleSort(arr);
 console.log(res);
