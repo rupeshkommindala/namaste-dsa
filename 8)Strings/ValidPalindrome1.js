@@ -1,6 +1,6 @@
 // Valid Palindrome (LC:125)
 
-// Brute Force Solution (Way-01) (TC:O(n), SC:O(n))
+// (Way-01) Brute Force Solution (TC:O(n), SC:O(n))
 var isPalindrome1 = function (s) {
   s = s.toLowerCase();
   let filteredString = "";
@@ -18,7 +18,7 @@ let s1 = "A man, a plan, a canal: Panama";
 let res1 = isPalindrome1(s1);
 console.log(res1);
 
-// Brute Force Solution (Way-02) (TC:O(n), SC:O(n))
+// (Way-02) Brute Force Solution (TC:O(n), SC:O(n))
 var isPalindrome2 = function (s) {
   s = s.toLowerCase();
   let filteredString = "";
@@ -35,7 +35,7 @@ let s2 = "race a car";
 let res2 = isPalindrome2(s2);
 console.log(res2);
 
-// Brute Force Solution (Way-03) (TC:O(n), SC:O(n))
+// (Way-03) Brute Force Solution (TC:O(n), SC:O(n))
 var isPalindrome3 = function (s) {
   s = s.toLowerCase();
   let filteredString = "";

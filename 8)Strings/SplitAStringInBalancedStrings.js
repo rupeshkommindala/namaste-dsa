@@ -1,6 +1,6 @@
 // Split a String in Balanced Strings (LC:1221)
 
-// Way-01 (TC:O(n), SC:O(1))
+// (Way-01) (TC:O(n), SC:O(1))
 var balancedStringSplit = function (s) {
   let L = 0;
   let R = 0;
@@ -24,7 +24,7 @@ let s = "RLRRLLRLRL";
 let res1 = balancedStringSplit(s);
 console.log(res1);
 
-// Way-02 (TC:O(n), SC:O(1))
+// (Way-02) (TC:O(n), SC:O(1))
 var balancedStringSplit2 = function (s) {
   let count = 0;
   let temp = 0;
@@ -41,6 +41,6 @@ var balancedStringSplit2 = function (s) {
   return count;
 };
 
-let s2 = "RLRRRLLRLL";
+let s2 = "LLLLRRRR";
 let res2 = balancedStringSplit2(s2);
 console.log(res2);

@@ -15,7 +15,7 @@ var numJewelsInStones1 = function (jewels, stones) {
   return count;
 };
 
-let res1 = numJewelsInStones1("aA", "aAAbbbb");
+let res1 = numJewelsInStones1("aA", "aAAAbbbb");
 console.log(res1);
 
 // Brute Force Solution (TC: O(m*n), SC:O(1)) m->Length of jewels, n->Length of stones

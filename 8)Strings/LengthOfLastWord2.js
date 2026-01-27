@@ -15,6 +15,6 @@ var lengthOfLastWord = function (s) {
   return count;
 };
 
-let s = "  fly me   to   the moon";
+let s = "Hello World  ";
 let res = lengthOfLastWord(s);
 console.log(res);

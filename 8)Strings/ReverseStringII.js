@@ -13,7 +13,7 @@ var reverseStr = function (s, k) {
   return s.join("");
 };
 
-let s = "abcdefg";
+let s = "abcdefghijklmno";
 let k = 2;
 let res = reverseStr(s, k);
 console.log(res);
