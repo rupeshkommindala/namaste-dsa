@@ -1,6 +1,6 @@
 // Middle of the Linked List (LC:876)
 
-// Way-1
+// (Way-1)
 function middleNode(head) {
   let slow = head;
   let fast = head;
@@ -11,7 +11,7 @@ function middleNode(head) {
   return slow;
 }
 
-// Way-2
+// (Way-2)
 function middleNode(head) {
   let slow = head;
   let fast = head;
@@ -22,7 +22,7 @@ function middleNode(head) {
   return slow;
 }
 
-// Way-3
+// (Way-3)
 function middleNode(head) {
   let slow = (fast = head);
   while (fast && fast.next) {
