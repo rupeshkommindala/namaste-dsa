@@ -1,6 +1,6 @@
 // Add Two Numbers (LC:2)
 
-function addTwoNumbers(l1, l2) {
+function add2Numbers(l1, l2) {
   let ans = new ListNode();
   let ansHead = ans;
   let carry = 0;
