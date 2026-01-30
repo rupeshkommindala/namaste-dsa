@@ -12,6 +12,6 @@ function maxArea(arr) {
   }
   return maxWater;
 }
-let arr = [1, 8, 6, 2, 5, 4, 8, 3, 7];
+let arr = [1, 1];
 let res = maxArea(arr);
 console.log(res);
