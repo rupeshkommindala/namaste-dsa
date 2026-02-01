@@ -1,6 +1,6 @@
 // First Bad Version (LC:278)
 
-// Brute Force Solution (TC:O(n), SC:O(1)) (Time Limit Exceeded)
+// Brute Force Solution (TC:O(n), SC:O(1)) (TLE)
 var solution = function (isBadVersion) {
   /**
    * @param {integer} n Total versions

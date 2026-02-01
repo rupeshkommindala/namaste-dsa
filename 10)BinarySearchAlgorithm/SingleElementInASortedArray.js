@@ -30,7 +30,7 @@ var singleNonDuplicate2 = function (nums) {
   return ans;
 };
 
-let nums2 = [3, 3, 7, 7, 10, 11, 11];
+let nums2 = [1, 1, 2, 3, 3, 4, 4, 8, 8];
 let res2 = singleNonDuplicate2(nums2);
 console.log(res2);
 
@@ -38,28 +38,20 @@ console.log(res2);
 var singleNonDuplicate3 = function (arr) {
   let l = 0;
   let r = arr.length - 1;
-  while (l <= r) {
+  while (l < r) {
     let m = l + Math.floor((r - l) / 2);
-    if (arr[m] === arr[m - 1]) {
-      let leftCount = m - 1 - l;
-      if (leftCount % 2 === 1) {
-        r = m - 2;
-      } else {
-        l = m + 1;
-      }
-    } else if (arr[m] === arr[m + 1]) {
-      let leftCount = m - l;
-      if (leftCount % 2 === 1) {
-        r = m - 1;
-      } else {
-        l = m + 2;
-      }
+    if (m % 2 === 1) {
+      m--;
+    }
+    if (arr[m] === arr[m + 1]) {
+      l = m + 2;
     } else {
-      return arr[m];
+      r = m;
     }
   }
+  return arr[l];
 };
 
-let nums3 = [1, 1, 3, 3, 6, 6, 7, 7, 8, 8, 9, 11, 11];
+let nums3 = [1, 1, 2, 3, 3, 4, 4, 8, 8];
 let res3 = singleNonDuplicate3(nums3);
 console.log(res3);

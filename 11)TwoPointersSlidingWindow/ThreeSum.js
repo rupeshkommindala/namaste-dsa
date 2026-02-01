@@ -32,3 +32,19 @@ var twoSum2 = function (arr, target) {
 let nums2 = [3, 2, 4];
 let res2 = twoSum2(nums2, 6);
 console.log(res2);
+
+
+var findClosestElements = function(arr, k, x) {
+    let l=0;
+    let r=arr.length-k;
+    while(l<r){
+        let m=l+Math.floor((r-l)/2);
+        if(arr[m+k]-x<x-arr[m]){
+            l=m+1;
+        }
+        else{
+            r=m;
+        }
+    }
+    return arr.slice(l,l+k);
+};

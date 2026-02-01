@@ -16,23 +16,18 @@ let res1 = findMin1(arr1);
 console.log(res1);
 
 // Optimized Solution (TC:O(logn), SC:O(1))
-var findMin2 = function (arr) {
+var findMin2 = function (nums) {
   let l = 0;
-  let r = arr.length - 1;
-  while (l <= r) {
-    if (arr[l] <= arr[r]) {
-      return arr[l];
-    }
+  let r = nums.length - 1;
+  while (l < r) {
     let m = l + Math.floor((r - l) / 2);
-    if (arr[m] < arr[m - 1]) {
-      return arr[m];
-    }
-    if (arr[l] <= arr[m]) {
+    if (nums[m] > nums[r]) {
       l = m + 1;
     } else {
-      r = m - 1;
+      r = m;
     }
   }
+  return nums[l];
 };
 
 let arr2 = [4, 5, 6, 7, 0, 1, 2];

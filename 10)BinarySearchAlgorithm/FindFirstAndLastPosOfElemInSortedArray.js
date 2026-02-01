@@ -18,8 +18,8 @@ var searchRange1 = function (arr, target) {
   return ans;
 };
 
-let arr1 = [1, 2, 3, 3, 3, 3, 4, 4, 5];
-let res1 = searchRange1(arr1, 4);
+let arr1 = [5, 7, 7, 8, 8, 10];
+let res1 = searchRange1(arr1, 8);
 console.log(res1);
 
 // Optimized Solution (TC:O(logn), SC:O(1))

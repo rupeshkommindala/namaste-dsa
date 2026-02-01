@@ -32,6 +32,6 @@ var searchRange = function (arr, target) {
   return ans;
 };
 
-let arr = [1, 2, 3, 3, 3, 3, 4, 4, 5];
-let res = searchRange(arr, 4);
+let arr = [5, 7, 7, 8, 8, 10];
+let res = searchRange(arr, 8);
 console.log(res);

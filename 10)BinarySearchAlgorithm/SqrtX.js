@@ -2,13 +2,24 @@
 
 let x = 100;
 
-// Way-01 (Not Recommended)
+// (Way-01) (Not Recommended)
 console.log(Math.floor(Math.pow(x, 0.5)));
 
-// Way-02 (Not Recommended)
+// (Way-02) (Not Recommended)
 console.log(Math.trunc(x ** 0.5));
 
-// Way-03 (TC:O(logn), SC:O(1)) (Recommended)
+// (Way-03) (Brute Force Solution) (TC:O(sqrt(x)), SC:O(1))
+var mySqrtBrute = function (x) {
+  let ans = 0;
+  for (let i = 0; i * i <= x; i++) {
+    ans = i;
+  }
+  return ans;
+};
+
+console.log(mySqrtBrute(10));
+
+// (Way-04) (TC:O(logn), SC:O(1)) (Recommended)
 var mySqrt = function (x) {
   if (x < 2) {
     return x;
@@ -31,14 +42,3 @@ var mySqrt = function (x) {
 let n = 40;
 let res = mySqrt(n);
 console.log(res);
-
-// Way-04 (TC:O(sqrt(x)), SC:O(1))
-var mySqrt2 = function (x) {
-  let ans = 0;
-  for (let i = 0; i * i <= x; i++) {
-    ans = i;
-  }
-  return ans;
-};
-
-console.log(mySqrt2(40));

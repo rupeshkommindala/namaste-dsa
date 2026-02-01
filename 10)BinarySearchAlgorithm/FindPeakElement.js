@@ -2,8 +2,8 @@
 
 // Brute Force Solution (TC:O(n), SC:O(1))
 var findPeakElement1 = function (arr) {
-  let maximum = -Infinity;
-  let index = -Infinity;
+  let maximum=-Infinity;
+  let index;
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] > maximum) {
       maximum = arr[i];
