@@ -15,7 +15,9 @@
 # DSA is Language Agnostic
 # We can do DSA in any language
 # DSA does not care in which language you solve the problem
-# DSA is tricky, DSA is tough a little, DSA is very very long journey
+# DSA is tricky
+# DSA is tough a little
+# DSA is very very long journey
 # Once you know DSA you will have Immense Confidence
 # When you solve DSA problems it will give you lot of happiness
 # Interviewers don't care in which language you solve the problem
