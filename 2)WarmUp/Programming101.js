@@ -35,12 +35,11 @@ console.log(names);
 let obj = {
   name: "Rupesh",
   age: 27,
-  city: "Bengaluru",
+  city: "Noida",
   arr: [1, 2, 3, 4, 5],
   bool: true,
 };
 
-console.log(obj);
 console.log(obj.name);
 console.log(obj.age);
 console.log(obj.city);
