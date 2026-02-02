@@ -12,8 +12,8 @@ function searchElement(arr, x) {
   return -1;
 }
 
-let arr = [1, 4, 7, 10, 15, 19, 23, 35];
-let result = searchElement(arr, 10);
+let arr = [5, 6, 2, 0, 1];
+let result = searchElement(arr, 0);
 console.log(result);
 
 // Write a function that returns the count of negative numbers in an Array
