@@ -1,5 +1,5 @@
 # Time and Space Complexity
-# The algorithm which has low Time Complexity, that means it has better Speed
+# The algorithm which has low Time Complexity, that means it has better speed
 # Low Time Complexity => Better Speed 
 # Binary Search >>>> Linear Search
 # Big O is just a way to represent the worst case Time Complexity of an Algorithm
