@@ -1,6 +1,6 @@
 // Loop
 for (let i = 0; i < 5; i++) {
-  console.log("Namaste !");
+  console.log("Hello World");
 }
 
 // Loop inside Loop
