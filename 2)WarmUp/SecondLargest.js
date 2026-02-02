@@ -17,9 +17,12 @@ function secondLargestNumber(arr) {
       secondLargest = arr[i];
     }
   }
+  if (secondLargest === -Infinity) {
+    return "No Second largest Element";
+  }
   return secondLargest;
 }
 
-let arr = [5, 6, 2, 0, 1, 3];
+let arr = [10, 10, 10];
 let res = secondLargestNumber(arr);
 console.log(res);
