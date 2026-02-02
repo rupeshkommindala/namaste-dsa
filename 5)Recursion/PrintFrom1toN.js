@@ -1,13 +1,13 @@
 // Print from 1 to N using Recursion
 
-let n = 10;
-var printFrom1toN = function (x) {
+let n = 5;
+function printFrom1toN(x) {
   if (x > n) {
     return;
   }
   console.log(x);
-  x = x + 1;
+  x++;
   printFrom1toN(x);
-};
+}
 
 printFrom1toN(1);
