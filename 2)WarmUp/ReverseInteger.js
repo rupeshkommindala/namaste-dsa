@@ -1,5 +1,6 @@
 // Reverse Integer (LC:7)
 
+// (TC:O(d) where d = number of digits, SC:O(1))
 var reverse = function (x) {
   let xCopy = x;
   x = Math.abs(x);
