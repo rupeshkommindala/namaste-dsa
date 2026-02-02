@@ -1,5 +1,6 @@
 // Sum of all elements in an Array using Recursion
 
+// (TC:O(n), SC:O(n) Recursion stack)
 var sum = function (n) {
   if (n === 0) {
     return arr[n];
@@ -7,6 +8,6 @@ var sum = function (n) {
   return arr[n] + sum(n - 1);
 };
 
-let arr = [5, 6, 2, 1, 1];
+let arr = [5, 6, 2, 0, 1];
 let res = sum(arr.length - 1);
 console.log(res);
