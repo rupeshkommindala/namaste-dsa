@@ -5,8 +5,8 @@ var printFromNto1 = function (num) {
     return;
   }
   console.log(num);
-  num = num - 1;
+  num--;
   printFromNto1(num);
 };
 
-printFromNto1(10);
+printFromNto1(5);
