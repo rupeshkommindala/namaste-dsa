@@ -1,5 +1,6 @@
 // Palindrome Number (LC:9)
 
+// (TC:O(d) where d = number of digits, SC:O(1))
 var isPalindrome = function (x) {
   if (x < 0) {
     return false;
@@ -14,6 +15,6 @@ var isPalindrome = function (x) {
   return rev === xCopy;
 };
 
-let num = 141;
+let num = 121;
 let res = isPalindrome(num);
 console.log(res);
