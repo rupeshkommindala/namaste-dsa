@@ -32,6 +32,6 @@ var findPeakElement2 = function (arr) {
   return r; // return l also works
 };
 
-let arr2 = [1, 2, 3, 1];
+let arr2 = [1, 2, 1, 3, 5, 6, 4];
 let res2 = findPeakElement2(arr2);
 console.log(res2);
