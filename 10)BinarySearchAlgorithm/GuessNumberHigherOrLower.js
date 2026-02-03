@@ -1,6 +1,6 @@
 // Guess Number Higher or Lower (LC:374)
 
-// Brute Force Solution (TC:O(n), SC:O(1)) (TLE)
+// Brute Force Solution (TC:O(n), SC:O(1)) (Time Limit Exceeded)
 var guessNumber = function (n) {
   for (let i = 1; i <= n; i++) {
     if (guess(i) === 0) {
