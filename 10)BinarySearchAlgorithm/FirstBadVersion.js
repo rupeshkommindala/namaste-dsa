@@ -53,6 +53,6 @@ var solution = function (isBadVersion) {
         l = m + 1;
       }
     }
-    return r; // return l also works
+    return l; // return r also works
   };
 };
