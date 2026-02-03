@@ -11,7 +11,7 @@ var findMin1 = function (arr) {
   return minimum;
 };
 
-let arr1 = [11, 13, 15, 17];
+let arr1 = [3, 4, 5, 1, 2];
 let res1 = findMin1(arr1);
 console.log(res1);
 
