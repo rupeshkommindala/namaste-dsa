@@ -18,7 +18,7 @@ var searchRange1 = function (arr, target) {
   return ans;
 };
 
-let arr1 = [5, 7, 7, 8, 8, 10];
+let arr1 = [5, 7, 7, 8, 8, 8, 10];
 let res1 = searchRange1(arr1, 8);
 console.log(res1);
 
