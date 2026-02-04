@@ -65,7 +65,7 @@ let res2 = moveZeroes2(nums2);
 console.log(res2);
 
 // (Way-03) Optimized Solution (One Loop) (TC:O(n), SC:O(1))
-var moveZeroes = function (nums) {
+var moveZeroes3 = function (nums) {
   let x = 0;
   for (let i = 0; i < nums.length; i++) {
     if (nums[i] !== 0) {
@@ -73,4 +73,9 @@ var moveZeroes = function (nums) {
       x++;
     }
   }
+  return nums;
 };
+
+let nums3 = [0, 1, 0, 3, 12, 14];
+let res3 = moveZeroes3(nums3);
+console.log(res3);
