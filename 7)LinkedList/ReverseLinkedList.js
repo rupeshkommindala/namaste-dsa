@@ -1,6 +1,7 @@
 // Reverse Linked List (LC:206)
 
-function reverseLinkedList(head) {
+// Optimized Solution (TC:O(n), SC:O(1))
+var reverseList = function (head) {
   let prev = null;
   let curr = head;
   while (curr) {
@@ -9,6 +10,5 @@ function reverseLinkedList(head) {
     prev = curr;
     curr = temp;
   }
-  head = prev;
-  return head;
-}
+  return prev;
+};
