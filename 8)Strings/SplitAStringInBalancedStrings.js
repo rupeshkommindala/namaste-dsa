@@ -8,7 +8,7 @@ var balancedStringSplit = function (s) {
   for (let i = 0; i < s.length; i++) {
     if (s[i] === "L") {
       L++;
-    } else if (s[i] === "R") {
+    } else {
       R++;
     }
     if (L === R) {
@@ -24,14 +24,14 @@ let s = "RLRRLLRLRL";
 let res1 = balancedStringSplit(s);
 console.log(res1);
 
-// (Way-02) (TC:O(n), SC:O(1))
+// (Way-02) (Interview-friendly) (TC:O(n), SC:O(1))
 var balancedStringSplit2 = function (s) {
   let count = 0;
   let temp = 0;
   for (let i = 0; i < s.length; i++) {
     if (s[i] === "L") {
       temp++;
-    } else if (s[i] === "R") {
+    } else {
       temp--;
     }
     if (temp === 0) {
