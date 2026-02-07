@@ -3,7 +3,7 @@
   if the element is not present then just return -1 using Linear Search.
 */
 
-// Optimized Solution (TC:O(n), SC:O(1))
+// (Best possible approach) (TC:O(n), SC:O(1))
 var linearSearch = function (arr, target) {
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] === target) {
@@ -14,5 +14,5 @@ var linearSearch = function (arr, target) {
 };
 
 let arr = [5, 6, 2, 0, 1];
-let res = linearSearch(arr, 2);
+let res = linearSearch(arr, 6);
 console.log(res);
