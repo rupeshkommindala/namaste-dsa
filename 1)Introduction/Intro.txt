@@ -19,7 +19,7 @@
 # DSA is tough a little
 # DSA is very very long journey
 # Once you know DSA you will have Immense Confidence
-# When you solve DSA problems it will give you lot of happiness
+# When you solve DSA problems it gives you a lot of happiness
 # Interviewers don't care in which language you solve the problem
 # Interviewers care about
 #   => How you are approaching the problem 
