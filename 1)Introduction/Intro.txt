@@ -11,6 +11,7 @@
 # We will use JavaScript in this course
 # But why JavaScript=> JS is very very easy language 
 # JavaScript is the most popular language in the world and it is widely used
+# Just go to any company and ask them they would be using JavaScript on Production
 # DSA is all about Approach, Solution, Time Complexity & Space Complexity 
 # DSA is Language Agnostic
 # We can do DSA in any language
@@ -26,4 +27,4 @@
 #   => Can you develop the solution?
 #   => Can you optimise the solution?
 #   => Can you tell the Time and Space Complexity of it?
-#   => And then write the pseudocode
+#   => And then may be write the pseudocode
