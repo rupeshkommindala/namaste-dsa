@@ -14,13 +14,9 @@ var reverse = function (x) {
   if (rev < -limit || rev > limit - 1) {
     return 0;
   }
-  if (xCopy < 0) {
-    return -rev;
-  } else {
-    return rev;
-  }
+  return xCopy < 0 ? -rev : rev;
 };
 
-let num = -421;
+let num = -123;
 let res = reverse(num);
 console.log(res);

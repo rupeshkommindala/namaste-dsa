@@ -13,7 +13,7 @@ function greet(name) {
 let x = "Virat Kohli";
 greet(x);
 greet("Anushka Sharma");
-greet("Rupesh");
+greet("Rupesh Kommindala");
 greet("Priyanka Chopra");
 
 // Sum of Two Numbers

@@ -52,7 +52,7 @@ for (let i = 0; i < arr.length; i++) {
   }
 }
 
-// Print all the Odd numbers in an Array
+// Print all the Odd numbers in the Array
 let nums = [5, 6, 2, 0, 1];
 for (let i = 0; i < nums.length; i++) {
   if (nums[i] % 2 === 1) {

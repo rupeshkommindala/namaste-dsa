@@ -13,7 +13,7 @@ function searchElement(arr, x) {
 }
 
 let arr = [5, 6, 2, 0, 1];
-let result = searchElement(arr, 0);
+let result = searchElement(arr, 2);
 console.log(result);
 
 // Write a function that returns the count of negative numbers in an Array
