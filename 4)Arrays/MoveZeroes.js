@@ -76,6 +76,6 @@ var moveZeroes3 = function (nums) {
   return nums;
 };
 
-let nums3 = [0, 1, 0, 3, 12, 14];
+let nums3 = [0, 1, 0, 3, 12, 14, 15];
 let res3 = moveZeroes3(nums3);
 console.log(res3);
