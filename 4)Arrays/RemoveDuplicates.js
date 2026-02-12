@@ -12,7 +12,7 @@ var removeDuplicates = function (nums) {
   return x + 1;
 };
 
-let arr = [1, 1, 2];
+let arr = [1, 1, 2, 3, 4];
 let res = removeDuplicates(arr);
 console.log(res);
 console.log(arr);
