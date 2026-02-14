@@ -19,21 +19,4 @@ let nums1 = [1, 1, 0, 1, 1, 1];
 let res1 = findMaxConsecutiveOnes1(nums1);
 console.log(res1);
 
-// (Way-02) Optimized Solution (TC:O(n), SC:O(1))
-var findMaxConsecutiveOnes2 = function (nums) {
-  let currCount = 0;
-  let maxCount = 0;
-  for (let i = 0; i < nums.length; i++) {
-    if (nums[i] === 1) {
-      currCount++;
-      maxCount = Math.max(currCount, maxCount);
-    } else {
-      currCount = 0;
-    }
-  }
-  return maxCount;
-};
 
-let nums2 = [1, 0, 1, 1, 0, 1];
-let res2 = findMaxConsecutiveOnes1(nums2);
-console.log(res2);
