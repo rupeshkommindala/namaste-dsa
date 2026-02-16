@@ -1,10 +1,5 @@
 // Find the Index of the First Occurence in a String (LC:28)
 
-// (Don't use built in methods) (Not Recommended)
-var strStr = function (haystack, needle) {
-  return haystack.indexOf(needle);
-};
-
 // Brute Force Solution (TC:O(m*n), SC:O(1)
 var strStr = function (haystack, needle) {
   let n = haystack.length;
