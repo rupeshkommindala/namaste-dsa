@@ -14,17 +14,6 @@ var MyLinkedList = function () {
  * @param {number} val
  * @return {void}
  */
-MyLinkedList.prototype.addAtHead = function (val) {
-  let newNode = new Node(val);
-  newNode.next = this.head;
-  this.head = newNode;
-  this.size++;
-};
-
-/**
- * @param {number} val
- * @return {void}
- */
 MyLinkedList.prototype.addAtTail = function (val) {
   let newNode = new Node(val);
   if (this.head === null) {
