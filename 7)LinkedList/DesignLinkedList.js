@@ -9,27 +9,3 @@ var MyLinkedList = function () {
   this.head = null;
   this.size = 0;
 };
-
-/**
- * @param {number} val
- * @return {void}
- */
-MyLinkedList.prototype.addAtTail = function (val) {
-  let newNode = new Node(val);
-  if (this.head === null) {
-    this.head = newNode;
-  } else {
-    let curr = this.head;
-    while (curr.next !== null) {
-      curr = curr.next;
-    }
-    curr.next = newNode;
-  }
-  this.size++;
-};
-
-/**
- * @param {number} index
- * @param {number} val
- * @return {void}
- */
