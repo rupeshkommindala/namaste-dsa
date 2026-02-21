@@ -10,9 +10,13 @@
 # Habit, Cult, Lifestyle
 # We will use JavaScript in this course
 # But why JavaScript=> JS is very very easy language 
-# JavaScript is the most popular language in the world and it is widely used
-# Just go to any company and ask them they would be using JavaScript on Production
+# JavaScript is the most popular programming language in the world and it is widely used
+# Just go to any company and ask them they would be using JavaScript on production
 # DSA is all about Approach, Solution, Time Complexity & Space Complexity 
+# Don't try to take shortcut
+# Never chase Interviews 
+# We will chase understanding DSA
+# Understand DSA it takes time
 # DSA is Language Agnostic
 # We can do DSA in any language
 # DSA does not care in which language you solve the problem
