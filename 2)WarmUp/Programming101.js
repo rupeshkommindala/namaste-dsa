@@ -13,7 +13,7 @@ console.log(divide);
 
 // Strings
 let firstName = "Rupesh";
-let lastName = "K";
+let lastName = "Kommindala";
 let fullName = firstName + " " + lastName;
 
 console.log(fullName);
