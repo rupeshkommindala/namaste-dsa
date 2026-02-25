@@ -14,6 +14,8 @@
 # Just go to any company and ask them they would be using JavaScript on production
 # DSA is all about Approach, Solution, Time Complexity & Space Complexity 
 # Don't try to take shortcut
+# If you take shortcut, you fail
+# Data Structures will be a piece of cake for you and you will never fail in an interview
 # Never chase Interviews 
 # We will chase understanding DSA
 # Understand DSA it takes time
