@@ -1,6 +1,6 @@
 // Print Hello World
 function printHelloWorld() {
-  console.log("Hello World");
+  console.log("Hello World!!");
 }
 
 printHelloWorld();
@@ -13,7 +13,7 @@ function greet(name) {
 let x = "Virat Kohli";
 greet(x);
 greet("Anushka Sharma");
-greet("Rupesh Kommindala");
+greet("Rupesh K");
 greet("Priyanka Chopra");
 
 // Sum of Two Numbers
@@ -25,7 +25,7 @@ function sum(a, b) {
 let y = 100;
 let z = 200;
 sum(y, z);
-sum(10, 20);
+sum(10, 7);
 
 // Multiplication of Two Numbers
 function multiply(a, b) {
@@ -41,10 +41,10 @@ function square(x) {
   return result;
 }
 
-let value = square(10);
+let value = square(-3);
 console.log(value);
 
-// Create a function whether a person is eligible to Vote or Not
+// Create a function to check whether a person is eligible to Vote or Not
 function isEligibleToVote(age) {
   if (age < 0) {
     console.log("Invalid Input");
@@ -59,7 +59,7 @@ isEligibleToVote(-10);
 isEligibleToVote(14);
 isEligibleToVote(20);
 
-// Create a function whether a given number is Even or Odd
+// Create a function to check whether a given number is Even or Odd
 function isEvenOrOdd(num) {
   let rem = num % 2;
   if (rem === 0) {

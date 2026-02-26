@@ -13,7 +13,7 @@ function secondLargestNumber(arr) {
     if (arr[i] > firstLargest) {
       secondLargest = firstLargest;
       firstLargest = arr[i];
-    } else if (arr[i] > secondLargest && arr[i] != firstLargest) {
+    } else if (arr[i] > secondLargest && arr[i] !== firstLargest) {
       secondLargest = arr[i];
     }
   }
@@ -23,6 +23,6 @@ function secondLargestNumber(arr) {
   return secondLargest;
 }
 
-let arr = [10, 20, 20];
+let arr = [5, 10, 10];
 let res = secondLargestNumber(arr);
 console.log(res);
