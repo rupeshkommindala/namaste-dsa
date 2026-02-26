@@ -1,7 +1,7 @@
 // Merge Sorted Array (LC:88)
 
 // Optimized Solution (TC:O(m+n), SC:O(1))
-var merge1 = function (nums1, m, nums2, n) {
+var merge = function (nums1, m, nums2, n) {
   let p1 = m - 1;
   let p2 = n - 1;
   for (let i = m + n - 1; i >= 0; i--) {
@@ -23,7 +23,7 @@ let nums1 = [1, 2, 3, 0, 0, 0];
 let m = 3;
 let nums2 = [2, 5, 6];
 let n = 3;
-let res1 = merge1(nums1, m, nums2, n);
+let res1 = merge(nums1, m, nums2, n);
 console.log(res1);
 
 // Better Approach (TC:O(m+n), SC:O(m))

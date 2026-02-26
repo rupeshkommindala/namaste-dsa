@@ -31,4 +31,4 @@ var removeElement2 = function (nums, val) {
   return x;
 };
 
-console.log(removeElement2([3, 2, 2, 3], 3));
+console.log(removeElement2([0, 1, 2, 2, 3, 0, 4, 2], 2));

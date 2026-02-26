@@ -20,7 +20,7 @@ var moveZeroes = function (nums) {
   return nums;
 };
 
-let nums = [0, 1, 0, 3, 12, 14];
+let nums = [0, 1, 0, 3, 12];
 let res = moveZeroes(nums);
 console.log(res);
 
@@ -39,7 +39,7 @@ var moveZeroes1 = function (nums) {
   return nums;
 };
 
-let nums1 = [0, 1, 0, 3, 12, 14];
+let nums1 = [0, 1, 0, 3, 12];
 let res1 = moveZeroes1(nums1);
 console.log(res1);
 
@@ -60,7 +60,7 @@ var moveZeroes2 = function (nums) {
   return nums;
 };
 
-let nums2 = [0, 1, 0, 3, 12, 14];
+let nums2 = [0, 1, 0, 3, 12];
 let res2 = moveZeroes2(nums2);
 console.log(res2);
 
@@ -76,6 +76,6 @@ var moveZeroes3 = function (nums) {
   return nums;
 };
 
-let nums3 = [0, 1, 0, 3, 12, 14, 15];
+let nums3 = [0, 1, 0, 3, 12];
 let res3 = moveZeroes3(nums3);
 console.log(res3);

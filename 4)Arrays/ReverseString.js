@@ -3,8 +3,7 @@
 // (TC:O(n), SC:O(1))
 var reverseString = function (s) {
   let n = s.length;
-  let halfLen = Math.floor(n / 2);
-  for (let i = 0; i < halfLen; i++) {
+  for (let i = 0; i < Math.floor(n / 2); i++) {
     let temp = s[i];
     s[i] = s[n - i - 1];
     s[n - i - 1] = temp;
@@ -12,6 +11,6 @@ var reverseString = function (s) {
   return s;
 };
 
-let s = ["H", "a", "n", "n", "a", "h"];
+let s = ["h", "e", "l", "l", "o"];
 let res = reverseString(s);
 console.log(res);
