@@ -1,12 +1,13 @@
 // Print from N to 1 using Recursion
 
-var printFromNto1 = function (num) {
-  if (num === 0) {
+// (TC:O(n), SC:O(n) Recursion stack)
+var printFromNto1 = function (n) {
+  if (n === 0) {
     return;
   }
-  console.log(num);
-  num--;
-  printFromNto1(num);
+  console.log(n);
+  n--;
+  printFromNto1(n);
 };
 
 printFromNto1(5);
