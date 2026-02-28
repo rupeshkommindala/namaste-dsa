@@ -6,9 +6,12 @@ let x = 100;
 console.log(Math.floor(Math.pow(x, 0.5)));
 
 // (Way-02) (Not Recommended)
+console.log(Math.trunc(Math.pow(x, 0.5)));
+
+// (Way-03) (Not Recommended)
 console.log(Math.trunc(x ** 0.5));
 
-// (Way-03) (Brute Force Solution) (TC:O(sqrt(x)), SC:O(1))
+// (Way-04) (Brute Force Solution) (TC:O(sqrt(x)), SC:O(1))
 var mySqrtBrute = function (x) {
   let ans = 0;
   for (let i = 0; i * i <= x; i++) {
@@ -39,6 +42,6 @@ var mySqrt = function (x) {
   return r;
 };
 
-let n = 40;
+let n = 30;
 let res = mySqrt(n);
 console.log(res);
