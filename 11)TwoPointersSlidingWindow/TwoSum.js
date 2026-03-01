@@ -11,8 +11,8 @@ var twoSum1 = function (arr, target) {
   }
 };
 
-let nums1 = [1, 3, 4, 2];
-let res1 = twoSum1(nums1, 6);
+let nums1 = [2, 7, 11, 15];
+let res1 = twoSum1(nums1, 9);
 console.log(res1);
 
 // Optimized Solution (TC:O(n), SC:O(n))
@@ -29,6 +29,6 @@ var twoSum2 = function (arr, target) {
   }
 };
 
-let nums2 = [3, 2, 4];
-let res2 = twoSum2(nums2, 6);
+let nums2 = [2, 7, 11, 15];
+let res2 = twoSum2(nums2, 9);
 console.log(res2);
