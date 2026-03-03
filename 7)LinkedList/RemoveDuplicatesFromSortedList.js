@@ -1,6 +1,7 @@
 // Remove Duplicates from Sorted List (LC:83)
 
-function deleteDuplicates(head) {
+// Optimized Solution (TC:O(n), SC:O(1))
+var deleteDuplicates = function (head) {
   let curr = head;
   while (curr && curr.next) {
     if (curr.val === curr.next.val) {
@@ -10,4 +11,4 @@ function deleteDuplicates(head) {
     }
   }
   return head;
-}
+};

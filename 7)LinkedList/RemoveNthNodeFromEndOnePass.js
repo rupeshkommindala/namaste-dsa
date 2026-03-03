@@ -1,6 +1,7 @@
 // Remove Nth Node From End of List (LC:19)
 
-function removeNthFromEnd(head, n) {
+// Optimized Solution (TC:O(n), SC:O(1))
+var removeNthFromEnd = function (head, n) {
   let sentinel = new ListNode();
   sentinel.next = head;
   let first = sentinel;
@@ -14,4 +15,4 @@ function removeNthFromEnd(head, n) {
   }
   second.next = second.next.next;
   return sentinel.next;
-}
+};

@@ -1,10 +1,11 @@
 // Remove Linked List Elements (LC:203)
 
-function removeElements(head, val) {
+// Optimized Solution (TC:O(n), SC:O(1))
+var removeElements = function (head, val) {
   let sentinel = new ListNode();
   sentinel.next = head;
   let prev = sentinel;
-  while (prev && prev.next) {
+  while (prev.next) {
     if (prev.next.val === val) {
       prev.next = prev.next.next;
     } else {
@@ -12,4 +13,4 @@ function removeElements(head, val) {
     }
   }
   return sentinel.next;
-}
+};

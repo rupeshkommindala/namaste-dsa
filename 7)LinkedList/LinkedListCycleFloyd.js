@@ -1,7 +1,10 @@
 // Linked List Cycle (LC:141)
 
-function hasCycle(head) {
-  if (head === null) return false;
+// Optimized Solution (TC:O(n), SC:O(1))
+var hasCycle = function (head) {
+  if (head === null) {
+    return false;
+  }
   let slow = head;
   let fast = head.next;
   while (slow != fast) {
@@ -12,4 +15,4 @@ function hasCycle(head) {
     fast = fast.next.next;
   }
   return true;
-}
+};

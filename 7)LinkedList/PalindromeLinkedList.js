@@ -1,13 +1,15 @@
 // Palindrome Linked List (LC:234)
 
-function isPalindrome(head) {
-  // Find the middle element of the Linked List
-  let slow = (fast = head);
+// Optimized Solution (TC:O(n), SC:O(1))
+var isPalindrome = function (head) {
+  // Find the Middle Element of LinkedList
+  let slow = head;
+  let fast = head;
   while (fast && fast.next) {
     slow = slow.next;
     fast = fast.next.next;
   }
-  // Reverse the second half of the Linked List
+  // Reverse the second half of LinkedList
   let prev = null;
   let curr = slow;
   while (curr) {
@@ -16,7 +18,7 @@ function isPalindrome(head) {
     prev = curr;
     curr = temp;
   }
-  // Checking for Palindrome
+  // Check for Palindrome
   let firstList = head;
   let secondList = prev;
   while (secondList) {
@@ -27,4 +29,4 @@ function isPalindrome(head) {
     secondList = secondList.next;
   }
   return true;
-}
+};
