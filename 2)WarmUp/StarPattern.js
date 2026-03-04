@@ -128,7 +128,7 @@ _ * * * *
 let d = 5;
 for (let i = 0; i < d; i++) {
   let row = "";
-  for (let j = 0; j < d - i - 1; j++) {
+  for (let j = 0; j < d - (i + 1); j++) {
     row = row + "-";
   }
   for (let k = 0; k < i + 1; k++) {
