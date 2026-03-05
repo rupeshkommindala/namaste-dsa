@@ -1,4 +1,4 @@
-# Time and Space Complexity
+# Time Complexity and Space Complexity
 # The algorithm which has low Time Complexity, that means it has better speed
 # Time Complexity is not equal to Time taken by the Algorithm
 # Time Complexity is the best way to measure the efficiency of an Algorithm
