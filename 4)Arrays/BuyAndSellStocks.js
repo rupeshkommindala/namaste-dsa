@@ -12,7 +12,7 @@ var maxProfit = function (prices) {
   }
   return maximumProfit;
 };
-let prices = [7, 1, 5, 3, 6, 4];
+let prices = [7, 1, 5, 3, 6, 4, 10];
 let res = maxProfit(prices);
 console.log(res);
 
@@ -31,6 +31,6 @@ var maxProfit2 = function (prices) {
   return maximumProfit;
 };
 
-let prices2 = [7, 1, 5, 3, 6, 4];
+let prices2 = [7, 1, 5, 3, 6, 4, 10];
 let res2 = maxProfit2(prices2);
 console.log(res2);

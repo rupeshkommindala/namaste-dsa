@@ -2,14 +2,14 @@
 
 // Optimized Solution (TC:O(n), SC:O(1))
 var singleNumber1 = function (nums) {
-  let ans = 0;
+  let xor = 0;
   for (let i = 0; i < nums.length; i++) {
-    ans = ans ^ nums[i];
+    xor = xor ^ nums[i];
   }
-  return ans;
+  return xor;
 };
 
-let nums1 = [4, 1, 2, 1, 2];
+let nums1 = [2, 2, 1];
 let res1 = singleNumber1(nums1);
 console.log(res1);
 
@@ -30,6 +30,6 @@ var singleNumber2 = function (nums) {
   }
 };
 
-let nums2 = [4, 1, 2, 1, 2];
+let nums2 = [2, 2, 1];
 let res2 = singleNumber2(nums2);
 console.log(res2);

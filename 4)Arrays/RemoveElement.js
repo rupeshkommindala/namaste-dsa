@@ -12,8 +12,8 @@ var removeElement = function (nums, val) {
   return x;
 };
 
-let nums = [0, 1, 2, 2, 3, 0, 4, 2];
-let val = 2;
+let nums = [3, 2, 2, 3];
+let val = 3;
 let res = removeElement(nums, val);
 console.log(res);
 
@@ -31,4 +31,4 @@ var removeElement2 = function (nums, val) {
   return x;
 };
 
-console.log(removeElement2([0, 1, 2, 2, 3, 0, 4, 2], 2));
+console.log(removeElement2([3, 2, 2, 3], 3));
