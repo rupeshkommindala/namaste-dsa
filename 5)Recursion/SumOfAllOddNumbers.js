@@ -9,7 +9,7 @@ var sum = function (n) {
   return (isOdd ? arr[n] : 0) + sum(n - 1);
 };
 
-let arr = [10, 7, 3, 0, 5];
+let arr = [5, 6, 2, 0, 1];
 let res = sum(arr.length - 1);
 console.log(res);
 
