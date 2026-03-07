@@ -14,8 +14,10 @@ console.log(Math.trunc(x ** 0.5));
 // (Way-04) (Brute Force Solution) (TC:O(sqrt(x)), SC:O(1))
 var mySqrtBrute = function (x) {
   let ans = 0;
-  for (let i = 0; i * i <= x; i++) {
+  let i = 0;
+  while (i * i <= x) {
     ans = i;
+    i++;
   }
   return ans;
 };

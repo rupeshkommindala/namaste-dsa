@@ -22,8 +22,7 @@ var search2 = function (arr, target) {
     let m = l + Math.floor((r - l) / 2);
     if (arr[m] === target) {
       return m;
-    }
-    if (arr[l] <= arr[m]) {
+    } else if (arr[l] <= arr[m]) {
       if (target >= arr[l] && target < arr[m]) {
         r = m - 1;
       } else {
@@ -41,5 +40,5 @@ var search2 = function (arr, target) {
 };
 
 let arr2 = [4, 5, 6, 7, 0, 1, 2];
-let res2 = search2(arr2, 3);
+let res2 = search2(arr2, 0);
 console.log(res2);
