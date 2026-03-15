@@ -1,13 +1,13 @@
-var MyStack = function() {
+var MyStack = function () {
   this.q1 = [];
   this.q2 = [];
 };
 
-MyStack.prototype.push = function(x) {
+MyStack.prototype.push = function (x) {
   this.q1.push(x);
 };
 
-MyStack.prototype.pop = function() {
+MyStack.prototype.pop = function () {
   let n = this.q1.length;
   for (let i = 0; i < n - 1; i++) {
     this.q2.push(this.q1.shift());
@@ -19,7 +19,7 @@ MyStack.prototype.pop = function() {
   return ans;
 };
 
-MyStack.prototype.top = function() {
+MyStack.prototype.top = function () {
   let n = this.q1.length;
   for (let i = 0; i < n - 1; i++) {
     this.q2.push(this.q1.shift());
@@ -32,6 +32,6 @@ MyStack.prototype.top = function() {
   return front;
 };
 
-MyStack.prototype.empty = function() {
+MyStack.prototype.empty = function () {
   return this.q1.length === 0;
 };
