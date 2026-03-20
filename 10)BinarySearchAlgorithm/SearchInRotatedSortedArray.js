@@ -1,9 +1,9 @@
 // Search in Rotated Sorted Array (LC:33)
 
 // Brute Force Solution (TC:O(n), SC:O(1))
-var search1 = function (nums, target) {
-  for (let i = 0; i < nums.length; i++) {
-    if (nums[i] === target) {
+var search1 = function (arr, target) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === target) {
       return i;
     }
   }
