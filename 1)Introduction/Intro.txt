@@ -19,6 +19,7 @@
 # Never chase Interviews 
 # We will chase understanding DSA
 # Understand DSA it takes time
+# Understanding one problem at a time
 # DSA is Language Agnostic
 # We can do DSA in any language
 # DSA does not care in which language you solve the problem
@@ -26,7 +27,7 @@
 # DSA is tough a little
 # DSA is very very long journey
 # Once you know DSA you will have Immense Confidence
-# DSA is all about giving it time, You have to be focus and study
+# DSA is all about giving it time, Can you focus and study?
 # When you solve DSA problems it gives you a lot of happiness
 # Interviewers don't care in which language you solve the problem
 # Interviewers care about
