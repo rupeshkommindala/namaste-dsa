@@ -13,7 +13,7 @@ console.log(divide);
 
 // Strings
 let firstName = "Rupesh";
-let lastName = "Kommindala";
+let lastName = "K";
 let fullName = firstName + " " + lastName;
 
 console.log(fullName);
@@ -27,7 +27,7 @@ let sum2 = arr[0] + arr[4];
 console.log(sum2);
 
 // Arrays
-let names = ["Virat Kohli", "Rupesh", "Priyanka Chopra", "Anushka Sharma"];
+let names = ["Virat Kohli", "Rupesh K", "Priyanka Chopra", "Anushka Sharma"];
 console.log(names[1]);
 console.log(names);
 
@@ -35,7 +35,7 @@ console.log(names);
 let obj = {
   name: "Rupesh",
   age: 27,
-  city: "Noida",
+  city: "Chennai",
   arr: [1, 2, 3, 4, 5],
   bool: true,
 };

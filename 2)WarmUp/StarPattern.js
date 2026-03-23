@@ -26,7 +26,7 @@ for (let i = 0; i < m; i++) {
 let f = 5;
 for (let i = 0; i < f; i++) {
   let row = "";
-  for (let j = 0; j <= i; j++) {
+  for (let j = 0; j < i + 1; j++) {
     row = row + "* ";
   }
   console.log(row);
