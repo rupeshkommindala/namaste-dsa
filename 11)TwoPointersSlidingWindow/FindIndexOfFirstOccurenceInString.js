@@ -19,6 +19,6 @@ var strStr = function (haystack, needle) {
 };
 
 let haystack = "sadbutsad";
-let needle = "sad";
+let needle = "but";
 let res = strStr(haystack, needle);
 console.log(res);

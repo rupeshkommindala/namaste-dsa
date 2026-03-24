@@ -13,7 +13,7 @@ var twoSum1 = function (nums, target) {
 };
 
 let nums1 = [2, 7, 11, 15];
-let res1 = twoSum1(nums1, 9);
+let res1 = twoSum1(nums1, 26);
 console.log(res1);
 
 // Optimized Solution (TC:O(n), SC:O(n))
@@ -31,5 +31,5 @@ var twoSum2 = function (nums, target) {
 };
 
 let nums2 = [2, 7, 11, 15];
-let res2 = twoSum2(nums2, 9);
+let res2 = twoSum2(nums2, 26);
 console.log(res2);

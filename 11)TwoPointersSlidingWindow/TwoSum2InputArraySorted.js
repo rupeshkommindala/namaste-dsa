@@ -17,6 +17,6 @@ var twoSum = function (arr, target) {
 };
 
 let nums = [2, 7, 11, 15];
-let target = 9;
+let target = 26;
 let res = twoSum(nums, target);
 console.log(res);

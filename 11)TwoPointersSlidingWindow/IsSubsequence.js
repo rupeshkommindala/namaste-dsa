@@ -13,7 +13,7 @@ var isSubsequence = function (s, t) {
   return i === s.length;
 };
 
-let s = "abc";
+let s = "abd";
 let t = "ahbgdc";
 let res = isSubsequence(s, t);
 console.log(res);
