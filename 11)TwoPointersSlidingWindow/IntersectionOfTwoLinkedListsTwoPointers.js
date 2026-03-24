@@ -1,6 +1,22 @@
 // Intersection of Two Linked Lists (LC:160)
 
-// 1st Way of Writing Code
+// Optimized Solution (TC:O(m+n), SC:O(n))
+var getIntersectionNode = function (headA, headB) {
+  let store = new Set();
+  while (headB) {
+    store.add(headB);
+    headB = headB.next;
+  }
+  while (headA) {
+    if (store.has(headA)) {
+      return headA;
+    }
+    headA = headA.next;
+  }
+  return null;
+};
+
+// Optimized Solution (TC:O(m+n), SC:O(1))
 var getIntersectionNode = function (headA, headB) {
   let n = 0;
   let pA = headA;
@@ -8,17 +24,15 @@ var getIntersectionNode = function (headA, headB) {
     n++;
     pA = pA.next;
   }
-
   let m = 0;
   let pB = headB;
   while (pB) {
     m++;
     pB = pB.next;
   }
-
   let diff = Math.abs(n - m);
   if (n > m) {
-    temp = headA;
+    let temp = headA;
     headA = headB;
     headB = temp;
   }
@@ -27,7 +41,7 @@ var getIntersectionNode = function (headA, headB) {
   }
   pA = headA;
   pB = headB;
-  while (pA != pB) {
+  while (pA !== pB) {
     pA = pA.next;
     pB = pB.next;
   }
