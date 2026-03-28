@@ -1,6 +1,6 @@
 // Intersection of Two Linked Lists (LC:160)
 
-// Optimized Solution (TC:O(m+n), SC:O(n))
+// Optimized Solution (TC:O(n+m), SC:O(n))
 var getIntersectionNode = function (headA, headB) {
   let store = new Set();
   while (headB) {
@@ -16,7 +16,7 @@ var getIntersectionNode = function (headA, headB) {
   return null;
 };
 
-// Optimized Solution (TC:O(m+n), SC:O(1))
+// Optimized Solution (TC:O(n+m), SC:O(1))
 var getIntersectionNode = function (headA, headB) {
   let n = 0;
   let pA = headA;
@@ -52,7 +52,7 @@ var getIntersectionNode = function (headA, headB) {
   return pA;
 };
 
-// Optimized Solution (TC:O(m+n), SC:O(1))
+// Optimized Solution (TC:O(n+m), SC:O(1))
 var getIntersectionNode = function (headA, headB) {
   let pA = headA;
   let pB = headB;
