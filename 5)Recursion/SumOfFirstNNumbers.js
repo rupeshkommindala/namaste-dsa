@@ -9,5 +9,5 @@ var sum = function (n) {
 };
 
 let num = 5;
-let res = sum(num);
-console.log(res);
+let result = sum(num);
+console.log(result);

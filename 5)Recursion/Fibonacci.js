@@ -9,5 +9,5 @@ var fib = function (n) {
 };
 
 let num = 5;
-let res = fib(num);
-console.log(res);
+let result = fib(num);
+console.log(result);
