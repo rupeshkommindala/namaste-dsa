@@ -7,7 +7,7 @@
 # Binary Search >>>> Linear Search
 # Big O is just a way to represent the worst case Time Complexity of an Algorithm
 # O(1)>O(logn)>O(n)>O(nlogn)>O(n^2)>O(2^n)>O(n!)
-# The more left we go the better the Time Complexity
+# The more left we go the better the Time Complexity will be
 # Notation is nothing but a symbol
 # Time Complexity: It is used to measure the efficiency of an algorithm in terms of speed as the input size grows
 # Space Complexity: How much extra space your algorithm is using
