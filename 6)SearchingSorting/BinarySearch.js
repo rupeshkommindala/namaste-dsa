@@ -1,14 +1,14 @@
 // Binary Search (LC:704)
 
 // Optimized Solution (TC:O(logn), SC:O(1))
-var search = function (nums, target) {
+var search = function (arr, target) {
   let l = 0;
-  let r = nums.length - 1;
+  let r = arr.length - 1;
   while (l <= r) {
     let m = Math.floor((l + r) / 2);
-    if (nums[m] === target) {
+    if (arr[m] === target) {
       return m;
-    } else if (nums[m] < target) {
+    } else if (arr[m] < target) {
       l = m + 1;
     } else {
       r = m - 1;

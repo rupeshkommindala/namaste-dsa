@@ -20,6 +20,6 @@ function bubbleSort(arr) {
   return arr;
 }
 
-let arr = [4, 3, 2, 1];
+let arr = [5, 2, 4, 1];
 let res = bubbleSort(arr);
 console.log(res);

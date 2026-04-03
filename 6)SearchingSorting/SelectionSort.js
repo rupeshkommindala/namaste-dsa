@@ -5,7 +5,7 @@ function selectionSort(arr) {
   let n = arr.length;
   for (let i = 0; i < n - 1; i++) {
     let min = i;
-    for (let j = i + 1; j < arr.length; j++) {
+    for (let j = i + 1; j < n; j++) {
       if (arr[j] < arr[min]) {
         min = j;
       }
@@ -16,9 +16,9 @@ function selectionSort(arr) {
       arr[min] = temp;
     }
   }
-  return nums;
+  return arr;
 }
 
-let nums = [5, 4, 3, 0, 2, 1];
+let nums = [5, 2, 4, 1];
 let res = selectionSort(nums);
 console.log(res);
