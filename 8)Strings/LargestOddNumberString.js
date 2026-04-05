@@ -12,6 +12,6 @@ var largestOddNumber = function (s) {
   return "";
 };
 
-let num = "52";
+let num = "35427";
 let result = largestOddNumber(num);
 console.log(result);
