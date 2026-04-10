@@ -2,8 +2,8 @@
 
 // Brute Force Solution (TC:O(n), SC:O(1))
 var findMin1 = function (arr) {
-  let minimum = Infinity;
-  for (let i = 0; i < arr.length; i++) {
+  let minimum = arr[0];
+  for (let i = 1; i < arr.length; i++) {
     if (arr[i] < minimum) {
       minimum = arr[i];
     }
@@ -27,9 +27,9 @@ var findMin2 = function (nums) {
       r = m;
     }
   }
-  return nums[l];
+  return nums[r]; // nums[l] also works
 };
 
-let arr2 = [4, 5, 6, 7, 0, 1, 2];
+let arr2 = [3, 4, 5, 1, 2];
 let res2 = findMin1(arr2);
 console.log(res2);

@@ -10,7 +10,7 @@ var search1 = function (arr, target) {
   return -1;
 };
 
-let arr1 = [4, 5, 6, 7, 0, 1, 2];
+let arr1 = [3, 4, 5, 6, 7, 8, 0, 1, 2];
 let res1 = search1(arr1, 0);
 console.log(res1);
 
@@ -39,6 +39,6 @@ var search2 = function (arr, target) {
   return -1;
 };
 
-let arr2 = [4, 5, 6, 7, 0, 1, 2];
+let arr2 = [3, 4, 5, 6, 7, 8, 0, 1, 2];
 let res2 = search2(arr2, 0);
 console.log(res2);
