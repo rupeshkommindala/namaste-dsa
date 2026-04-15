@@ -11,7 +11,9 @@
 # Notation is nothing but a symbol
 # Time Complexity: It is used to measure the efficiency of an algorithm in terms of speed as the input size grows
 # Space Complexity: How much extra space your algorithm is using
+# Constant Time Complexity: If the array size is 100, still this will take only one operation
+#                           If the array size is 1000, still this will take only one operation
 # How to calculate Big O 
 #   => Calculate total number of iterations
 #   => Neglect lower order terms 
-#   => Ignore constant coeffecients
+#   => Ignore constant co-effecients
