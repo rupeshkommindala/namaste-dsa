@@ -22,6 +22,7 @@
 # Understanding one problem at a time
 # DSA is Language Agnostic
 # We can do DSA in any language
+# Because the approach to solving the problem remains the same
 # DSA does not care in which language you solve the problem
 # DSA is tricky
 # DSA is tough a little
