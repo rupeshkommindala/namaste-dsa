@@ -50,7 +50,7 @@ for (let i = 0; i < k; i++) {
 }
 
 /*
- Pattern 4 (Method-1)
+ Pattern 4 (Method-01)
  1
  2 2
  3 3 3
@@ -67,7 +67,7 @@ for (let i = 0; i < a; i++) {
 }
 
 /*
- Pattern 4 (Method-2)
+ Pattern 4 (Method-02)
  1
  2 2
  3 3 3
@@ -119,11 +119,11 @@ for (let i = 0; i < s; i++) {
 
 /*
  Pattern 7
-_ _ _ _ *
-_ _ _ * *
-_ _ * * *
-_ * * * *
-* * * * *
+ _ _ _ _ *
+ _ _ _ * *
+ _ _ * * *
+ _ * * * *
+ * * * * *
 */
 let d = 5;
 for (let i = 0; i < d; i++) {

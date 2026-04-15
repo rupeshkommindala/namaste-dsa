@@ -23,7 +23,7 @@ for (let i = 2; i < 9; i = i + 3) {
   console.log("Hello World " + i);
 }
 
-// Printing Hello according to the Loop
+// Printing Hello according to the loop
 for (let i = 5; i > 0; i--) {
   console.log("Hello " + i);
 }
@@ -33,18 +33,18 @@ function greet() {
   console.log("Hello");
 }
 
-// Calling Greet function inside for Loop
+// Calling Greet function inside for loop
 for (let i = 0; i < 5; i++) {
   greet();
 }
 
-// Accessing all the elements using Loops
+// Accessing all the elements using loops
 let array = [5, 6, 2, 0, 1];
 for (let i = 0; i < array.length; i++) {
   console.log(array[i]);
 }
 
-// Print all the Even numbers in the Array
+// Print all the even numbers in the array
 let arr = [5, 6, 2, 0, 1];
 for (let i = 0; i < arr.length; i++) {
   if (arr[i] % 2 === 0) {
@@ -52,7 +52,7 @@ for (let i = 0; i < arr.length; i++) {
   }
 }
 
-// Print all the Odd numbers in the Array
+// Print all the odd numbers in the array
 let nums = [5, 6, 2, 0, 1];
 for (let i = 0; i < nums.length; i++) {
   if (nums[i] % 2 === 1) {
@@ -60,7 +60,7 @@ for (let i = 0; i < nums.length; i++) {
   }
 }
 
-// While Loop
+// While loop
 let i = 0;
 while (i < 5) {
   console.log("Hello");

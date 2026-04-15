@@ -69,5 +69,5 @@ function isEvenOrOdd(num) {
   }
 }
 
-isEvenOrOdd(10);
-isEvenOrOdd(11);
+isEvenOrOdd(6);
+isEvenOrOdd(7);
