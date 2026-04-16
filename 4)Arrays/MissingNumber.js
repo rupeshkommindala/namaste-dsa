@@ -11,7 +11,7 @@ var missingNumber1 = function (nums) {
   return totalSum - partialSum;
 };
 
-let nums = [0, 1];
+let nums = [3, 0, 1];
 let res = missingNumber1(nums);
 console.log(res);
 
@@ -24,6 +24,6 @@ var missingNumber2 = function (nums) {
   return xor;
 };
 
-let arr = [0, 1];
+let arr = [3, 0, 1];
 let res2 = missingNumber2(arr);
 console.log(res2);

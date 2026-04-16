@@ -1,6 +1,6 @@
 // Best Time to Buy and Sell Stock (LC:121)
 
-// Brute Force Solution (TC:O(n^2), SC:O(1)) (Time Limit Exceeded)
+// Brute Force Solution (TC:O(n^2), SC:O(1)) (TLE)
 var maxProfit = function (prices) {
   let maximumProfit = 0;
   for (let i = 0; i < prices.length - 1; i++) {

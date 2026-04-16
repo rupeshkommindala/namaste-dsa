@@ -1,5 +1,13 @@
 // Merge Sorted Array (LC:88)
 
+// Brute Force Approach
+/**
+ * Copy all the elements of nums2 into nums1 and then
+ * sort it.Time Complexity for copying all the element is
+ * O(m+n), and Time Complexity for sorting is O((m+n)log(m+n)),
+ * So overall Time Complexity is O((m+n)log(m+n)).
+ */
+
 // Better Approach (TC:O(m+n), SC:O(m))
 var merge1 = function (nums1, m, nums2, n) {
   let nums1Copy = nums1.slice(0, m);

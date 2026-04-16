@@ -11,6 +11,6 @@ var reverseString = function (s) {
   return s;
 };
 
-let s = ["H", "e", "l", "l", "o"];
+let s = ["H", "a", "n", "n", "a", "h"];
 let res = reverseString(s);
 console.log(res);
