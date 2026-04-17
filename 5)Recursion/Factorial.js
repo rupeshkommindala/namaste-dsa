@@ -8,6 +8,6 @@ var fact = function (n) {
   return n * fact(n - 1);
 };
 
-let num = 5;
+let num = 6;
 let res = fact(num);
 console.log(res);

@@ -8,6 +8,6 @@ var sum = function (n) {
   return n + sum(n - 1);
 };
 
-let num = 5;
+let num = 6;
 let result = sum(num);
 console.log(result);
