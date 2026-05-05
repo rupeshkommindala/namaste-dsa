@@ -1,4 +1,4 @@
-var findItinerary = function(tickets) {
+var findItinerary = function (tickets) {
   let graph = {};
   for (let [from, to] of tickets) {
     if (!graph[from]) graph[from] = [];
@@ -20,4 +20,3 @@ var findItinerary = function(tickets) {
   dfs("JFK");
   return path.reverse(); // reverse before returning
 };
-  
