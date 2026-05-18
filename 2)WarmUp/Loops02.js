@@ -46,7 +46,7 @@ function findLargest(nums) {
   return largest;
 }
 
-let nums = [1, 4, 7, 9, 54, 13, 18, 23];
+let nums = [5, 6, 2, 0, 1];
 let res = findLargest(nums);
 console.log(res);
 
@@ -63,6 +63,6 @@ function findSmallest(nums2) {
   return smallest;
 }
 
-let nums2 = [1, 4, 7, 9, 13, -150, 18, 23, 49, 54, -100];
+let nums2 = [5, 6, 2, 0, 1];
 let res2 = findSmallest(nums2);
 console.log(res2);

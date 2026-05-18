@@ -53,10 +53,10 @@ for (let i = 0; i < arr.length; i++) {
 }
 
 // Print all the odd numbers in the array
-let nums = [5, 6, 2, 0, 1];
-for (let i = 0; i < nums.length; i++) {
-  if (nums[i] % 2 === 1) {
-    console.log(nums[i]);
+let ar = [5, 6, 2, 0, 1];
+for (let i = 0; i < ar.length; i++) {
+  if (ar[i] % 2 === 1) {
+    console.log(ar[i]);
   }
 }
 
