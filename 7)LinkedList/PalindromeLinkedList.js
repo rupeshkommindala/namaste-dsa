@@ -2,9 +2,8 @@
 
 // Optimized Solution (TC:O(n), SC:O(1))
 var isPalindrome = function (head) {
-  // Find the Middle Element of LinkedList
-  let slow = head;
-  let fast = head;
+  // Finding the middle element
+  let slow = (fast = head);
   while (fast && fast.next) {
     slow = slow.next;
     fast = fast.next.next;
@@ -18,7 +17,7 @@ var isPalindrome = function (head) {
     prev = curr;
     curr = temp;
   }
-  // Check for Palindrome
+  // Check for palindrome
   let firstList = head;
   let secondList = prev;
   while (secondList) {

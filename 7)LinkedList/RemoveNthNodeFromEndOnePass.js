@@ -4,15 +4,15 @@
 var removeNthFromEnd = function (head, n) {
   let sentinel = new ListNode();
   sentinel.next = head;
-  let first = sentinel;
+  let f = sentinel;
   for (let i = 0; i < n; i++) {
-    first = first.next;
+    f = f.next;
   }
-  let second = sentinel;
-  while (first.next) {
-    second = second.next;
-    first = first.next;
+  let s = sentinel;
+  while (f.next) {
+    s = s.next;
+    f = f.next;
   }
-  second.next = second.next.next;
+  s.next = s.next.next;
   return sentinel.next;
 };

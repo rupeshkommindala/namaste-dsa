@@ -1,12 +1,15 @@
 // Rotate List (LC:61)
 
-function rotateRight(head, k) {
-  if (!head || !head.next) return head;
+// Optimized Solution (TC:O(n), SC:O(1))
+var rotateRight = function (head, k) {
+  if (!head || !head.next) {
+    return head;
+  }
   let length = 0;
   let curr = head;
   while (curr) {
-    curr = curr.next;
     length++;
+    curr = curr.next;
   }
   k = k % length;
   let s = head;
@@ -22,4 +25,4 @@ function rotateRight(head, k) {
   let newHead = s.next;
   s.next = null;
   return newHead;
-}
+};

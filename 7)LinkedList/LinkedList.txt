@@ -1,0 +1,29 @@
+# LinkedList is a Linear Data Structure
+# Nodes are linked together by a reference field
+# Two types of LinkedList
+#   Singly LinkedList 
+    # Node = Data + Pointer
+    # Pointer to the next Node
+#   Doubly LinkedList 
+    # Node = Data + 2 Pointer
+    # Pointer to the next Node and to the previous Node
+# Head is the starting Node of the LinkedList
+# Generally Tail points to the null
+# LinkedList is always represented by its Head
+# LinkedList is a series of Nodes
+# Arrays
+    # Linear Data Structure 
+    # Contiguous
+    # Fixed Size (Can be Dynamic)
+    # Fetching element is easy (O(1))
+    # Insertion/Deletion is Complex
+    # Memory Efficient
+    # Just Value
+# LinkedList
+    # Linear Data Structure 
+    # Non-Contiguous
+    # Dynamic Size (Change Easily)
+    # Fetching element is hard (O(n))
+    # Insertion/Deletion is Easy
+    # Extra Memory
+    # Node = Value + Pointers

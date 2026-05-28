@@ -1,6 +1,6 @@
 // Intersection of Two Linked Lists (LC:160)
 
-// Brute Force Solution (TC:O(m*n), SC:O(1))
+// Brute Force Solution (TC:O(m*n), SC:O(1) TLE)
 var getIntersectionNode = function (headA, headB) {
   let curr1 = headA;
   while (curr1) {
@@ -16,7 +16,7 @@ var getIntersectionNode = function (headA, headB) {
   return null;
 };
 
-// Optimized Solution (TC:O(n+m), SC:O(n))
+// Optimized Solution (TC:O(m+n), SC:O(n))
 var getIntersectionNode = function (headA, headB) {
   let store = new Set();
   while (headB) {
