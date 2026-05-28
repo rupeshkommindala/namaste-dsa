@@ -7,12 +7,12 @@ var searchRange = function (nums, target) {
   let ans = [-1, -1];
   while (l <= r) {
     let m = l + Math.floor((r - l) / 2);
-    if (nums[m] < target) {
-      l = m + 1;
-    } else if (nums[m] > target) {
-      r = m - 1;
-    } else {
+    if (nums[m] === target) {
       ans[0] = m;
+      r = m - 1;
+    } else if (nums[m] < target) {
+      l = m + 1;
+    } else {
       r = m - 1;
     }
   }
@@ -20,13 +20,13 @@ var searchRange = function (nums, target) {
   r = nums.length - 1;
   while (l <= r) {
     let m = l + Math.floor((r - l) / 2);
-    if (nums[m] < target) {
-      l = m + 1;
-    } else if (nums[m] > target) {
-      r = m - 1;
-    } else {
+    if (nums[m] === target) {
       ans[1] = m;
       l = m + 1;
+    } else if (nums[m] < target) {
+      l = m + 1;
+    } else {
+      r = m - 1;
     }
   }
   return ans;

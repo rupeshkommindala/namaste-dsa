@@ -1,6 +1,6 @@
 // Sqrt(x) (LC:69)
 
-let x = 4;
+let x = 8;
 
 // (Way-01) (Not Recommended)
 console.log(Math.floor(Math.pow(x, 0.5)));

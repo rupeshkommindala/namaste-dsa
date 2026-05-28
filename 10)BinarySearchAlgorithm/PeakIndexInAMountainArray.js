@@ -15,15 +15,15 @@ var peakIndexInMountainArray1 = function (arr) {
   return r; // return l also works
 };
 
-let arr1 = [0, 2, 1, 0];
+let arr1 = [0, 10, 5, 2];
 let res1 = peakIndexInMountainArray1(arr1);
 console.log(res1);
 
 // Better Approach (TC:O(n), SC:O(1))
 var peakIndexInMountainArray2 = function (arr) {
-  for (let i = 0; i < arr.length - 1; i++) {
-    if (arr[i + 1] < arr[i]) {
-      return i;
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] < arr[i - 1]) {
+      return i - 1;
     }
   }
 };
@@ -45,6 +45,6 @@ var peakIndexInMountainArray3 = function (arr) {
   return index;
 };
 
-let nums3 = [0, 1, 0];
+let nums3 = [0, 10, 5, 2];
 let res3 = peakIndexInMountainArray3(nums3);
 console.log(res3);
