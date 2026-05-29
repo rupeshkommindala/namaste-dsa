@@ -7,7 +7,7 @@ var lengthOfLastWord = function (s) {
   while (n >= 0) {
     if (s[n] !== " ") {
       count++;
-    } else if (count > 0 && s[n] === " ") {
+    } else if (s[n] === " " && count > 0) {
       break;
     }
     n--;
@@ -15,6 +15,6 @@ var lengthOfLastWord = function (s) {
   return count;
 };
 
-let s = "Hello World  ";
+let s = "  fly me   to   the moon";
 let res = lengthOfLastWord(s);
 console.log(res);

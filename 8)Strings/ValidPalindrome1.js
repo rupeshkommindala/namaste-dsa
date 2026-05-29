@@ -31,7 +31,7 @@ var isPalindrome2 = function (s) {
   return filteredString === rev;
 };
 
-let s2 = "race a car";
+let s2 = "A man, a plan, a canal: Panama";
 let res2 = isPalindrome2(s2);
 console.log(res2);
 
@@ -54,6 +54,6 @@ var isPalindrome3 = function (s) {
   return rev === filteredString;
 };
 
-let s3 = " ";
+let s3 = "A man, a plan, a canal: Panama";
 let res3 = isPalindrome3(s3);
 console.log(res3);

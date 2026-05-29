@@ -15,7 +15,7 @@ var numJewelsInStones1 = function (jewels, stones) {
   return count;
 };
 
-let res1 = numJewelsInStones1("aA", "aAAAbbbb");
+let res1 = numJewelsInStones1("aA", "aAAbbbb");
 console.log(res1);
 
 // Brute Force Solution (TC: O(m*n), SC:O(1)) m->Length of jewels, n->Length of stones
@@ -32,7 +32,7 @@ var numJewelsInStones2 = function (jewels, stones) {
   return count;
 };
 
-let res2 = numJewelsInStones2("z", "ZZ");
+let res2 = numJewelsInStones2("aA", "aAAbbbb");
 console.log(res2);
 
 // Not Recommended (Don't use built in method(includes))
@@ -46,5 +46,5 @@ var numJewelsInStones3 = function (jewels, stones) {
   return count;
 };
 
-let res3 = numJewelsInStones3("aA", "aAAaAbbbb");
+let res3 = numJewelsInStones3("aA", "aAAbbbb");
 console.log(res3);

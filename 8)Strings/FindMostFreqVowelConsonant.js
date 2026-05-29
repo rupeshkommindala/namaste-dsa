@@ -26,7 +26,7 @@ var maxFreqSum1 = function (s) {
   return maxVowel + maxConsonant;
 };
 
-let string = "aeiaeia";
+let string = "successes";
 let res1 = maxFreqSum1(string);
 console.log(res1);
 
@@ -49,7 +49,7 @@ var maxFreqSum2 = function (s) {
     if (vowels.includes(s[i])) {
       maxVowel = Math.max(maxVowel, map[s[i]]);
     } else {
-      maxConsonant = Math.max(maxVowel, map[s[i]]);
+      maxConsonant = Math.max(maxConsonant, map[s[i]]);
     }
   }
   return maxVowel + maxConsonant;
