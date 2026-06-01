@@ -1,6 +1,7 @@
 // Add Two Numbers (LC:2)
 
-function add2Numbers(l1, l2) {
+// Optimized Solution (TC:O(max(m,n)), SC:O(1)=>O(max(m,n)))
+var addTwoNumbers = function (l1, l2) {
   let ans = new ListNode();
   let ansHead = ans;
   let carry = 0;
@@ -10,9 +11,9 @@ function add2Numbers(l1, l2) {
     let digit = sum % 10;
     let newNode = new ListNode(digit);
     ans.next = newNode;
-    ans = ans.next;
     l1 = l1 && l1.next;
     l2 = l2 && l2.next;
+    ans = ans.next;
   }
   return ansHead.next;
-}
+};
