@@ -31,3 +31,4 @@ var isHashSame = function (hashS, hashW) {
   }
   return true;
 };
+

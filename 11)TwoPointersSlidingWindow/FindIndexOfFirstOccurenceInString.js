@@ -22,3 +22,4 @@ let haystack = "sadbutsad";
 let needle = "but";
 let res = strStr(haystack, needle);
 console.log(res);
+

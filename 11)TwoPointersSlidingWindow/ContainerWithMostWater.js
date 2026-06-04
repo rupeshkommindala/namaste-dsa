@@ -15,3 +15,4 @@ function maxArea(arr) {
 let arr = [1, 1];
 let res = maxArea(arr);
 console.log(res);
+
