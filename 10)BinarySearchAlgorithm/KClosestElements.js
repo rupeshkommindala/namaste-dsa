@@ -21,6 +21,7 @@ let x = 5;
 let res = findClosestElements(arr, k, x);
 console.log(res);
 
+
 var findClosestElements = function (arr, k, x) {
   let l = 0;
   let r = arr.length - k;
