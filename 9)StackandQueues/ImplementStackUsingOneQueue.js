@@ -27,3 +27,4 @@ MyStack.prototype.top = function () {
 MyStack.prototype.empty = function () {
   return this.q.length === 0;
 };
+

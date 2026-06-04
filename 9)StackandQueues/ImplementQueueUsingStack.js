@@ -24,3 +24,4 @@ MyQueue.prototype.peek = function () {
 MyQueue.prototype.empty = function () {
   return this.s1.length === 0 && this.s2.length === 0;
 };
+

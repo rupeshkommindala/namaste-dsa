@@ -35,3 +35,4 @@ MyStack.prototype.top = function () {
 MyStack.prototype.empty = function () {
   return this.q1.length === 0;
 };
+
