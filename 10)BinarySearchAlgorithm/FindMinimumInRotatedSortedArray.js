@@ -1,14 +1,14 @@
 // Find Minimum in Rotated Sorted Array (LC:153)
 
 // Brute Force Solution (TC:O(n), SC:O(1))
-var findMin1 = function (arr) {
-  let minimum = arr[0];
-  for (let i = 1; i < arr.length; i++) {
-    if (arr[i] < minimum) {
-      minimum = arr[i];
+var findMin1 = function (nums) {
+  let min = nums[0];
+  for (let i = 1; i < nums.length; i++) {
+    if (nums[i] < min) {
+      min = nums[i];
     }
   }
-  return minimum;
+  return min;
 };
 
 let arr1 = [4, 5, 6, 7, 0, 1, 2];
@@ -27,7 +27,7 @@ var findMin2 = function (nums) {
       r = m;
     }
   }
-  return nums[r]; // nums[l] also works
+  return nums[r]; // return nums[l] also works
 };
 
 let arr2 = [4, 5, 6, 7, 0, 1, 2];
