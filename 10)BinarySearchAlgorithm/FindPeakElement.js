@@ -1,12 +1,12 @@
 // Find Peak Element (LC:162)
 
 // Brute Force Solution (TC:O(n), SC:O(1))
-var findPeakElement1 = function (arr) {
-  let maximum = arr[0];
+var findPeakElement1 = function (nums) {
+  let max = nums[0];
   let index = 0;
-  for (let i = 1; i < arr.length; i++) {
-    if (arr[i] > maximum) {
-      maximum = arr[i];
+  for (let i = 1; i < nums.length; i++) {
+    if (nums[i] > max) {
+      max = nums[i];
       index = i;
     }
   }
@@ -18,12 +18,12 @@ let res1 = findPeakElement1(arr1);
 console.log(res1);
 
 // Optimized Solution (TC:O(logn), SC:O(1))
-var findPeakElement2 = function (arr) {
+var findPeakElement2 = function (nums) {
   let l = 0;
-  let r = arr.length - 1;
+  let r = nums.length - 1;
   while (l < r) {
     let m = l + Math.floor((r - l) / 2);
-    if (arr[m + 1] > arr[m]) {
+    if (nums[m + 1] > nums[m]) {
       l = m + 1;
     } else {
       r = m;
