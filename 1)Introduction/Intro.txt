@@ -37,3 +37,5 @@
 #   => Can you optimise the solution?
 #   => Can you tell the Time and Space Complexity of it?
 #   => And then may be write the pseudocode
+# Code comes secondary
+# Language is the last part of it
