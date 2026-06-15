@@ -29,8 +29,8 @@ let arr1 = [1, 2, 3, 0, 0, 0];
 let a = 3;
 let arr2 = [2, 5, 6];
 let b = 3;
-let res2 = merge1(arr1, a, arr2, b);
-console.log(res2);
+let res1 = merge1(arr1, a, arr2, b);
+console.log(res1);
 
 // Optimized Solution (TC:O(m+n), SC:O(1))
 var merge2 = function (nums1, m, nums2, n) {
@@ -55,5 +55,5 @@ let nums1 = [1, 2, 3, 0, 0, 0];
 let m = 3;
 let nums2 = [2, 5, 6];
 let n = 3;
-let res1 = merge2(nums1, m, nums2, n);
-console.log(res1);
+let res2 = merge2(nums1, m, nums2, n);
+console.log(res2);
