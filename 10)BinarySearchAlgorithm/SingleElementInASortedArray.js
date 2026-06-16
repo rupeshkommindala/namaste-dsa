@@ -35,21 +35,21 @@ let res2 = singleNonDuplicate2(nums2);
 console.log(res2);
 
 // Optimized Solution (TC:O(logn), SC:O(1))
-var singleNonDuplicate3 = function (arr) {
+var singleNonDuplicate3 = function (nums) {
   let l = 0;
-  let r = arr.length - 1;
+  let r = nums.length - 1;
   while (l < r) {
     let m = l + Math.floor((r - l) / 2);
     if (m % 2 === 1) {
       m--;
     }
-    if (arr[m] === arr[m + 1]) {
+    if (nums[m] === nums[m + 1]) {
       l = m + 2;
     } else {
       r = m;
     }
   }
-  return arr[l]; // or return arr[r]
+  return nums[r]; // return nums[l] also works
 };
 
 let nums3 = [1, 1, 2, 3, 3, 4, 4, 5, 5];
@@ -57,22 +57,19 @@ let res3 = singleNonDuplicate3(nums3);
 console.log(res3);
 
 // Optimized Solution (TC:O(logn), SC:O(1))
-var singleNonDuplicate4 = function (arr) {
+var singleNonDuplicate4 = function (nums) {
   let l = 0;
-  let r = arr.length - 1;
+  let r = nums.length - 1;
   while (l <= r) {
     let m = l + Math.floor((r - l) / 2);
-    // pair is on left
-    if (arr[m] === arr[m - 1]) {
+    if (nums[m] === nums[m - 1]) {
       let leftCount = m - 1 - l;
       if (leftCount % 2 === 1) {
         r = m - 2;
       } else {
         l = m + 1;
       }
-    }
-    // pair is on right
-    else if (arr[m] === arr[m + 1]) {
+    } else if (nums[m] === nums[m + 1]) {
       let leftCount = m - l;
       if (leftCount % 2 === 1) {
         r = m - 1;
@@ -80,7 +77,7 @@ var singleNonDuplicate4 = function (arr) {
         l = m + 2;
       }
     } else {
-      return arr[m];
+      return nums[m];
     }
   }
 };
