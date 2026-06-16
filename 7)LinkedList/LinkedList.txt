@@ -7,9 +7,9 @@
 #   Doubly LinkedList 
     # Node = Data + 2 Pointer
     # Pointer to the next Node and to the previous Node
+# LinkedList is always represented by its Head
 # Head is the starting Node of the LinkedList
 # Generally Tail points to the null
-# LinkedList is always represented by its Head
 # LinkedList is a series of Nodes
 # Arrays
     # Linear Data Structure 
