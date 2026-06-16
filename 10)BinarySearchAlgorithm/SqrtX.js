@@ -1,6 +1,6 @@
 // Sqrt(x) (LC:69)
 
-let x = 8;
+let x = 4;
 
 // (Way-01) (Not Recommended)
 console.log(Math.floor(Math.pow(x, 0.5)));
@@ -22,7 +22,7 @@ var mySqrtBrute = function (x) {
   return ans;
 };
 
-console.log(mySqrtBrute(8));
+console.log(mySqrtBrute(4));
 
 // (Way-04) (TC:O(logn), SC:O(1)) (Recommended)
 var mySqrt = function (x) {
@@ -44,6 +44,6 @@ var mySqrt = function (x) {
   return r;
 };
 
-let n = 8;
+let n = 4;
 let res = mySqrt(n);
 console.log(res);
