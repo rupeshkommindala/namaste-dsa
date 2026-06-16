@@ -13,8 +13,9 @@ var middleNode = function (head) {
 
 // Optimized Solution (TC:O(n), SC:O(1))
 var middleNode = function (head) {
-  let slow = (fast = head);
-  while (fast && fast.next) {
+  let slow = head;
+  let fast = head;
+  while (fast !== null && fast.next !== null) {
     slow = slow.next;
     fast = fast.next.next;
   }
@@ -23,9 +24,8 @@ var middleNode = function (head) {
 
 // Optimized Solution (TC:O(n), SC:O(1))
 var middleNode = function (head) {
-  let slow = head;
-  let fast = head;
-  while (fast !== null && fast.next !== null) {
+  let slow = (fast = head);
+  while (fast && fast.next) {
     slow = slow.next;
     fast = fast.next.next;
   }
