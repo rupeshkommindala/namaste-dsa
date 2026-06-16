@@ -11,7 +11,7 @@ var search1 = function (arr, target) {
 };
 
 let arr1 = [4, 5, 6, 7, 0, 1, 2];
-let res1 = search1(arr1, 0);
+let res1 = search1(arr1, 3);
 console.log(res1);
 
 // Optimized Solution (TC:O(logn), SC:O(1))
@@ -40,5 +40,5 @@ var search2 = function (arr, target) {
 };
 
 let arr2 = [4, 5, 6, 7, 0, 1, 2];
-let res2 = search2(arr2, 0);
+let res2 = search2(arr2, 3);
 console.log(res2);
