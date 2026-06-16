@@ -24,7 +24,6 @@ var hasCycle = function (head) {
     } else {
       return true;
     }
-
     curr = curr.next;
   }
   return false;
