@@ -1,6 +1,11 @@
 // Printing Hello World
 for (let i = 0; i < 5; i++) {
-  console.log("Hello World!!");
+  console.log("Hello World");
+}
+
+// Printing Hello World
+for (let i = 0; i < 4; i++) {
+  console.log("Hello World " + i);
 }
 
 // Printing Hello World
@@ -26,6 +31,11 @@ for (let i = 2; i < 9; i = i + 3) {
 // Printing Hello according to the loop
 for (let i = 5; i > 0; i--) {
   console.log("Hello " + i);
+}
+
+// Printing Hello World
+for (let i = 5; i < 6; i++) {
+  console.log("Hello World " + i);
 }
 
 // Greet function
