@@ -3,7 +3,7 @@
 // Brute Force Approach
 /**
  * Copy all the elements of nums2 into nums1 and then
- * sort it.Time Complexity for copying all the element is
+ * sort it.Time Complexity for copying all the elements is
  * O(m+n), and the Time Complexity for sorting is O((m+n)log(m+n)).
  * So overall the Time Complexity is O((m+n)log(m+n)).
  */
