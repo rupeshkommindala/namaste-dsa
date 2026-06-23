@@ -28,14 +28,14 @@ for (let i = 2; i < 9; i = i + 3) {
   console.log("Hello World " + i);
 }
 
-// Printing Hello according to the loop
-for (let i = 5; i > 0; i--) {
-  console.log("Hello " + i);
-}
-
 // Printing Hello World
 for (let i = 5; i < 6; i++) {
   console.log("Hello World " + i);
+}
+
+// Printing Hello according to the loop
+for (let i = 5; i > 0; i--) {
+  console.log("Hello " + i);
 }
 
 // Greet function

@@ -41,7 +41,7 @@ function square(x) {
   return result;
 }
 
-let value = square(-3);
+let value = square(2);
 console.log(value);
 
 // Create a function to check whether a person is eligible to Vote or Not
