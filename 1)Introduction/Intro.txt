@@ -20,6 +20,7 @@
 # We will chase understanding DSA
 # Understand DSA it takes time
 # Understanding one problem at a time
+# Understanding Data Structures and Algorithms
 # DSA is Language Agnostic
 # We can do DSA in any language
 # DSA does not care in which language you solve the problem
