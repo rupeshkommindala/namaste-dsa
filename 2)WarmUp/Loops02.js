@@ -29,7 +29,7 @@ function countNegatives(array) {
   return count;
 }
 
-let array = [-1, 2, -5, -4, 3, 20, -21, -59];
+let array = [-1, 2, 5, -4, 3, 20, -21, -59];
 let countResult = countNegatives(array);
 console.log(countResult);
 

@@ -33,9 +33,9 @@ for (let i = 5; i < 6; i++) {
   console.log("Hello World " + i);
 }
 
-// Printing Hello according to the loop
+// Printing Hello World according to the loop
 for (let i = 5; i > 0; i--) {
-  console.log("Hello " + i);
+  console.log("Hello World " + i);
 }
 
 // Greet function

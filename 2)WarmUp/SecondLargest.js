@@ -18,7 +18,7 @@ function secondLargestNumber(arr) {
     }
   }
   if (secondLargest === -Infinity) {
-    return "No Second largest Element";
+    return "Not Possible";
   }
   return secondLargest;
 }
