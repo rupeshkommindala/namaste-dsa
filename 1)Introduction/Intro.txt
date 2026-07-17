@@ -33,6 +33,7 @@
 # Once you Understand DSA Interviews are very easy
 # When you solve DSA problems it gives you a lot of happiness
 # You will feel happy when you solve DSA Problems
+# You will understand DSA, if you give it time
 # Interviewers don't care in which language you solve the problem
 # Interviewers care about
 #   => How you are approaching the problem 
