@@ -12,7 +12,7 @@ function searchElement(arr, x) {
   return -1;
 }
 
-let arr = [5, 6, 2, 0, 1];
+let arr = [4, 9, 1, 0, 2];
 let result = searchElement(arr, 2);
 console.log(result);
 
