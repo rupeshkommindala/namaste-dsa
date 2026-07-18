@@ -18,5 +18,5 @@ var search = function (nums, target) {
 };
 
 let nums = [-1, 0, 3, 5, 9, 12];
-let res = search(nums, 9);
-console.log(res);
+let result = search(nums, 9);
+console.log(result);
