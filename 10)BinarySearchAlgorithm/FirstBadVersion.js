@@ -24,6 +24,6 @@ var solution = function (isBadVersion) {
         r = m;
       }
     }
-    return l; // return r also works
+    return r; // return l also works
   };
 };

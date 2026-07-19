@@ -24,7 +24,7 @@ var mySqrtBrute = function (x) {
 
 console.log(mySqrtBrute(4));
 
-// (Way-04) (TC:O(logn), SC:O(1)) (Recommended)
+// (Way-05) (TC:O(logn), SC:O(1)) (Recommended)
 var mySqrt = function (x) {
   if (x < 2) {
     return x;

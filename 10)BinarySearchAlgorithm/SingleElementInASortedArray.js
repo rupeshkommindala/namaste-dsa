@@ -17,7 +17,7 @@ var singleNonDuplicate1 = function (nums) {
   }
 };
 
-let nums1 = [1, 1, 2, 3, 3, 4, 4, 5, 5];
+let nums1 = [1, 1, 2, 3, 3, 4, 4, 8, 8];
 let res1 = singleNonDuplicate1(nums1);
 console.log(res1);
 
@@ -30,7 +30,7 @@ var singleNonDuplicate2 = function (nums) {
   return ans;
 };
 
-let nums2 = [1, 1, 2, 3, 3, 4, 4, 5, 5];
+let nums2 = [1, 1, 2, 3, 3, 4, 4, 8, 8];
 let res2 = singleNonDuplicate2(nums2);
 console.log(res2);
 
@@ -52,7 +52,7 @@ var singleNonDuplicate3 = function (nums) {
   return nums[r]; // return nums[l] also works
 };
 
-let nums3 = [1, 1, 2, 3, 3, 4, 4, 5, 5];
+let nums3 = [1, 1, 2, 3, 3, 4, 4, 8, 8];
 let res3 = singleNonDuplicate3(nums3);
 console.log(res3);
 
@@ -82,6 +82,6 @@ var singleNonDuplicate4 = function (nums) {
   }
 };
 
-let nums4 = [1, 1, 2, 3, 3, 4, 4, 5, 5];
+let nums4 = [1, 1, 2, 3, 3, 4, 4, 8, 8];
 let res4 = singleNonDuplicate4(nums4);
 console.log(res4);
