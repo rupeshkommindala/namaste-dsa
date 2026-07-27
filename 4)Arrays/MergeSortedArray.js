@@ -1,8 +1,4 @@
 // Merge Sorted Array (LC:88)
-/**
- * We have to Merge these Two Arays and
- * They should remain in a sorted order
- */
 
 // Brute Force Approach
 /**
