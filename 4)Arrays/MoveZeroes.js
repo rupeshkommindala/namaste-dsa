@@ -39,6 +39,6 @@ var moveZeroes1 = function (nums) {
   return nums;
 };
 
-let nums1 = [0, 1, 0, 3, 12];
-let res1 = moveZeroes1(nums1);
+let arr = [0, 1, 0, 3, 12];
+let res1 = moveZeroes1(arr);
 console.log(res1);
