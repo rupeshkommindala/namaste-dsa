@@ -10,9 +10,9 @@ var search1 = function (nums, target) {
   return -1;
 };
 
-let arr1 = [4, 5, 6, 7, 0, 1, 2];
-let res1 = search1(arr1, 0);
-console.log(res1);
+let arr = [4, 5, 6, 7, 0, 1, 2];
+let res = search1(arr, 0);
+console.log(res);
 
 // Optimized Solution (TC:O(logn), SC:O(1))
 var search2 = function (nums, target) {
