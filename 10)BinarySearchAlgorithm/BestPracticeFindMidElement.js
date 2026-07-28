@@ -5,7 +5,7 @@
  */
 
 let l = 2;
-let r = 8;
+let r = 10;
 let m = Math.floor((l + r) / 2); // Big Integer + Big Integer can lead to overflow
 console.log(m);
 
