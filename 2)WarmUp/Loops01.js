@@ -73,6 +73,6 @@ for (let i = 0; i < ar.length; i++) {
 // While loop
 let i = 0;
 while (i < 5) {
-  console.log("Hello");
+  console.log("Hello World");
   i++;
 }
