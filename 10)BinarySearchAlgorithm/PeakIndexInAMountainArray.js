@@ -15,7 +15,7 @@ var peakIndexInMountainArray1 = function (arr) {
   return r; // return l also works
 };
 
-let arr1 = [0, 10, 5, 2];
+let arr1 = [0, 2, 1, 0];
 let res1 = peakIndexInMountainArray1(arr1);
 console.log(res1);
 
@@ -28,7 +28,7 @@ var peakIndexInMountainArray2 = function (arr) {
   }
 };
 
-let nums2 = [0, 10, 5, 2];
+let nums2 = [0, 2, 1, 0];
 let res2 = peakIndexInMountainArray2(nums2);
 console.log(res2);
 
@@ -45,6 +45,6 @@ var peakIndexInMountainArray3 = function (arr) {
   return index;
 };
 
-let nums3 = [0, 10, 5, 2];
+let nums3 = [0, 2, 1, 0];
 let res3 = peakIndexInMountainArray3(nums3);
 console.log(res3);
