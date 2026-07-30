@@ -2,7 +2,7 @@
 
 // Optimized Solution (TC:O(n), SC:O(1))
 var hasCycle = function (head) {
-  if (head === null || head.next === null) {
+  if (!head || !head.next) {
     return false;
   }
   let slow = head;
