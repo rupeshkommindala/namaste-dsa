@@ -14,7 +14,7 @@ var reverseList = function (head) {
   return head;
 };
 
-// Optimized Solution(Interview-friendly) (TC:O(n), SC:O(1))
+// Optimized Solution(Interview-Friendly) (TC:O(n), SC:O(1))
 var reverseList = function (head) {
   let prev = null;
   let curr = head;
