@@ -1,6 +1,6 @@
 // Linked List Cycle (LC:141)
 
-// Brute Force Solution (TC:O(n), SC:O(n))
+// (Way-01) Brute Force Solution (TC:O(n), SC:O(n))
 var hasCycle = function (head) {
   let seenNodes = new Set();
   let curr = head;
@@ -14,7 +14,7 @@ var hasCycle = function (head) {
   return false;
 };
 
-// Brute Force Solution (TC:O(n), SC:O(n))
+// (Way-02) Brute Force Solution (TC:O(n), SC:O(n))
 var hasCycle = function (head) {
   let seenNodes = new Set();
   let curr = head;
