@@ -7,11 +7,11 @@ var isPalindrome1 = function (s) {
   let rev = "";
   for (let i = 0; i < s.length; i++) {
     if (s[i].match(/[a-z0-9]/i)) {
-      filteredString = filteredString + s[i];
+      filteredString += s[i];
       rev = s[i] + rev;
     }
   }
-  return filteredString === rev;
+  return rev === filteredString;
 };
 
 let s1 = "A man, a plan, a canal: Panama";
@@ -24,11 +24,11 @@ var isPalindrome2 = function (s) {
   let filteredString = "";
   for (let i = 0; i < s.length; i++) {
     if (s[i].match(/[a-z0-9]/i)) {
-      filteredString = filteredString + s[i];
+      filteredString += s[i];
     }
   }
   let rev = filteredString.split("").reverse().join("");
-  return filteredString === rev;
+  return rev === filteredString;
 };
 
 let s2 = "A man, a plan, a canal: Panama";
@@ -47,7 +47,7 @@ var isPalindrome3 = function (s) {
       (s[i].charCodeAt() >= "0".charCodeAt() &&
         s[i].charCodeAt() <= "9".charCodeAt())
     ) {
-      filteredString = filteredString + s[i];
+      filteredString += s[i];
       rev = s[i] + rev;
     }
   }
