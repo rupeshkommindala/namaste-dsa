@@ -1,4 +1,4 @@
-# LinkedList is a Linear Data Structure
+# LinkedList is a Linear data structure
 # Nodes are linked together by a reference field
 # Two types of LinkedList
 #   Singly LinkedList 
