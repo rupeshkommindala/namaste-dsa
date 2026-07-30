@@ -21,5 +21,5 @@ var isPalindrome = function (s) {
 };
 
 let s = "A man, a plan, a canal: Panama";
-let res = isPalindrome(s);
-console.log(res);
+let result = isPalindrome(s);
+console.log(result);
