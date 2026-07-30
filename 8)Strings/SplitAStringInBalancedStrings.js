@@ -20,7 +20,7 @@ var balancedStringSplit = function (s) {
   return count;
 };
 
-let s = "RLRRLLRLRL";
+let s = "RLRRRLLRLL";
 let res1 = balancedStringSplit(s);
 console.log(res1);
 
@@ -41,6 +41,6 @@ var balancedStringSplit2 = function (s) {
   return count;
 };
 
-let s2 = "RLRRLLRLRL";
+let s2 = "RLRRRLLRLL";
 let res2 = balancedStringSplit2(s2);
 console.log(res2);
