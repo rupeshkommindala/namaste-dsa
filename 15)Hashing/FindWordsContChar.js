@@ -2,17 +2,17 @@
 
 // Optimized Solution (TC:O(n*m), SC:O(1)) (m->length of words, n->max length of each word)
 var findWordsContaining = function (words, x) {
-  let ans = [];
+  let res = [];
   for (let i = 0; i < words.length; i++) {
     // Check if char x is present in words[i]
     for (let j = 0; j < words[i].length; j++) {
       if (words[i][j] === x) {
-        ans.push(i);
+        res.push(i);
         break;
       }
     }
   }
-  return ans;
+  return res;
 };
 
 let res1 = findWordsContaining(["leet", "code"], "e");
