@@ -40,5 +40,5 @@ var findClosestElements2 = function (arr, k, x) {
   return res;
 };
 
-let result = findClosestElements([1, 2, 3, 4, 5], 4, 3);
+let result = findClosestElements2([1, 2, 3, 4, 5], 4, 3);
 console.log(result);
