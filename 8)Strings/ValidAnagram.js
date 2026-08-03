@@ -1,6 +1,6 @@
 // Valid Anagram (LC:242)
 
-// Brute Force Solution (TC:O(logn), SC:O(n)) Not Recommended (Don't use builtin methods)
+// Brute Force Solution (TC:O(logn), SC:O(n)) Not Recommended (Don't use built in methods)
 var isAnagram1 = function (s, t) {
   return s.split("").sort().join("") === t.split("").sort().join("");
 };
