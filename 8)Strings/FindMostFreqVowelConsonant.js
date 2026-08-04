@@ -1,6 +1,6 @@
 // Find Most Frequent Vowel and Consonant (LC:3541)
 
-// Way-01 (TC:O(n), SC:O(1))
+// (Way-01) (TC:O(n), SC:O(1))
 var maxFreqSum1 = function (s) {
   let map = {};
   for (let i = 0; i < s.length; i++) {
@@ -26,11 +26,11 @@ var maxFreqSum1 = function (s) {
   return maxVowel + maxConsonant;
 };
 
-let string = "successes";
-let res1 = maxFreqSum1(string);
+let s1 = "successes";
+let res1 = maxFreqSum1(s1);
 console.log(res1);
 
-// Way-02 (TC:O(n), SC:O(1))
+// (Way-02) (TC:O(n), SC:O(1))
 var maxFreqSum2 = function (s) {
   let map = {};
   for (let i = 0; i < s.length; i++) {
@@ -55,6 +55,6 @@ var maxFreqSum2 = function (s) {
   return maxVowel + maxConsonant;
 };
 
-let s = "successes";
-let res2 = maxFreqSum2(s);
+let s2 = "successes";
+let res2 = maxFreqSum2(s2);
 console.log(res2);
