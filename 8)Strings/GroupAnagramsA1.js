@@ -4,11 +4,11 @@
 var groupAnagrams = function (strs) {
   let map = {};
   for (let i = 0; i < strs.length; i++) {
-    let sortedString = strs[i].split("").sort().join("");
-    if (!map[sortedString]) {
-      map[sortedString] = [strs[i]];
+    let sortedStr = strs[i].split("").sort().join("");
+    if (!map[sortedStr]) {
+      map[sortedStr] = [strs[i]];
     } else {
-      map[sortedString].push(strs[i]);
+      map[sortedStr].push(strs[i]);
     }
   }
   return [...Object.values(map)];
@@ -17,4 +17,3 @@ var groupAnagrams = function (strs) {
 let strs = ["eat", "tea", "tan", "ate", "nat", "bat"];
 let res = groupAnagrams(strs);
 console.log(res);
-
