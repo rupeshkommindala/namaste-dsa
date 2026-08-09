@@ -9,6 +9,10 @@
  */
 
 // Better Approach (TC:O(m+n), SC:O(m))
+/**
+ * I will create a copy of nums1 and then I will use my nums1
+ * to fill the elements in sorted order
+ */
 var merge1 = function (nums1, m, nums2, n) {
   let nums1Copy = nums1.slice(0, m);
   let p1 = 0;
@@ -33,6 +37,11 @@ let res1 = merge1(arr1, a, arr2, b);
 console.log(res1);
 
 // Optimized Solution (TC:O(m+n), SC:O(1))
+/**
+ * If I start filling the elements from starting
+ * then I will lose these elements
+ * so that's why I'm going to fill the elements in reverse order
+ */
 var merge2 = function (nums1, m, nums2, n) {
   let p1 = m - 1;
   let p2 = n - 1;
