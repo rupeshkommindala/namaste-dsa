@@ -11,7 +11,7 @@ var findMin1 = function (nums) {
   return min;
 };
 
-let arr1 = [4, 5, 6, 7, 0, 1, 2];
+let arr1 = [3, 4, 5, 1, 2];
 let res1 = findMin1(arr1);
 console.log(res1);
 
@@ -30,6 +30,6 @@ var findMin2 = function (nums) {
   return nums[r]; // return nums[l] also works
 };
 
-let arr2 = [4, 5, 6, 7, 0, 1, 2];
+let arr2 = [3, 4, 5, 1, 2];
 let res2 = findMin2(arr2);
 console.log(res2);
