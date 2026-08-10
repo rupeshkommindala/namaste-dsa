@@ -7,7 +7,7 @@ var lengthOfLastWord1 = function (s) {
   return s[s.length - 1].length;
 };
 
-let res1 = lengthOfLastWord1("Hello  World  ");
+let res1 = lengthOfLastWord1("   fly me   to   the moon  ");
 console.log(res1);
 
 // Optimized Solution (Way-01) (TC:O(n), SC:O(1))
@@ -32,7 +32,7 @@ var lengthOfLastWord2 = function (s) {
   return count;
 };
 
-let res2 = lengthOfLastWord2("Hello  World  ");
+let res2 = lengthOfLastWord2("   fly me   to   the moon  ");
 console.log(res2);
 
 // Optimized Solution (Way-02) (TC:O(n), SC:O(1))
@@ -57,5 +57,5 @@ var lengthOfLastWord3 = function (s) {
   return count;
 };
 
-let res3 = lengthOfLastWord3("Hello  World  ");
+let res3 = lengthOfLastWord3("   fly me   to   the moon  ");
 console.log(res3);
