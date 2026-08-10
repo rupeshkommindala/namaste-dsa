@@ -14,8 +14,9 @@ var findWordsContaining = function (words, x) {
   }
   return res;
 };
-
-let res1 = findWordsContaining(["leet", "code"], "e");
+let words = ["leet", "code"];
+let x = "e";
+let res1 = findWordsContaining(words, x);
 console.log(res1);
 
 // Not Recommended (Don't use built in method (includes))
