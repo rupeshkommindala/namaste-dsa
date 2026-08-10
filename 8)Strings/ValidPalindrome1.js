@@ -14,8 +14,8 @@ var isPalindrome1 = function (s) {
   return rev === filteredString;
 };
 
-let s1 = "A man, a plan, a canal: Panama";
-let res1 = isPalindrome1(s1);
+let string1 = "A man, a plan, a canal: Panama";
+let res1 = isPalindrome1(string1);
 console.log(res1);
 
 // (Way-02) Brute Force Solution (TC:O(n), SC:O(n))
@@ -31,8 +31,8 @@ var isPalindrome2 = function (s) {
   return rev === filteredString;
 };
 
-let s2 = "A man, a plan, a canal: Panama";
-let res2 = isPalindrome2(s2);
+let string2 = "A man, a plan, a canal: Panama";
+let res2 = isPalindrome2(string2);
 console.log(res2);
 
 // (Way-03) Brute Force Solution (TC:O(n), SC:O(n))
@@ -54,6 +54,6 @@ var isPalindrome3 = function (s) {
   return rev === filteredString;
 };
 
-let s3 = "A man, a plan, a canal: Panama";
-let res3 = isPalindrome3(s3);
+let string3 = "A man, a plan, a canal: Panama";
+let res3 = isPalindrome3(string3);
 console.log(res3);
