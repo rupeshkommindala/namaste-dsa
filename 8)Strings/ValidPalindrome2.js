@@ -20,6 +20,6 @@ var isPalindrome = function (s) {
   return true;
 };
 
-let s = "A man, a plan, a canal: Panama";
-let result = isPalindrome(s);
+let string = "A man, a plan, a canal: Panama";
+let result = isPalindrome(string);
 console.log(result);
