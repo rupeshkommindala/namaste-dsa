@@ -18,9 +18,9 @@ var searchRange1 = function (nums, target) {
   return ans;
 };
 
-let nums1 = [5, 7, 7, 8, 8, 10];
-let res1 = searchRange1(nums1, 8);
-console.log(res1);
+let nums = [5, 7, 7, 8, 8, 10];
+let res = searchRange1(nums, 8);
+console.log(res);
 
 // Optimized Solution (TC:O(logn), SC:O(1))
 var searchRange2 = function (nums, target) {
