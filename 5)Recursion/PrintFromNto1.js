@@ -10,4 +10,4 @@ var printFromNto1 = function (n) {
   printFromNto1(n);
 };
 
-printFromNto1(10);
+printFromNto1(5);
