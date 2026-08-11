@@ -8,6 +8,9 @@
 # Spaced Repetition
 # Solve Random Questions
 # Habit, Cult, Lifestyle
+# DSA is tricky
+# DSA is tough a little
+# DSA is very very long journey
 # We will use JavaScript in this course
 # But why JavaScript=> JS is very very easy language 
 # JavaScript is the most popular programming language in the world and it is widely used
@@ -25,9 +28,6 @@
 # We can do DSA in any language
 # DSA does not care in which language you solve the problem
 # Because the approach to solving the problem remains the same
-# DSA is tricky
-# DSA is tough a little
-# DSA is very very long journey
 # Once you know DSA you will have Immense Confidence
 # DSA is all about giving it time, Can you focus and study?
 # Once you Understand DSA Interviews are very easy
