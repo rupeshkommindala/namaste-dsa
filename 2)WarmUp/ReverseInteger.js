@@ -17,6 +17,6 @@ var reverse = function (x) {
   return xCopy < 0 ? -rev : rev;
 };
 
-let num = -123;
+let num = 123;
 let res = reverse(num);
 console.log(res);
