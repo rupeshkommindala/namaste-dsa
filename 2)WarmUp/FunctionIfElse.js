@@ -12,9 +12,9 @@ function greet(name) {
 
 let x = "Virat Kohli";
 greet(x);
+greet("Rupesh Kommindala");
 greet("Anushka Sharma");
 greet("Priyanka Chopra");
-greet("Rupesh Kommindala");
 
 // Sum of Two Numbers
 function sum(a, b) {
