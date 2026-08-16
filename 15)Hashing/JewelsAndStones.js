@@ -35,16 +35,3 @@ var numJewelsInStones2 = function (jewels, stones) {
 let res2 = numJewelsInStones2("aA", "aAAbbbb");
 console.log(res2);
 
-// Not Recommended (Don't use built in method(includes))
-var numJewelsInStones3 = function (jewels, stones) {
-  let count = 0;
-  for (let i = 0; i < stones.length; i++) {
-    if (jewels.includes(stones[i])) {
-      count++;
-    }
-  }
-  return count;
-};
-
-let res3 = numJewelsInStones3("aA", "aAAbbbb");
-console.log(res3);
