@@ -15,6 +15,6 @@ var isPalindrome = function (x) {
   return rev === xCopy;
 };
 
-let num = 121;
+let num = -121;
 let res = isPalindrome(num);
 console.log(res);
