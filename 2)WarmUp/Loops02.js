@@ -12,7 +12,7 @@ function searchElement(arr, x) {
   return -1;
 }
 
-let arr = [5, 6, 2, 0, 1];
+let arr = [4, 9, 1, 0, 2];
 let result = searchElement(arr, 2);
 console.log(result);
 
@@ -29,7 +29,7 @@ function countNegatives(array) {
   return count;
 }
 
-let array = [-1, 2, -4, 3, 20, -21, -59];
+let array = [4, -9, -1, 0, 2];
 let countResult = countNegatives(array);
 console.log(countResult);
 
@@ -46,7 +46,7 @@ function findLargest(nums) {
   return largest;
 }
 
-let nums = [5, 6, 2, 0, 1];
+let nums = [4, 9, 1, 0, 2];
 let res = findLargest(nums);
 console.log(res);
 
@@ -63,6 +63,6 @@ function findSmallest(nums2) {
   return smallest;
 }
 
-let nums2 = [5, 6, 2, 0, 1];
+let nums2 = [4, 9, 1, 0, 2];
 let res2 = findSmallest(nums2);
 console.log(res2);
