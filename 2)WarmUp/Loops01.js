@@ -49,13 +49,13 @@ for (let i = 0; i < 5; i++) {
 }
 
 // Accessing all the elements using loops
-let array = [5, 6, 2, 0, 1];
+let array = [4, 9, 1, 0, 2];
 for (let i = 0; i < array.length; i++) {
   console.log(array[i]);
 }
 
 // Print all the even numbers in the array
-let arr = [5, 6, 2, 0, 1];
+let arr = [4, 9, 1, 0, 2];
 for (let i = 0; i < arr.length; i++) {
   if (arr[i] % 2 === 0) {
     console.log(arr[i]);
@@ -63,7 +63,7 @@ for (let i = 0; i < arr.length; i++) {
 }
 
 // Print all the odd numbers in the array
-let ar = [5, 6, 2, 0, 1];
+let ar = [4, 9, 1, 0, 2];
 for (let i = 0; i < ar.length; i++) {
   if (ar[i] % 2 === 1) {
     console.log(ar[i]);
