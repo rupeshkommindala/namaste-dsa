@@ -5,6 +5,8 @@
 # Time taken is not the right way to define the efficiency of an Algorithm
 # Low Time Complexity => Better Speed 
 # Binary Search >>>> Linear Search
+# Linear Search is very very slow
+# Binary Search is speed efficient
 # Big O is just a way to represent the worst case Time Complexity of an Algorithm
 # O(1)>O(logn)>O(n)>O(nlogn)>O(n^2)>O(2^n)>O(n!)
 # The more left side we go the better the Time Complexity will be
