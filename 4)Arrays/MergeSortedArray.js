@@ -1,5 +1,11 @@
 // Merge Sorted Array (LC:88)
 
+// Main Goal
+/**
+ * We have to merge these two Arrays
+ * and they should remain in a sorted order.
+ */
+
 // Brute Force Approach
 /**
  * Copy all the elements of nums2 into nums1 and then
@@ -11,7 +17,7 @@
 // Better Approach (TC:O(m+n), SC:O(m))
 /**
  * I will create a copy of nums1 and then I will use my nums1
- * to fill the elements in sorted order
+ * to fill the elements in sorted order.
  */
 var merge1 = function (nums1, m, nums2, n) {
   let nums1Copy = nums1.slice(0, m);
@@ -40,7 +46,7 @@ console.log(res1);
 /**
  * If I start filling the elements from starting
  * then I will lose these elements
- * so that's why I'm going to fill the elements in reverse order
+ * so that's why I'm going to fill the elements in reverse order.
  */
 var merge2 = function (nums1, m, nums2, n) {
   let p1 = m - 1;
