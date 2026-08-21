@@ -15,5 +15,5 @@ var isSubsequence = function (s, t) {
 
 let s = "abc";
 let t = "ahbgdc";
-let result = isSubsequence(s, t);
-console.log(result);
+let res = isSubsequence(s, t);
+console.log(res);
