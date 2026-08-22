@@ -8,6 +8,6 @@ var sum = function (n) {
   return arr[n] + sum(n - 1);
 };
 
-let arr = [5, 6, 2, 0, 1];
+let arr = [4, 9, 1, 0, 2];
 let res = sum(arr.length - 1);
 console.log(res);
