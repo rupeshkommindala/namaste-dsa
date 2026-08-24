@@ -8,6 +8,6 @@ var fib = function (n) {
   return fib(n - 1) + fib(n - 2);
 };
 
-let num = 5;
+let num = 3;
 let result = fib(num);
 console.log(result);
