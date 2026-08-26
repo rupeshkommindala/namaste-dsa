@@ -40,5 +40,5 @@ var search2 = function (nums, target) {
 };
 
 let arr2 = [4, 5, 6, 7, 0, 1, 2];
-let result = search2(arr2, 0);
-console.log(result);
+let res2 = search2(arr2, 0);
+console.log(res2);
