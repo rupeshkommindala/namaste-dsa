@@ -33,5 +33,5 @@ var searchRange = function (nums, target) {
 };
 
 let nums = [5, 7, 7, 8, 8, 10];
-let result = searchRange(nums, 8);
-console.log(result);
+let res = searchRange(nums, 8);
+console.log(res);
