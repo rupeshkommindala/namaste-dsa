@@ -15,9 +15,9 @@ var findClosestElements = function (arr, k, x) {
   return arr.slice(l, l + k); // return arr.slice(r, r + k);
 };
 
-let arr = [1, 2, 3, 4, 5];
+let arr = [1, 1, 2, 3, 4, 5];
 let k = 4;
-let x = 3;
+let x = -1;
 let res = findClosestElements(arr, k, x);
 console.log(res);
 
@@ -40,6 +40,6 @@ var findClosestElements2 = function (arr, k, x) {
   return res;
 };
 
-let nums = [1, 2, 3, 4, 5];
-let result = findClosestElements2(nums, 4, 3);
+let nums = [1, 1, 2, 3, 4, 5];
+let result = findClosestElements2(nums, 4, -1);
 console.log(result);
