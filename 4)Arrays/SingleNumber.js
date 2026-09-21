@@ -9,7 +9,7 @@ var singleNumber1 = function (nums) {
   return xor;
 };
 
-let nums1 = [2, 2, 1];
+let nums1 = [4, 1, 2, 1, 2];
 let res1 = singleNumber1(nums1);
 console.log(res1);
 
@@ -30,6 +30,6 @@ var singleNumber2 = function (nums) {
   }
 };
 
-let nums2 = [2, 2, 1];
+let nums2 = [4, 1, 2, 1, 2];
 let res2 = singleNumber2(nums2);
 console.log(res2);
