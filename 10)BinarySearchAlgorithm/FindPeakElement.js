@@ -13,7 +13,7 @@ var findPeakElement1 = function (nums) {
   return index;
 };
 
-let arr1 = [1, 2, 1, 3, 5, 6, 4];
+let arr1 = [1, 2, 3, 1];
 let res1 = findPeakElement1(arr1);
 console.log(res1);
 
@@ -32,6 +32,6 @@ var findPeakElement2 = function (nums) {
   return r; // return l also works
 };
 
-let arr2 = [1, 2, 1, 3, 5, 6, 4];
+let arr2 = [1, 2, 3, 1];
 let res2 = findPeakElement2(arr2);
 console.log(res2);
