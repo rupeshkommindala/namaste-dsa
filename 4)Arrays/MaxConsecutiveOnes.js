@@ -15,7 +15,7 @@ var findMaxConsecutiveOnes1 = function (nums) {
   return Math.max(currCount, maxCount);
 };
 
-let nums1 = [1, 0, 1, 1, 0, 1];
+let nums1 = [1, 1, 0, 1, 1, 1];
 let res1 = findMaxConsecutiveOnes1(nums1);
 console.log(res1);
 
@@ -34,6 +34,6 @@ var findMaxConsecutiveOnes2 = function (nums) {
   return maxCount;
 };
 
-let nums2 = [1, 0, 1, 1, 0, 1];
+let nums2 = [1, 1, 0, 1, 1, 1];
 let res2 = findMaxConsecutiveOnes2(nums2);
 console.log(res2);
