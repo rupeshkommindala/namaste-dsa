@@ -1,6 +1,6 @@
 // Loop
 for (let i = 0; i < 5; i++) {
-  console.log("Hello World");
+  console.log("Hello World " + i);
 }
 
 // Loop inside loop
@@ -13,7 +13,7 @@ for (let i = 0; i < 5; i++) {
 // Printing loop
 for (let i = 0; i < 3; i++) {
   for (let j = 0; j < 3; j++) {
-    console.log("i =", i, "j =", j);
+    console.log(i, j);
   }
 }
 
