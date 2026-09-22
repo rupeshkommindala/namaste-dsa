@@ -8,6 +8,10 @@
 # Linear Search is very very slow
 # Binary Search is speed efficient
 # Big O is just a way to represent the worst case Time Complexity of an Algorithm
+# How to calculate Big O 
+#   => Calculate total number of iterations
+#   => Neglect lower order terms 
+#   => Ignore constant co-effecients
 # O(1)>O(logn)>O(n)>O(nlogn)>O(n^2)>O(2^n)>O(n!)
 # The more left side we go the better the Time Complexity will be
 # Notation is nothing but a symbol
@@ -17,7 +21,3 @@
 #                           If the array size is 100, this will take only one operation
 #                           If the array size is 1000, this will take only one operation
 #                           If the array size is 10,000, still this will take only one operation
-# How to calculate Big O 
-#   => Calculate total number of iterations
-#   => Neglect lower order terms 
-#   => Ignore constant co-effecients
