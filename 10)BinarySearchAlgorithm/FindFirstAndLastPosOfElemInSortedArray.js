@@ -1,7 +1,7 @@
 // Find First and Last Position of Element in Sorted Array (LC:34)
 
 // Brute Force Solution (TC:O(n), SC:O(1))
-var searchRange1 = function (nums, target) {
+var searchRange = function (nums, target) {
   let ans = [-1, -1];
   for (let i = 0; i < nums.length; i++) {
     if (nums[i] === target) {
@@ -19,7 +19,7 @@ var searchRange1 = function (nums, target) {
 };
 
 let nums = [5, 7, 7, 8, 8, 10];
-let res = searchRange1(nums, 8);
+let res = searchRange(nums, 8);
 console.log(res);
 
 // Optimized Solution (TC:O(logn), SC:O(1))
