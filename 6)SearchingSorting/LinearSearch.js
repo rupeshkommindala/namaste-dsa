@@ -13,6 +13,6 @@ var linearSearch = function (arr, x) {
   return -1;
 };
 
-let arr = [5, 6, 1, 0, 2];
+let arr = [5, 6, 2, 0, 1];
 let res = linearSearch(arr, 2);
 console.log(res);
