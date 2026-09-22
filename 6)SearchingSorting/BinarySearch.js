@@ -5,7 +5,7 @@ var search = function (arr, target) {
   let l = 0;
   let r = arr.length - 1;
   while (l <= r) {
-    let m = l + Math.floor((r - l) / 2);
+    let m = Math.floor((l + r) / 2);
     if (arr[m] === target) {
       return m;
     } else if (arr[m] < target) {
@@ -18,5 +18,5 @@ var search = function (arr, target) {
 };
 
 let nums = [-1, 0, 3, 5, 9, 12];
-let result = search(nums, 9);
-console.log(result);
+let res = search(nums, 9);
+console.log(res);
