@@ -3,11 +3,13 @@
 // Optimized Solution (TC:O(n), SC:O(1))
 var isPalindrome = function (head) {
   // Finding the middle element
-  let slow = (fast = head);
+  let slow = head;
+  let fast = head;
   while (fast && fast.next) {
     slow = slow.next;
     fast = fast.next.next;
   }
+
   // Reverse the second half of LinkedList
   let prev = null;
   let curr = slow;
@@ -17,6 +19,7 @@ var isPalindrome = function (head) {
     prev = curr;
     curr = temp;
   }
+  
   // Check for palindrome
   let firstList = head;
   let secondList = prev;
