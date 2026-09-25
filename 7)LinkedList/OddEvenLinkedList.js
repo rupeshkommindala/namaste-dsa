@@ -5,6 +5,7 @@ var oddEvenList = function (head) {
   if (!head) {
     return head;
   }
+
   let odd = head;
   let even = head.next;
   let evenStart = even;
@@ -23,6 +24,7 @@ var oddEvenList = function (head) {
   if (!head || !head.next) {
     return head;
   }
+
   let odd = head;
   let even = head.next;
   let evenStart = even;
@@ -35,4 +37,3 @@ var oddEvenList = function (head) {
   odd.next = evenStart;
   return head;
 };
-
