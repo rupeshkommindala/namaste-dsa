@@ -20,7 +20,7 @@ var moveZeroes1 = function (nums) {
   return nums;
 };
 
-let nums1 = [0, 1, 0, 3, 12];
+let nums1 = [0, 1, 0, 3, 12, 14];
 let result1 = moveZeroes1(nums1);
 console.log(result1);
 
@@ -39,6 +39,6 @@ var moveZeroes2 = function (nums) {
   return nums;
 };
 
-let nums2 = [0, 1, 0, 3, 12];
+let nums2 = [0, 1, 0, 3, 12, 14];
 let result2 = moveZeroes2(nums2);
 console.log(result2);
