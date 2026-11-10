@@ -16,5 +16,5 @@ var isPalindrome = function (x) {
 };
 
 let num = 121;
-let res = isPalindrome(num);
-console.log(res);
+let result = isPalindrome(num);
+console.log(result);
