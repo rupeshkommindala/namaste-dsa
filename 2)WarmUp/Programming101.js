@@ -44,7 +44,7 @@ console.log(array);
 let obj = {
   name: "Rupesh",
   age: 27,
-  city: "Hyderabad",
+  city: "Chennai",
   arr: [1, 2, 3, 4, 5],
   bool: true,
 };
