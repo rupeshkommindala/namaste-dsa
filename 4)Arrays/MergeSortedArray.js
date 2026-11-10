@@ -45,9 +45,9 @@ console.log(res1);
 // Optimized Solution (TC:O(m+n), SC:O(1))
 /**
  * If I start filling the elements from starting
- * then I will lose these elements
+ * then I will lose these elements.
  * so that's why I'm going to fill the elements in 
- * reverse order(from backward).
+ * reverse order(from backwards).
  */
 var merge2 = function (nums1, m, nums2, n) {
   let p1 = m - 1;
