@@ -9,5 +9,5 @@ var sum = function (n) {
 };
 
 let arr = [5, 6, 2, 0, 1];
-let res = sum(arr.length - 1);
-console.log(res);
+let result = sum(arr.length - 1);
+console.log(result);
