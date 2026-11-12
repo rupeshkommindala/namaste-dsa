@@ -14,5 +14,5 @@ var linearSearch = function (arr, x) {
 };
 
 let arr = [5, 6, 2, 0, 1];
-let res = linearSearch(arr, 2);
-console.log(res);
+let result = linearSearch(arr, 2);
+console.log(result);
