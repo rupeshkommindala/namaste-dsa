@@ -2,7 +2,7 @@
 
 /**
  * Approach: Here we have to keep track of previous
- * value and also we have to store the next value
+ * value and also we have to store the next value.
  */
 
 // Optimized Solution (TC:O(n), SC:O(1))
