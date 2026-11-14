@@ -19,8 +19,8 @@ var isPalindrome = function (head) {
     prev = curr;
     curr = temp;
   }
-  
-  // Check for palindrome
+
+  // Check for palindrome(Move Start and End pointer and compare each value)
   let firstList = head;
   let secondList = prev;
   while (secondList) {
