@@ -9,6 +9,7 @@ var isPalindrome = function (head) {
     slow = slow.next;
     fast = fast.next.next;
   }
+
   // Reverse the second half of LinkedList
   let prev = null;
   let curr = slow;
@@ -18,7 +19,8 @@ var isPalindrome = function (head) {
     prev = curr;
     curr = temp;
   }
-  // Check for palindrome
+
+  // Check for palindrome(Move Start and End pointer and compare each value)
   let firstList = head;
   let secondList = prev;
   while (secondList) {
