@@ -3,15 +3,15 @@
 // (Way-01) Brute Force Solution (TC:O(n), SC:O(n))
 var isPalindrome1 = function (s) {
   s = s.toLowerCase();
-  let filteredString = "";
+  let filteredStr = "";
   let rev = "";
   for (let i = 0; i < s.length; i++) {
     if (s[i].match(/[a-z0-9]/i)) {
-      filteredString += s[i];
+      filteredStr += s[i];
       rev = s[i] + rev;
     }
   }
-  return rev === filteredString;
+  return rev === filteredStr;
 };
 
 let s1 = "A man, a plan, a canal: Panama";
@@ -38,7 +38,7 @@ console.log(res2);
 // (Way-03) Brute Force Solution (TC:O(n), SC:O(n))
 var isPalindrome3 = function (s) {
   s = s.toLowerCase();
-  let filteredString = "";
+  let filteredStr = "";
   let rev = "";
   for (let i = 0; i < s.length; i++) {
     if (
@@ -47,11 +47,11 @@ var isPalindrome3 = function (s) {
       (s[i].charCodeAt() >= "0".charCodeAt() &&
         s[i].charCodeAt() <= "9".charCodeAt())
     ) {
-      filteredString += s[i];
+      filteredStr += s[i];
       rev = s[i] + rev;
     }
   }
-  return rev === filteredString;
+  return rev === filteredStr;
 };
 
 let s3 = "A man, a plan, a canal: Panama";
