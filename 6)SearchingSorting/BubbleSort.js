@@ -21,3 +21,4 @@ var bubbleSort = function (arr) {
 let arr = [2, 5, 4, 1];
 let res = bubbleSort(arr);
 console.log(res);
+
