@@ -23,3 +23,4 @@ let needle = "sad";
 let res = strStr(haystack, needle);
 console.log(res);
 
+
