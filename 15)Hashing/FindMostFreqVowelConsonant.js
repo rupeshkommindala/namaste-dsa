@@ -58,3 +58,4 @@ var maxFreqSum2 = function (s) {
 let s = "successes";
 let res2 = maxFreqSum2(s);
 console.log(res2);
+
